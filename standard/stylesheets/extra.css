@@ -1,0 +1,95 @@
+/* RGR Standard — Custom Styles */
+
+/* Normative keyword highlighting */
+:root {
+  --rgr-must: #d32f2f;
+  --rgr-should: #f57c00;
+  --rgr-may: #1976d2;
+}
+
+/* Hero-style header for front matter */
+.md-content h1:first-of-type {
+  font-size: 2.2rem;
+  font-weight: 700;
+  border-bottom: 3px solid var(--md-primary-fg-color);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Blockquote styling for the preamble */
+.md-content blockquote:first-of-type {
+  border-left: 4px solid var(--md-primary-fg-color);
+  background: var(--md-code-bg-color);
+  padding: 1rem 1.5rem;
+  border-radius: 0 0.25rem 0.25rem 0;
+  font-size: 0.9rem;
+}
+
+/* Table styling improvements */
+.md-typeset table:not([class]) {
+  border: 1px solid var(--md-typeset-table-color);
+  border-radius: 0.25rem;
+  overflow: hidden;
+}
+
+.md-typeset table:not([class]) th {
+  background: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+}
+
+/* Figure styling */
+.md-typeset strong:has(+ img),
+.md-typeset p > strong:first-child {
+  display: block;
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--md-default-fg-color--light);
+  margin-top: 1.5rem;
+}
+
+.md-typeset img {
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin: 0.5rem auto;
+  display: block;
+  max-width: 100%;
+}
+
+/* Section number styling in navigation */
+.md-nav__link {
+  font-size: 0.82rem;
+}
+
+/* Requirement domain code styling (RGR-ID, RGR-AU, etc.) */
+.md-typeset code {
+  font-size: 0.82em;
+}
+
+/* Footer styling */
+.md-footer-meta {
+  font-size: 0.75rem;
+}
+
+/* Print-friendly adjustments */
+@media print {
+  .md-typeset h1 {
+    page-break-before: always;
+  }
+
+  .md-typeset h1:first-of-type {
+    page-break-before: avoid;
+  }
+
+  .md-typeset img {
+    box-shadow: none;
+    max-width: 90%;
+  }
+
+  .md-typeset table {
+    font-size: 0.8rem;
+  }
+}

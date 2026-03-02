@@ -1,0 +1,36 @@
+---
+title: "Reconstruction-Grade eDiscovery Standard"
+subtitle: "The System of Record for Modern Collaborative Evidence"
+author:
+  - Peter Kozak
+  - Brandon D'Agostino
+date: "Version 0.5-draft — February 2026"
+abstract: |
+  This document specifies Reconstruction-Grade eDiscovery as an architectural
+  standard for modern collaborative evidence. A Reconstruction-Grade system
+  preserves a reproducible, point-in-time evidentiary record that can answer
+  legal and operational questions about what happened, when it happened,
+  who was involved, what was relied upon, and what was accessed — without
+  substituting inference for preserved fact.
+
+  **Status:** Draft for standards discussion
+
+  **Canonical Source:** Markdown in Git repository
+keywords:
+  - eDiscovery
+  - preservation
+  - collaborative evidence
+  - reconstruction-grade
+  - legal hold
+  - compliance
+documentclass: report
+classoption:
+  - oneside
+header-includes:
+  - \usepackage{fancyhdr}
+  - \pagestyle{fancy}
+  - \fancyhead[L]{\small Reconstruction-Grade eDiscovery Standard}
+  - \fancyhead[R]{\small v0.5-draft}
+  - \fancyfoot[C]{\thepage}
+  - \renewcommand{\headrulewidth}{0.4pt}
+---

@@ -23,30 +23,41 @@ jobs:
         run: |
           sudo apt-get update -q
           sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended \
-            texlive-fonts-extra texlive-latex-extra
+            texlive-fonts-extra texlive-latex-extra fonts-dejavu
 
       - name: Create output directory
         run: mkdir -p dist
 
       - name: Build PDF from manifest
         run: |
-          FILES=$(cat build/manifest.txt | tr '\n' ' ')
-          pandoc $FILES \
+          # Skip front-matter.md in manifest (title page comes from metadata)
+          FILES=$(grep -v 'front-matter.md' build/manifest.txt | tr '\n' ' ')
+          echo "Building PDF from: $FILES"
+          echo "Version: ${{ steps.version.outputs.VERSION }}"
+          pandoc build/pdf-metadata.yaml $FILES \
             --from markdown \
             --to pdf \
             --pdf-engine=xelatex \
             --toc \
             --toc-depth=3 \
-            --number-sections \
+            --shift-heading-level-by=0 \
             --highlight-style=tango \
             --variable geometry:margin=1in \
             --variable fontsize=11pt \
             --variable mainfont="DejaVu Serif" \
+            --variable sansfont="DejaVu Sans" \
             --variable monofont="DejaVu Sans Mono" \
             --variable colorlinks=true \
             --variable linkcolor=NavyBlue \
-            --resource-path=standard \
-            -o dist/rgr-standard-${{ steps.version.outputs.VERSION }}.pdf
+            --variable urlcolor=NavyBlue \
+            --variable toccolor=black \
+            --resource-path=standard:standard/images:. \
+            -o "dist/rgr-standard-${{ steps.version.outputs.VERSION }}.pdf"
+          echo "PDF built successfully:"
+          ls -la dist/
+
+      - name: List built artifacts
+        run: ls -la dist/
 
       - name: Create GitHub Release and upload PDF
         uses: softprops/action-gh-release@v2
@@ -59,6 +70,7 @@ jobs:
 
             This release contains the versioned PDF artifact of the RGR Standard.
             The canonical HTML version is available on GitHub Pages.
-          files: dist/rgr-standard-${{ steps.version.outputs.VERSION }}.pdf
+          files: |
+            dist/rgr-standard-*.pdf
           draft: false
-          prerelease: ${{ contains(steps.version.outputs.VERSION, 'draft') || contains(steps.version.outputs.VERSION, 'rc') || contains(steps.version.outputs.VERSION, 'alpha') || contains(steps.version.outputs.VERSION, 'beta') }}
+          prerelease: false
