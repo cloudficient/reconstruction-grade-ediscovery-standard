@@ -1,83 +1,307 @@
-/* RGR Standard — Custom Styles */
+/* ==========================================================================
+   RGR Standard — Cloudficient Brand Theme
+   Color palette extracted from cloudficient.com landing page
+   ========================================================================== */
 
-/* Normative keyword highlighting */
-:root {
-  --rgr-must: #d32f2f;
-  --rgr-should: #f57c00;
-  --rgr-may: #1976d2;
+/* ---------- Custom color scheme: Light mode ---------- */
+[data-md-color-scheme="rgr-light"] {
+  /* Primary Cloudficient navy */
+  --md-primary-fg-color: #191B43;
+  --md-primary-fg-color--light: #272A68;
+  --md-primary-fg-color--dark: #0B0D1D;
+  --md-primary-bg-color: #ffffff;
+  --md-primary-bg-color--light: #f8f9fa;
+
+  /* Accent: Cloudficient gold */
+  --md-accent-fg-color: #f4bc01;
+  --md-accent-fg-color--transparent: rgba(244, 188, 1, 0.15);
+  --md-accent-bg-color: #ffffff;
+
+  /* Default text */
+  --md-default-fg-color: #222222;
+  --md-default-fg-color--light: #444444;
+  --md-default-fg-color--lighter: #666666;
+  --md-default-fg-color--lightest: #999999;
+  --md-default-bg-color: #ffffff;
+  --md-default-bg-color--light: #f8f9fa;
+  --md-default-bg-color--lighter: #f0f2f5;
+  --md-default-bg-color--lightest: #e8eaed;
+
+  /* Code */
+  --md-code-fg-color: #272A68;
+  --md-code-bg-color: #f0f2f5;
+
+  /* Typeset: links */
+  --md-typeset-a-color: #19ad86;
+
+  /* Footer */
+  --md-footer-fg-color: #ffffff;
+  --md-footer-fg-color--light: rgba(255, 255, 255, 0.7);
+  --md-footer-fg-color--lighter: rgba(255, 255, 255, 0.5);
+  --md-footer-bg-color: #121430;
+  --md-footer-bg-color--dark: #0B0D1D;
 }
 
-/* Hero-style header for front matter */
-.md-content h1:first-of-type {
-  font-size: 2.2rem;
+/* ---------- Custom color scheme: Dark mode ---------- */
+[data-md-color-scheme="rgr-dark"] {
+  /* Use Cloudficient dark backgrounds */
+  --md-primary-fg-color: #272A68;
+  --md-primary-fg-color--light: #3a3d8a;
+  --md-primary-fg-color--dark: #191B43;
+  --md-primary-bg-color: #ffffff;
+  --md-primary-bg-color--light: rgba(255, 255, 255, 0.7);
+
+  /* Accent: Cloudficient gold */
+  --md-accent-fg-color: #f4bc01;
+  --md-accent-fg-color--transparent: rgba(244, 188, 1, 0.15);
+  --md-accent-bg-color: #191B43;
+
+  /* Default dark backgrounds */
+  --md-default-fg-color: rgba(255, 255, 255, 0.92);
+  --md-default-fg-color--light: rgba(255, 255, 255, 0.7);
+  --md-default-fg-color--lighter: rgba(255, 255, 255, 0.5);
+  --md-default-fg-color--lightest: rgba(255, 255, 255, 0.3);
+  --md-default-bg-color: #0B0D1D;
+  --md-default-bg-color--light: #121430;
+  --md-default-bg-color--lighter: #191B43;
+  --md-default-bg-color--lightest: #272A68;
+
+  /* Code */
+  --md-code-fg-color: #91CA64;
+  --md-code-bg-color: #121430;
+
+  /* Typeset: links */
+  --md-typeset-a-color: #91CA64;
+
+  /* Footer */
+  --md-footer-fg-color: #ffffff;
+  --md-footer-fg-color--light: rgba(255, 255, 255, 0.7);
+  --md-footer-fg-color--lighter: rgba(255, 255, 255, 0.5);
+  --md-footer-bg-color: #0B0D1D;
+  --md-footer-bg-color--dark: #050711;
+
+  color-scheme: dark;
+}
+
+/* ---------- Header / Top nav bar ---------- */
+.md-header {
+  background: linear-gradient(135deg, #191B43, #272A68) !important;
+}
+
+.md-header__title {
+  font-family: 'Nunito Sans', sans-serif;
   font-weight: 700;
-  border-bottom: 3px solid var(--md-primary-fg-color);
+  letter-spacing: 0.02em;
+}
+
+/* Repo link icon in header */
+.md-header__source {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+/* ---------- Navigation sidebar ---------- */
+.md-nav__title {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.65rem;
+  letter-spacing: 0.08em;
+}
+
+.md-nav__link {
+  font-size: 0.82rem;
+}
+
+.md-nav__link--active,
+.md-nav__link:hover {
+  color: var(--md-accent-fg-color) !important;
+}
+
+/* Section labels in nav */
+.md-nav__item--section > .md-nav__link {
+  font-weight: 700;
+  color: var(--md-primary-fg-color);
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  letter-spacing: 0.06em;
+}
+
+[data-md-color-scheme="rgr-dark"] .md-nav__item--section > .md-nav__link {
+  color: #f4bc01;
+}
+
+/* ---------- Content area ---------- */
+
+/* Hero-style H1 */
+.md-content h1 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 2.2rem;
+  font-weight: 800;
+  border-bottom: 3px solid var(--md-accent-fg-color);
   padding-bottom: 0.5rem;
   margin-bottom: 1rem;
 }
 
-/* Blockquote styling for the preamble */
-.md-content blockquote:first-of-type {
-  border-left: 4px solid var(--md-primary-fg-color);
-  background: var(--md-code-bg-color);
-  padding: 1rem 1.5rem;
-  border-radius: 0 0.25rem 0.25rem 0;
-  font-size: 0.9rem;
+/* H2 with subtle left accent */
+.md-typeset h2 {
+  border-left: 4px solid var(--md-accent-fg-color);
+  padding-left: 0.75rem;
+  font-weight: 700;
 }
 
-/* Table styling improvements */
+/* H3 styling */
+.md-typeset h3 {
+  color: var(--md-primary-fg-color--light);
+  font-weight: 600;
+}
+
+[data-md-color-scheme="rgr-dark"] .md-typeset h3 {
+  color: #91CA64;
+}
+
+/* Blockquote styling (preamble block) */
+.md-typeset blockquote {
+  border-left: 4px solid var(--md-accent-fg-color);
+  background: var(--md-default-bg-color--light);
+  padding: 1rem 1.5rem;
+  border-radius: 0 0.5rem 0.5rem 0;
+  font-size: 0.92rem;
+}
+
+[data-md-color-scheme="rgr-dark"] .md-typeset blockquote {
+  background: rgba(39, 42, 104, 0.25);
+  border-left-color: #f4bc01;
+}
+
+/* ---------- Tables (match Cloudficient card style) ---------- */
 .md-typeset table:not([class]) {
-  border: 1px solid var(--md-typeset-table-color);
-  border-radius: 0.25rem;
+  border: 1px solid rgba(127, 127, 127, 0.3);
+  border-radius: 0.5rem;
   overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
 }
 
 .md-typeset table:not([class]) th {
-  background: var(--md-primary-fg-color);
-  color: var(--md-primary-bg-color);
-  font-weight: 600;
+  background: linear-gradient(135deg, #191B43, #272A68);
+  color: #ffffff;
+  font-weight: 700;
   text-transform: uppercase;
-  font-size: 0.75rem;
-  letter-spacing: 0.05em;
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  padding: 0.8rem 1rem;
 }
 
-/* Figure styling */
-.md-typeset strong:has(+ img),
-.md-typeset p > strong:first-child {
-  display: block;
-  text-align: center;
-  font-size: 0.85rem;
-  color: var(--md-default-fg-color--light);
-  margin-top: 1.5rem;
+.md-typeset table:not([class]) td {
+  padding: 0.7rem 1rem;
+  border-bottom: 1px solid rgba(127, 127, 127, 0.15);
 }
 
+.md-typeset table:not([class]) tr:hover td {
+  background: var(--md-accent-fg-color--transparent);
+}
+
+[data-md-color-scheme="rgr-dark"] .md-typeset table:not([class]) th {
+  background: linear-gradient(135deg, #272A68, #191B43);
+}
+
+[data-md-color-scheme="rgr-dark"] .md-typeset table:not([class]) td {
+  border-bottom-color: rgba(127, 127, 127, 0.2);
+}
+
+/* ---------- Figures & images ---------- */
 .md-typeset img {
-  border-radius: 0.25rem;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
   margin: 0.5rem auto;
   display: block;
   max-width: 100%;
 }
 
-/* Section number styling in navigation */
-.md-nav__link {
-  font-size: 0.82rem;
+[data-md-color-scheme="rgr-dark"] .md-typeset img {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(127, 127, 127, 0.2);
 }
 
-/* Requirement domain code styling (RGR-ID, RGR-AU, etc.) */
+/* Figure labels */
+.md-typeset p > strong:only-child {
+  display: block;
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--md-default-fg-color--lighter);
+  margin-top: 1.5rem;
+}
+
+/* ---------- Code / requirement domain codes (RGR-ID, etc.) ---------- */
 .md-typeset code {
   font-size: 0.82em;
+  border-radius: 0.25rem;
+  padding: 0.15em 0.4em;
 }
 
-/* Footer styling */
+[data-md-color-scheme="rgr-dark"] .md-typeset code {
+  background: rgba(145, 202, 100, 0.1);
+  border: 1px solid rgba(145, 202, 100, 0.2);
+}
+
+/* ---------- Admonitions ---------- */
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+/* ---------- Footer ---------- */
+.md-footer {
+  background: linear-gradient(180deg, #121430, #0B0D1D) !important;
+}
+
 .md-footer-meta {
   font-size: 0.75rem;
+  background: #0B0D1D !important;
 }
 
-/* Print-friendly adjustments */
+/* ---------- Search bar ---------- */
+.md-search__input {
+  border-radius: 2rem;
+}
+
+/* ---------- Scrollbar (dark mode) ---------- */
+[data-md-color-scheme="rgr-dark"] ::-webkit-scrollbar-thumb {
+  background: #272A68;
+}
+
+[data-md-color-scheme="rgr-dark"] ::-webkit-scrollbar-thumb:hover {
+  background: #3a3d8a;
+}
+
+/* ---------- Links with gold hover ---------- */
+.md-typeset a:hover {
+  color: var(--md-accent-fg-color) !important;
+}
+
+/* ---------- TOC right sidebar ---------- */
+.md-sidebar--secondary .md-nav__link--active {
+  color: var(--md-accent-fg-color) !important;
+  font-weight: 600;
+}
+
+/* ---------- Version pill / badge (if used on landing) ---------- */
+.rgr-edition-pill {
+  display: inline-block;
+  border-radius: 999px;
+  border: 1px solid rgba(244, 188, 1, 0.35);
+  background: rgba(0, 0, 0, 0.18);
+  color: rgba(255, 255, 255, 0.92);
+  font-size: 0.8rem;
+  padding: 0.25em 0.75em;
+  font-weight: 600;
+}
+
+/* ---------- Print-friendly adjustments ---------- */
 @media print {
   .md-typeset h1 {
     page-break-before: always;
+    border-bottom-color: #191B43;
   }
 
   .md-typeset h1:first-of-type {
@@ -89,7 +313,9 @@
     max-width: 90%;
   }
 
-  .md-typeset table {
-    font-size: 0.8rem;
+  .md-typeset table th {
+    background: #191B43 !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
   }
 }

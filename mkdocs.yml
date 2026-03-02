@@ -13,23 +13,20 @@ copyright: >-
 
 theme:
   name: material
+  custom_dir: overrides
   palette:
     - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: deep purple
-      accent: amber
+      scheme: rgr-light
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: deep purple
-      accent: amber
+      scheme: rgr-dark
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
   font:
-    text: Inter
+    text: Nunito Sans
     code: JetBrains Mono
   icon:
     repo: fontawesome/brands/github
@@ -58,8 +55,6 @@ extra:
       link: https://github.com/cloudficient/reconstruction-grade-ediscovery-standard
       name: GitHub Repository
   generator: false
-  version:
-    provider: mike
 
 extra_css:
   - stylesheets/extra.css
