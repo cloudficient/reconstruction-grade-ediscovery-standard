@@ -1,0 +1,64 @@
+name: Build and Release PDF
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  release-pdf:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Read version
+        id: version
+        run: echo "VERSION=$(cat VERSION)" >> $GITHUB_OUTPUT
+
+      - name: Install Pandoc and LaTeX
+        run: |
+          sudo apt-get update -q
+          sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended \
+            texlive-fonts-extra texlive-latex-extra
+
+      - name: Create output directory
+        run: mkdir -p dist
+
+      - name: Build PDF from manifest
+        run: |
+          FILES=$(cat build/manifest.txt | tr '\n' ' ')
+          pandoc $FILES \
+            --from markdown \
+            --to pdf \
+            --pdf-engine=xelatex \
+            --toc \
+            --toc-depth=3 \
+            --number-sections \
+            --highlight-style=tango \
+            --variable geometry:margin=1in \
+            --variable fontsize=11pt \
+            --variable mainfont="DejaVu Serif" \
+            --variable monofont="DejaVu Sans Mono" \
+            --variable colorlinks=true \
+            --variable linkcolor=NavyBlue \
+            --resource-path=standard \
+            -o dist/rgr-standard-${{ steps.version.outputs.VERSION }}.pdf
+
+      - name: Create GitHub Release and upload PDF
+        uses: softprops/action-gh-release@v2
+        with:
+          name: "RGR Standard ${{ steps.version.outputs.VERSION }}"
+          body: |
+            ## Reconstruction-Grade eDiscovery Standard
+
+            Version: `${{ steps.version.outputs.VERSION }}`
+
+            This release contains the versioned PDF artifact of the RGR Standard.
+            The canonical HTML version is available on GitHub Pages.
+          files: dist/rgr-standard-${{ steps.version.outputs.VERSION }}.pdf
+          draft: false
+          prerelease: ${{ contains(steps.version.outputs.VERSION, 'draft') || contains(steps.version.outputs.VERSION, 'rc') || contains(steps.version.outputs.VERSION, 'alpha') || contains(steps.version.outputs.VERSION, 'beta') }}

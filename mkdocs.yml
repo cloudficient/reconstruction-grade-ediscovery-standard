@@ -1,0 +1,65 @@
+site_name: Reconstruction-Grade eDiscovery Standard
+site_description: >-
+  The Reconstruction-Grade eDiscovery Standard (RGR) — canonical source of truth for
+  preservation, context fidelity, and audit-grade evidence practices.
+site_url: https://github.com  # placeholder
+repo_url: https://github.com/reconstruction-grade-ediscovery/standard  # placeholder
+repo_name: RGR Standard
+docs_dir: standard
+site_dir: site
+
+theme:
+  name: material
+  palette:
+    scheme: default
+    primary: indigo
+    accent: indigo
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - toc.integrate
+    - search.highlight
+    - search.share
+    - content.code.copy
+
+plugins:
+  - search
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - tables
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+
+nav:
+  - Home: index.md
+  - Standard:
+    - Reconstruction-Grade eDiscovery: 00-front-matter.md
+    - "0. Scope, Non-Goals, and Document Conventions": 01-scope.md
+    - "1. The Structural Shift in Evidence Behavior": 02-structural-shift.md
+    - "2. The Context Collapse Problem": 03-context-collapse.md
+    - "3. Defining Reconstruction-Grade eDiscovery": 04-defining-reconstruction-grade.md
+    - "4. The Preservation System of Record": 05-preservation-system-of-record.md
+    - "5. Preservation Operating Model and Architectural Constraints": 06-operating-model.md
+    - "6. Measurable Evaluation Framework": 07-evaluation-framework.md
+    - "7. Standard Governance and Adoption": 08-governance-adoption.md
+  - Appendices:
+    - "Appendix A: Glossary": appendix-a-glossary.md
+    - "Appendix B: Reconstruction-Grade Requirements (RGR)": appendix-b-requirements.md
+    - "Appendix C: Export Manifest and Chain-of-Custody Profile": appendix-c-export-manifest.md
+    - "Appendix D: Reconstruction Scenarios": appendix-d-reconstruction-scenarios.md
+    - "Appendix E: Operational Metrics for Reconstruction-Grade Programs": appendix-e-operational-metrics.md
+    - "Appendix F: Collaboration Artifact Taxonomy and Context Dependencies": appendix-f-artifact-taxonomy.md
+    - "Appendix G: Questions to Ask Vendors": appendix-g-vendor-questions.md
+    - "Appendix H: Vendor Scoring Worksheet": appendix-h-vendor-scoring.md
+    - "Appendix I: Deterministic Resolution and Processing Profiles": appendix-i-processing-profiles.md
+    - "Appendix J: Exception Taxonomy and Operational Playbooks": appendix-j-exception-taxonomy.md
+    - "Appendix K: Enterprise Implementation Roadmap": appendix-k-implementation-roadmap.md
+    - "Appendix L: Collect-to-Preserve Matter Playbook": appendix-l-matter-playbook.md
+    - "Appendix M: Further Reading": appendix-m-further-reading.md

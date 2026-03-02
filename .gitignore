@@ -1,0 +1,10 @@
+# MkDocs build output
+site/
+
+# PDF build artifacts
+dist/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
