@@ -67,7 +67,9 @@ extra:
       content: Reconstruction-Grade eDiscovery Standard
     - property: og:description
       content: Vendor-neutral standard for collaborative cloud evidence preservation and reconstruction.
-      
+    - name: google-site-verification
+      content: 2Qs3EXrFCzBJcoWYGoVRDjJa6wiI3DfXVgdbW0NFP0A
+
 extra_css:
   - stylesheets/extra.css
 
