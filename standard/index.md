@@ -3,10 +3,29 @@
 **A vendor‑independent architectural standard for preserving and reproducing modern collaborative evidence with point‑in‑time fidelity — without relying on post‑hoc inference.**
 
 - **Read the Standard:** [Front Matter & Executive Summary](front-matter.md)
-- **Download PDF:** [v0.5‑draft](https://github.com/cloudficient/reconstruction-grade-ediscovery-standard/releases/latest/download/rgr-standard-0.5-draft.pdf)
+- **Download PDF:** [v0.51‑draft](https://github.com/cloudficient/reconstruction-grade-ediscovery-standard/releases/latest/download/rgr-standard-0.51-draft.pdf)
 - **Repository:** [canonical source (Markdown)](https://github.com/cloudficient/reconstruction-grade-ediscovery-standard/tree/main/standard)
 
-## Why this exists: the Context Gap
+## What is Reconstruction-Grade eDiscovery?
+
+**Reconstruction-Grade eDiscovery (RGR)** is an architectural standard for preserving and reconstructing collaborative cloud evidence.
+
+It defines measurable criteria for systems that must reproduce:
+
+- the **state of documents at the time of communication**
+- the **identity of actors over time**
+- the **relationships between messages, links, files, and versions**
+- **audit evidence of interaction**
+- **reproducible exports with manifest traceability**
+
+The goal is to eliminate reliance on inference when answering legal questions about:
+
+- what happened
+- when it happened
+- who was involved
+- what document version was relied upon.
+
+## Why this exists: the [Context Gap](concepts/context-gap-ediscovery.md)
 
 Modern evidence in Microsoft 365 and similar platforms is created through:
 
@@ -16,6 +35,8 @@ Modern evidence in Microsoft 365 and similar platforms is created through:
 - audit signals instead of permission inference
 
 Traditional eDiscovery exports flatten this reality into files and messages, losing the context needed to defend "what happened, when, and what version was relied on."
+
+→ [Read the full definition: The Context Gap in eDiscovery](concepts/context-gap-ediscovery.md)
 
 ## What "Reconstruction‑Grade" means (in one minute)
 
@@ -38,6 +59,10 @@ If you are evaluating platforms or designing a pilot:
 4. Require a **[Conformance Declaration](toolkit/conformance-declaration-template.md)** against a specific standard version
 
 ## Quick links (most used)
+- [Core Concepts](concepts/index.md) — Context Gap, Evidence Reconstruction, Modern Attachments, Identity Drift
+- [What is the Context Gap in eDiscovery?](concepts/context-gap-ediscovery.md)
+- [What is Evidence Reconstruction in eDiscovery?](concepts/evidence-reconstruction.md)
+- [What is Reconstruction-Grade eDiscovery?](concepts/reconstruction-grade-ediscovery.md)
 - [Front Matter & Executive Summary](front-matter.md)
 - [Minimum Conformance Tests](06-evaluation-framework.md#63-minimum-conformance-tests)
 - [Appendix G: Questions to Ask Vendors](appendix-g-vendor-questions.md)

@@ -2,9 +2,13 @@
 
 Collaborative evidence: Evidence created and used in cloud-native collaboration environments where artifacts are link-based, shared, and continuously revised.
 
-Context gap: The gap between the artifact (file/message) and the surrounding reality required to answer what actually happened.
+[Context Gap](concepts/context-gap-ediscovery.md): The gap between the artifact (file/message) and the surrounding reality required to answer what actually happened.
 
-Reconstruction: The process of deterministically resolving what actors experienced at a specific time, including document state, identity state, and access behavior.
+[Reconstruction](concepts/evidence-reconstruction.md): The process of deterministically resolving what actors experienced at a specific time, including document state, identity state, and access behavior.
+
+[Modern Attachment / Hyperlinked File](concepts/modern-attachments.md): A message-level reference to a repository object via hyperlink or platform-managed pointer, where file bytes are not embedded in the message.
+
+[Identity Drift](concepts/identity-drift.md): The continuous change of a person's role, department, access rights, and organizational context over time, creating a mismatch between present-day directory snapshots and historical legal questions.
 
 Evidence graph: A structured representation of evidence objects and their relationships with stable identifiers, timestamps, and provenance.
 

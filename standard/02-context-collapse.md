@@ -1,6 +1,6 @@
 # 2. The Context Collapse Problem
 
-Context collapse occurs when collaborative evidence is flattened into files and messages that cannot carry the full burden of explanation. The result is not merely inefficiency. It is reconstruction failure: the inability to reproduce what the actors experienced at the time.
+Context collapse occurs when collaborative evidence is flattened into files and messages that cannot carry the full burden of explanation. The result is not merely inefficiency. It is [reconstruction](concepts/evidence-reconstruction.md) failure: the inability to reproduce what the actors experienced at the time. Context collapse is the primary mechanism through which the [Context Gap](concepts/context-gap-ediscovery.md) manifests in practice.
 
 ## 2.1 Failure Mode: Final-State Collection
 

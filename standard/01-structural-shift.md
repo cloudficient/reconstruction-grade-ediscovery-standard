@@ -57,6 +57,6 @@ Reconstruction-Grade systems treat audit logs as first-class evidence inputs and
 
 ## 1.6 Context Decays Over Time
 
-A defining characteristic of the context gap is that context decays. People leave organizations, repositories are repurposed, links break, and audit logs age out. Traditional eDiscovery begins after this loss has occurred.
+A defining characteristic of the [Context Gap](concepts/context-gap-ediscovery.md) is that context decays. People leave organizations, repositories are repurposed, links break, and audit logs age out. Traditional eDiscovery begins after this loss has occurred.
 
 Reconstruction-Grade practice assumes that waiting is the mistake: if context will be required later, it must be preserved while it exists.

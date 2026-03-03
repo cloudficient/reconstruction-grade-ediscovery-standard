@@ -1,6 +1,6 @@
 > Reconstruction-Grade eDiscovery Standard (RGR)
 > Status: Draft for standards discussion
-> Version: 0.5-draft
+> Version: 0.51-draft
 > Canonical Source: Markdown in Git repository
 
 ![Reconstruction-Grade eDiscovery cover image depicting scales of justice with collaborative evidence concepts](images/rgr-cover-hero.png)
@@ -9,7 +9,7 @@
 
 The System of Record for Modern Collaborative Evidence
 
-Draft for Standards Discussion - Version 0.5 - February 28, 2026
+Draft for Standards Discussion - Version 0.51 - March 3, 2026
 
 Author: Peter Kozak/Brandon D'Agostino
 
@@ -21,7 +21,7 @@ Enterprise evidence has undergone a structural transformation. Collaborative clo
 
 Traditional eDiscovery architectures were built on assumptions that no longer hold: that files are the unit of evidence, that custodians and ownership boundaries are stable, that permissions are a proxy for access, and that "the latest version" is an acceptable substitute for point-in-time truth.
 
-In Microsoft 365 and similar environments, evidence is no longer self-contained. Communications reference live objects in shared repositories. Those objects continue to change. Identities and access rights evolve. Audit logs age out. The evidentiary substrate has shifted from document capture to event reconstruction.
+In Microsoft 365 and similar environments, evidence is no longer self-contained. Communications reference live objects in shared repositories. Those objects continue to change. Identities and access rights evolve. Audit logs age out. The evidentiary substrate has shifted from document capture to [event reconstruction](concepts/evidence-reconstruction.md).
 
 This document specifies Reconstruction-Grade eDiscovery as an architectural standard for modern collaborative evidence. A Reconstruction-Grade system preserves a reproducible, point-in-time evidentiary record that can answer legal and operational questions about what happened, when it happened, who was involved, what was relied upon, and what was accessed - without substituting inference for preserved fact.
 
@@ -29,7 +29,7 @@ The standard is methodological: inference is not defensibility. When critical co
 
 This document is written to be testable. It defines (1) measurable requirements, (2) minimum conformance tests, (3) export and manifest expectations, and (4) operational metrics. It is intended to be vendor-neutral and to support independent evaluation.
 
-**Figure 1 — The Context Gap**
+**Figure 1 — [The Context Gap](concepts/context-gap-ediscovery.md)**
 
 ![The Context Gap: collaborative evidence behavior has outpaced legacy evidence models](images/context-gap-diagram.png)
 

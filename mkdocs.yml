@@ -1,7 +1,8 @@
 site_name: Reconstruction-Grade eDiscovery Standard
 site_description: >-
-  The Reconstruction-Grade eDiscovery Standard (RGR) — canonical source of truth for
-  preservation, context fidelity, and audit-grade evidence practices.
+  Vendor-neutral architectural standard defining measurable criteria for
+  preserving and reconstructing collaborative cloud evidence in modern
+  eDiscovery environments.
 site_url: https://cloudficient.github.io/reconstruction-grade-ediscovery-standard/
 repo_url: https://github.com/cloudficient/reconstruction-grade-ediscovery-standard
 repo_name: RGR Standard
@@ -59,7 +60,14 @@ extra:
       link: https://github.com/cloudficient/reconstruction-grade-ediscovery-standard
       name: GitHub Repository
   generator: false
-
+  meta:
+    - name: keywords
+      content: ediscovery, reconstruction-grade ediscovery, legaltech, digital evidence, microsoft 365 ediscovery, collaborative evidence, information governance, compliance, legal technology
+    - property: og:title
+      content: Reconstruction-Grade eDiscovery Standard
+    - property: og:description
+      content: Vendor-neutral standard for collaborative cloud evidence preservation and reconstruction.
+      
 extra_css:
   - stylesheets/extra.css
 
@@ -92,6 +100,13 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+  - "Core Concepts":
+      - Overview: concepts/index.md
+      - "Context Gap": concepts/context-gap-ediscovery.md
+      - "Evidence Reconstruction": concepts/evidence-reconstruction.md
+      - "Reconstruction-Grade eDiscovery": concepts/reconstruction-grade-ediscovery.md
+      - "Modern Attachments": concepts/modern-attachments.md
+      - "Identity Drift": concepts/identity-drift.md
   - "Toolkit (Non\u2011Normative)":
       - Overview: toolkit/index.md
       - Buyer Checklist: toolkit/buyer-checklist.md

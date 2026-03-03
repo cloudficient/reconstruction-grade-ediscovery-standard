@@ -1,12 +1,12 @@
 [![CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-![Status](https://img.shields.io/badge/Status-Draft%20v0.5-blue)
+![Status](https://img.shields.io/badge/Status-Draft%20v0.51-blue)
 ![Type](https://img.shields.io/badge/Type-Conformance%20Standard-darkgreen)
 
 > ⚖️ A vendor-neutral architectural baseline for collaborative cloud evidence.
 
 Reconstruction-Grade eDiscovery (RGR) is a vendor-independent conformance standard.
 
-Cloudficient’s Context-Aware eDiscovery platform is designed to meet and demonstrate conformance with this standard. Other implementations are possible.
+Cloudficient's Context-Aware eDiscovery platform is designed to meet and demonstrate conformance with this standard. Other implementations are possible.
 
 # Reconstruction-Grade eDiscovery Standard (RGR)
 
@@ -20,7 +20,7 @@ The Standard is written to support independent evaluation and repeatable conform
 
 | Format | Link |
 |--------|------|
-| **PDF** | [**Download RGR Standard v0.5-draft (PDF)**](https://github.com/cloudficient/reconstruction-grade-ediscovery-standard/releases/latest/download/rgr-standard-0.5-draft.pdf) |
+| **PDF** | [**Download RGR Standard v0.51-draft (PDF)**](https://github.com/cloudficient/reconstruction-grade-ediscovery-standard/releases/latest/download/rgr-standard-0.51-draft.pdf) |
 | **HTML** | [**Read online (GitHub Pages)**](https://cloudficient.github.io/reconstruction-grade-ediscovery-standard/) |
 | **Source** | Browse the [`/standard/`](standard/) directory in this repository |
 
@@ -39,7 +39,7 @@ Tagged releases represent immutable reference editions suitable for citation.
 ## Status
 
 - **Status:** Draft for standards discussion  
-- **Current version:** v0.5-draft  
+- **Current version:** v0.51-draft  
 - **Version discipline:** Substantive edits MUST update `CHANGELOG.md` and bump the version in `VERSION`
 
 This Standard is currently in draft phase and open for structured feedback.
@@ -65,10 +65,11 @@ Non-normative material (examples, commentary, implementation notes, toolkit reso
 | Path | Purpose |
 |---|---|
 | `/standard/` | The Standard's sections and appendices (canonical text) |
+| `/standard/concepts/` | Core concept definition pages (Context Gap, Evidence Reconstruction, Modern Attachments, Identity Drift) |
 | `/standard/toolkit/` | Non-normative toolkit resources (checklists, clause packs, templates) |
 | `/standard/participate/` | Participation and governance information |
 | `CHANGELOG.md` | Version history and notable changes |
-| `VERSION` | Current version identifier (e.g., `0.5-draft`) |
+| `VERSION` | Current version identifier (e.g., `0.51-draft`) |
 | `CONTRIBUTING.md` | How to propose edits and provide feedback |
 | `LICENSE.md` | Licensing terms (CC BY 4.0) |
 | `.github/ISSUE_TEMPLATE/` | Issue templates for feedback, proposals, and participation |
@@ -139,7 +140,7 @@ When citing the Standard, reference the specific version and section.
 
 Example:
 
-> Reconstruction-Grade eDiscovery Standard, v0.5-draft, Section 3.2, Cloudficient (2026).
+> Reconstruction-Grade eDiscovery Standard, v0.51-draft, Section 3.2, Cloudficient (2026).
 
 ---
 
