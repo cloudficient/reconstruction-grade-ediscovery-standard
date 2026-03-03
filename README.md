@@ -1,3 +1,5 @@
+[![CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+
 # Reconstruction-Grade eDiscovery Standard (RGR)
 
 This repository contains the working draft of the **Reconstruction-Grade eDiscovery (RGR) Standard** — a vendor-independent architecture standard for preserving and reproducing **modern collaborative evidence** (e.g., cloud documents, shared links, version histories, and evolving permissions) in a litigation- and investigation-grade manner.
@@ -40,15 +42,26 @@ Non-normative material (examples, commentary, implementation notes) is clearly l
 
 ## Repository Layout
 
-- `/standard/` — the Standard's sections and appendices (canonical text)
-- `CHANGELOG.md` — version history and notable changes
-- `VERSION` — current version identifier (e.g., `0.5-draft`)
-- `CONTRIBUTING.md` — how to propose edits and provide feedback
-- `LICENSE.md` — licensing terms for the text in this repository
+| Path | Purpose |
+|---|---|
+| `/standard/` | The Standard's sections and appendices (canonical text) |
+| `/standard/toolkit/` | Non-normative toolkit resources (checklists, clause packs, templates) |
+| `/standard/participate/` | Participation and governance information |
+| `CHANGELOG.md` | Version history and notable changes |
+| `VERSION` | Current version identifier (e.g., `0.5-draft`) |
+| `CONTRIBUTING.md` | How to propose edits and provide feedback |
+| `LICENSE.md` | Licensing terms (CC BY 4.0) |
+| `.github/ISSUE_TEMPLATE/` | Issue templates for feedback, proposals, and participation |
+| `.github/pull_request_template.md` | Pull request checklist |
 
 ## Contributing and Discussion
 
-Discussion is welcome via GitHub Issues.
+Discussion is welcome via GitHub Issues. We provide structured issue templates for:
+
+- [**Standard Feedback**](https://github.com/cloudficient/reconstruction-grade-ediscovery-standard/issues/new?template=standard-feedback.yml) — report unclear or incorrect content
+- [**Normative Change Proposal**](https://github.com/cloudficient/reconstruction-grade-ediscovery-standard/issues/new?template=normative-change-proposal.yml) — propose changes to MUST/SHOULD/MAY requirements
+- [**Toolkit Request**](https://github.com/cloudficient/reconstruction-grade-ediscovery-standard/issues/new?template=toolkit-request.yml) — suggest new non-normative resources
+- [**Working Group Participation**](https://github.com/cloudficient/reconstruction-grade-ediscovery-standard/issues/new?template=working-group-participation.yml) — express interest in the working group
 
 Feedback is particularly encouraged on:
 
@@ -58,7 +71,7 @@ Feedback is particularly encouraged on:
 - export and reproducibility criteria
 - defensibility and auditability requirements
 
-Proposed clarifications, examples, and non-normative improvements may be submitted as Pull Requests.
+Proposed clarifications, examples, and non-normative improvements may be submitted as Pull Requests. See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contribution guide.
 
 Normative requirement changes (MUST / SHOULD / MAY) are evaluated through the active working group process and steward review prior to acceptance. Substantive changes must clearly identify the affected section, describe rationale, and assess conformance impact.
 
@@ -98,6 +111,12 @@ When citing the Standard, use the version tag and section anchor when available.
 Example:
 
 > Reconstruction-Grade eDiscovery Standard, v0.5-draft, Section 3.2, Cloudficient (2026).
+
+## License
+
+The text and original diagrams in this repository are licensed under the **[Creative Commons Attribution 4.0 International License (CC BY 4.0)](LICENSE.md)**.
+
+See [LICENSE.md](LICENSE.md) for full terms including trademark carve-outs and attribution guidance.
 
 ## Disclaimer
 

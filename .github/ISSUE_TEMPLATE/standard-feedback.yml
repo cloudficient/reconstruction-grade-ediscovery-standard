@@ -1,0 +1,50 @@
+name: Standard Feedback
+description: Report something unclear, incorrect, or improvable in the standard text.
+title: "[Feedback] "
+labels:
+  - feedback
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve the Reconstruction‑Grade eDiscovery Standard.
+        Please be as specific as possible so we can locate and address your feedback quickly.
+
+  - type: input
+    id: section
+    attributes:
+      label: Section, page, or requirement code
+      description: >
+        Which part of the standard does this relate to?
+        Use a section number (e.g., "Section 3.2"), page filename (e.g., `04-preservation-system-of-record.md`),
+        or requirement code (e.g., `RGR-DS-003`).
+      placeholder: "e.g., Section 6.3 / RGR-AU-002 / appendix-b-requirements.md"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What is unclear or incorrect?
+      description: Describe what you found confusing, ambiguous, or wrong.
+      placeholder: "The definition of X in Section Y seems to contradict..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested fix (optional)
+      description: If you have a proposed improvement, describe it here.
+      placeholder: "Consider rewording to..."
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: normative-impact
+    attributes:
+      label: Normative impact
+      description: Does this feedback affect a MUST, SHOULD, or MAY requirement?
+      options:
+        - label: This feedback may affect normative requirements (MUST/SHOULD/MAY wording).
+          required: false

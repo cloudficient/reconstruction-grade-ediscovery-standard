@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Read the Standard online
+    url: https://cloudficient.github.io/reconstruction-grade-ediscovery-standard/
+    about: Browse the full Reconstruction‑Grade eDiscovery Standard on GitHub Pages.
+  - name: Source repository
+    url: https://github.com/cloudficient/reconstruction-grade-ediscovery-standard
+    about: View the canonical Markdown source in Git.
+  - name: Participate in the Working Group
+    url: https://cloudficient.github.io/reconstruction-grade-ediscovery-standard/participate/
+    about: Learn how to join the working group and contribute to the standard.

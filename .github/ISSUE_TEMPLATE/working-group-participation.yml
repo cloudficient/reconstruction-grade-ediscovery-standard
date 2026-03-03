@@ -1,0 +1,60 @@
+name: Working Group Participation
+description: Express interest in participating in the RGR working group.
+title: "[Working Group] "
+labels:
+  - working-group
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your interest in the Reconstruction‑Grade eDiscovery Standard working group.
+        Please provide the information below so we can follow up.
+
+  - type: dropdown
+    id: org-type
+    attributes:
+      label: Organization type
+      description: What type of organization do you represent?
+      options:
+        - Enterprise (end-user / legal department)
+        - Law firm
+        - Service provider (consulting / managed review)
+        - Vendor / platform developer
+        - Academic / research
+        - Individual contributor
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: interest-area
+    attributes:
+      label: Primary interest area(s)
+      description: >
+        What aspects of the standard are you most interested in contributing to?
+      placeholder: |
+        e.g., identity reconstruction, audit evidence, version resolution,
+        export reproducibility, exception handling, conformance testing
+    validations:
+      required: true
+
+  - type: input
+    id: contact
+    attributes:
+      label: Preferred contact method (optional)
+      description: >
+        If you'd prefer to be contacted outside GitHub, provide an email or other channel.
+        This field is optional — we can also coordinate via GitHub Issues.
+      placeholder: "email@example.com"
+    validations:
+      required: false
+
+  - type: textarea
+    id: constraints
+    attributes:
+      label: Participation constraints (optional)
+      description: >
+        Any constraints we should be aware of (e.g., NDA requirements, public
+        attribution preferences, scheduling limitations)?
+    validations:
+      required: false
