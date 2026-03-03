@@ -1,0 +1,92 @@
+name: Normative Change Proposal
+description: Propose adding, modifying, or removing a normative requirement (MUST/SHOULD/MAY).
+title: "[Normative] "
+labels:
+  - normative-change
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Normative changes affect conformance evaluation and require steward review.
+        Please complete all sections so the working group can assess impact.
+
+  - type: dropdown
+    id: change-type
+    attributes:
+      label: Change type
+      description: What kind of normative change are you proposing?
+      options:
+        - New requirement
+        - Modify existing requirement
+        - Remove existing requirement
+        - New conformance test
+        - Modify existing conformance test
+        - Change to definitions affecting conformance
+    validations:
+      required: true
+
+  - type: input
+    id: target
+    attributes:
+      label: Target file and section (or requirement code)
+      description: >
+        Identify the specific location in the standard.
+      placeholder: "e.g., appendix-b-requirements.md § B.3 / RGR-DS-003 / Section 6.3 T-04"
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed-wording
+    attributes:
+      label: Proposed normative wording
+      description: >
+        Write the exact requirement text you propose, using MUST, SHOULD, or MAY in uppercase.
+      placeholder: |
+        RGR-XX-NNN | RG-Core MUST | The system MUST ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Rationale
+      description: >
+        Why is this change needed? Tie to threat model, defensibility, reproducibility,
+        or a gap in current requirements.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: conformance-level
+    attributes:
+      label: Conformance level impact
+      description: Which conformance level(s) does this affect?
+      multiple: true
+      options:
+        - RG-Core
+        - RG-Plus
+        - RG-Max
+    validations:
+      required: true
+
+  - type: textarea
+    id: testability
+    attributes:
+      label: Testability
+      description: >
+        How would you prove conformance? Suggest a test scenario or describe how
+        an existing test (T-01..T-07) should be updated.
+      placeholder: "Create scenario where ... ; expected outcome is ..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: compatibility
+    attributes:
+      label: Backward compatibility and migration notes
+      description: >
+        Does this change invalidate existing conformance claims?
+        What migration steps would implementers need?
+      placeholder: "Existing RG-Core claims would need to ..."
+    validations:
+      required: false

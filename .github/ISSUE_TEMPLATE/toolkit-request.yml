@@ -1,0 +1,54 @@
+name: Toolkit Request
+description: Request a new non‑normative toolkit resource (checklist, template, clause pack, etc.).
+title: "[Toolkit] "
+labels:
+  - toolkit
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The Toolkit section contains **non‑normative** convenience resources derived from the standard.
+        Use this template to suggest a new resource or improvement to an existing one.
+
+  - type: dropdown
+    id: audience
+    attributes:
+      label: Primary audience
+      description: Who would use this resource?
+      options:
+        - Enterprise Legal Ops
+        - BigLaw / Outside Counsel
+        - Service Provider
+        - Vendor / Platform Developer
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: artifact-type
+    attributes:
+      label: Desired artifact type
+      description: What kind of resource are you looking for?
+      placeholder: "e.g., RFP clause pack, ESI protocol language, checklist, scoring template"
+    validations:
+      required: true
+
+  - type: textarea
+    id: decision
+    attributes:
+      label: What decision does this help someone make?
+      description: >
+        Describe the practical scenario where this resource would be used.
+      placeholder: "When selecting a preservation vendor, we need to..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: reference-sections
+    attributes:
+      label: Reference section(s) in the standard
+      description: >
+        Which parts of the standard should the resource draw from?
+      placeholder: "Section 6.2 conformance levels, Appendix G vendor questions"
+    validations:
+      required: false

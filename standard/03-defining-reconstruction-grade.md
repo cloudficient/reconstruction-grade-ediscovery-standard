@@ -35,6 +35,7 @@ Deterministic end state - A processing outcome in which every discovered referen
 Reconstruction-Grade systems MUST be able to resolve document state as-of an event timestamp deterministically. For modern attachments, the event timestamp is typically the send time of the message containing the link.
 
 A minimal deterministic selection rule is:
+
 - Enumerate all available versions and their timestamps for the referenced object.
 - Select the latest version where lastModifiedDateTime ≤ message timestamp.
 - If multiple versions share the same timestamp, select the highest version identifier under a deterministic ordering.
@@ -45,6 +46,7 @@ A minimal deterministic selection rule is:
 Because URLs can change (sharing links, redirects, file moves), Reconstruction-Grade systems MUST preserve stable platform-native identifiers sufficient to re-resolve content over time.
 
 At minimum, where applicable, systems MUST persist:
+
 - siteId
 - driveId
 - itemId
@@ -62,6 +64,7 @@ Recommended export representations include ParentId/ChildId relationship fields 
 ## 3.6 Audit Evidence and the Access Question
 
 Reconstruction-Grade practice distinguishes between:
+
 - Potential access (permissions and sharing configuration), and
 - Observed access (behavioral evidence from audit logs where available).
 
@@ -74,6 +77,7 @@ Boundedness requirement: Because audit coverage is dependent on upstream availab
 Not every referenced object can be collected. Reconstruction-Grade systems MUST make this explicit rather than silent.
 
 A structured exception record SHOULD include:
+
 - Original link reference as extracted from the parent communication
 - Normalized reason code (permission denied, item deleted/outside retention, throttling, transient service error, unknown)
 - Complete retry history (attempt count, outcomes, timestamps)
@@ -84,6 +88,7 @@ A structured exception record SHOULD include:
 Reconstruction-Grade systems MUST support reproducible exports. The same scope definition and parameters should generate the same outputs, with manifests that support chain-of-custody and defensibility.
 
 A Reconstruction-Grade export package SHOULD include:
+
 - Native files and communications
 - Standard load/overlay files (e.g., DAT/CSV) containing metadata, relationship identifiers, provenance fields, and hashes
 - An export manifest capturing counts, scope queries, time ranges, tool versions, exceptions, and retry outcomes

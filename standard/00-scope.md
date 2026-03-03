@@ -7,6 +7,7 @@ This document specifies a baseline architectural standard for Reconstruction-Gra
 0.2 Non-Goals (Out of Scope)
 
 This standard does not:
+
 - Provide legal advice or define admissibility standards; it defines an architectural preservation and export baseline.
 - Require or assume full-tenant "archive everything" capture.
 - Mandate a specific vendor, product, cloud provider, storage backend, review platform, or deployment topology.
@@ -17,12 +18,14 @@ This standard does not:
 ## 0.3 Threat Model (What This Standard Is Designed to Withstand)
 
 Reconstruction-Grade properties matter because evidence is evaluated under adversarial or high-scrutiny conditions, including:
+
 - Court challenges to authenticity, completeness, proportionality, and chain of custody.
 - Regulator inquiries requiring auditability and repeatability.
 - Internal investigations where timelines, identity state, and access behavior are disputed.
 - Repeat exports where differences MUST be explained without operator narrative.
 
 This standard assumes that any ambiguous, inferred, or non-reproducible claim will be challenged. Therefore, it prioritizes:
+
 - Deterministic resolution rules and explicit fallback documentation.
 - Stable identifiers and relationship bindings.
 - Explicit exceptions (no silent drops).
@@ -32,6 +35,7 @@ This standard assumes that any ambiguous, inferred, or non-reproducible claim wi
 ## 0.4 Normative Language
 
 This document uses MUST, SHOULD, and MAY as normative requirement levels:
+
 - MUST indicates a required property for Reconstruction-Grade conformance.
 - SHOULD indicates a strong recommendation that materially improves reconstruction.
 - MAY indicates an optional capability that can improve outcomes but is not required for baseline conformance.

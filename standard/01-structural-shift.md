@@ -5,6 +5,7 @@ The shift from on-premises file shares and email attachments to cloud-native col
 ## 1.1 The Core Assumptions That No Longer Hold
 
 Traditional eDiscovery workflows tend to embed four assumptions:
+
 - Files are the unit of work and the unit of evidence.
 - Ownership implies relevance; custodians are stable boundaries.
 - Permissions imply access; access can be inferred.

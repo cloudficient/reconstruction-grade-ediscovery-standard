@@ -144,8 +144,15 @@
 .md-typeset table:not([class]) {
   border: 1px solid rgba(127, 127, 127, 0.3);
   border-radius: 0.5rem;
-  overflow: hidden;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+/* Wrap tables for horizontal scroll on narrow screens */
+.md-typeset .md-typeset__scrollwrap,
+.md-content .md-typeset table:not([class]) {
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .md-typeset table:not([class]) th {
@@ -181,14 +188,9 @@
   border: 1px solid rgba(127, 127, 127, 0.2);
 }
 
-/* Figure labels */
-.md-typeset p > strong:only-child {
-  display: block;
-  text-align: center;
-  font-size: 0.85rem;
-  color: var(--md-default-fg-color--lighter);
-  margin-top: 1.5rem;
-}
+/* Figure labels — use figcaption or an explicit .caption class instead;
+   the :only-child selector incorrectly matches inline <strong> that is the
+   sole element-child of a <p> even when surrounded by text nodes. */
 
 /* ---------- Code ---------- */
 .md-typeset code {
