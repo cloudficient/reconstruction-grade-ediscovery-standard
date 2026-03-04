@@ -33,6 +33,10 @@ jobs:
       - name: Build site
         run: mkdocs build --strict
 
+      - name: Ensure Google verification file exists
+        run: |
+          echo "google-site-verification: google5fef6425ef4abf3f.html" > site/google5fef6425ef4abf3f.html
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
