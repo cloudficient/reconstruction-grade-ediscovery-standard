@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cloudficient.github.io/reconstruction-grade-ediscovery-standard/sitemap.xml
