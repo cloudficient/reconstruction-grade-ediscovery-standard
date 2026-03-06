@@ -45,6 +45,9 @@ plugins:
   - search:
       separator: '[\s\-\.]+'
 
+hooks:
+  - hooks/generate_text_sitemap.py
+
 extra:
   current_version: 0.51-draft
   current_release_date: March 3, 2026
