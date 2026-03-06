@@ -1,8 +1,9 @@
 site_name: Reconstruction-Grade eDiscovery
 site_description: >-
-  Vendor-independent conformance standard for preserving and reproducing
-  modern collaborative evidence with point-in-time fidelity, relationship
-  integrity, and bounded evidence handling.
+  Public draft of a vendor-independent conformance standard for assessing
+  preservation and reproduction of modern collaborative evidence with
+  point-in-time fidelity, relationship integrity, and bounded evidence
+  handling.
 site_url: https://cloudficient.github.io/reconstruction-grade-ediscovery-standard/
 repo_url: https://github.com/cloudficient/reconstruction-grade-ediscovery-standard
 repo_name: GitHub
