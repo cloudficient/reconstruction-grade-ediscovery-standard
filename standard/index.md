@@ -311,6 +311,14 @@ Enterprises, law firms, providers, vendors, and individual practitioners can con
 </article>
 
 <article class="rgr-card rgr-card--link-list" markdown="1">
+### Selected developments
+
+Selected decisions showing courts surfacing the same collaborative evidence gap RGR is designed to measure.
+
+- [Judicial Signals and Case Developments](judicial-signals.md)
+</article>
+
+<article class="rgr-card rgr-card--link-list" markdown="1">
 ### Transparency and governance
 
 - [Governance overview](governance/index.md)

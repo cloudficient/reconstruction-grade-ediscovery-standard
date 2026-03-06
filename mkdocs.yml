@@ -91,6 +91,7 @@ markdown_extensions:
 nav:
   - Overview:
       - Overview: index.md
+      - Judicial Signals and Case Developments: judicial-signals.md
       - Concepts Overview: concepts/index.md
       - Why Collaborative Evidence Changed: concepts/context-gap-ediscovery.md
       - Evidence Reconstruction: concepts/evidence-reconstruction.md
