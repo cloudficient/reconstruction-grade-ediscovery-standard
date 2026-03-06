@@ -1,4 +1,9 @@
-# Toolkit Overview
+---
+title: Toolkit
+description: Practical, non-normative resources for evaluating platforms and workflows against the RGR Standard.
+---
+
+# Toolkit
 
 !!! warning "Non‑Normative"
     This section is **non‑normative** and is **not legal advice**.
@@ -9,15 +14,24 @@
 
 ---
 
-## What is the Toolkit?
+## What the toolkit is for
 
-The Toolkit helps enterprises, law firms, service providers, and vendors **put the standard into practice** — without having to re‑derive checklists, RFP language, or protocol addenda from first principles.
+The toolkit helps enterprises, law firms, service providers, and vendors apply the standard in procurement, evaluation, protocol drafting, and implementation planning without re-deriving practical materials from first principles.
 
 Every toolkit page links back to the authoritative section of the standard it draws from. If the toolkit and the standard ever conflict, **the standard governs**.
 
 ---
 
-## Start here
+## Recommended evaluation sequence
+
+1. Read [Section 6 - Measurable Evaluation Framework](../06-evaluation-framework.md) and [Appendix B - Requirements](../appendix-b-requirements.md).
+2. Use [Questions to Ask Vendors](../appendix-g-vendor-questions.md) to test how a platform explains scope, determinism, audit handling, and exceptions.
+3. Use [Vendor Scoring Worksheet](../appendix-h-vendor-scoring.md) to compare candidates against the same criteria.
+4. Request a declaration against a specific published standard version.
+
+---
+
+## Practical resources
 
 | Resource | Who it's for | What it does |
 |---|---|---|
@@ -33,6 +47,7 @@ Every toolkit page links back to the authoritative section of the standard it dr
 
 For comprehensive vendor evaluation, see:
 
+- [Appendix B — Reconstruction-Grade Requirements](../appendix-b-requirements.md)
 - [Section 6.2 — Conformance Levels](../06-evaluation-framework.md#62-conformance-levels)
 - [Section 6.3 — Minimum Conformance Tests](../06-evaluation-framework.md#63-minimum-conformance-tests)
 - [Appendix G — Questions to Ask Vendors](../appendix-g-vendor-questions.md)

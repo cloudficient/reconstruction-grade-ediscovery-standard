@@ -1,6 +1,18 @@
+---
+title: Participate
+description: Participation paths for the Reconstruction-Grade eDiscovery Standard, including feedback, governance, and working-group involvement.
+---
+
 # Participate
 
-The Reconstruction‑Grade eDiscovery Standard is developed as a **vendor‑neutral, community‑informed** architectural standard. Participation is open to enterprises, law firms, service providers, vendors, and individual practitioners.
+The Reconstruction-Grade eDiscovery Standard is published as a public, versioned draft intended for vendor-independent standards discussion. Participation is open to enterprises, law firms, service providers, vendors, and individual practitioners who want to pressure-test the criteria, improve the public materials, or participate in governance.
+
+## Participation principles
+
+- Discussions should improve measurable criteria, definitions, examples, or process clarity.
+- Normative changes are reviewed through a documented governance path rather than informal product messaging.
+- Non-normative improvements can be proposed directly through issues and pull requests.
+- The canonical text remains the Markdown documentation in the public repository.
 
 ---
 

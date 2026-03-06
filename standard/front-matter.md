@@ -1,9 +1,12 @@
-> Reconstruction-Grade eDiscovery Standard (RGR)
-> Status: Draft for standards discussion
-> Version: 0.51-draft
-> Canonical Source: Markdown in Git repository
+<div class="rgr-card rgr-frontmatter-status" markdown="1">
+<p class="rgr-eyebrow">Draft status</p>
 
-![Reconstruction-Grade eDiscovery cover image depicting scales of justice with collaborative evidence concepts](images/rgr-cover-hero.png)
+- **Status:** Draft for standards discussion
+- **Version:** 0.51-draft
+- **Published:** March 3, 2026
+- **Canonical source:** Markdown in the public Git repository
+- **Origin and intent:** Draft originated by Cloudficient and published for vendor-independent standards discussion
+</div>
 
 # Reconstruction-Grade eDiscovery
 
@@ -37,7 +40,7 @@ This document is written to be testable. It defines (1) measurable requirements,
 
 This document distinguishes between a conformance target and an operating approach:
 
-Reconstruction-Grade eDiscovery is the conformance target (the architectural classification).It describes whether a system can produce a reproducible, point-in-time record of collaborative evidence without relying on hindsight or inference.
+Reconstruction-Grade eDiscovery is the conformance target (the architectural classification). It describes whether a system can produce a reproducible, point-in-time record of collaborative evidence without relying on hindsight or inference.
 
 Context-Aware eDiscovery is an operating approach consistent with that target. It treats context as evidence objects and grounds reconstruction in preserved fact - not semantic enrichment, relevance scoring, or post-hoc inference.
 

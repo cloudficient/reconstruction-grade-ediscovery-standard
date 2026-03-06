@@ -1,6 +1,93 @@
 {% extends "base.html" %}
 
 {% block extrahead %}
+  {{ super() }}
+  {% set page_is_homepage = page and page.file and page.file.src_uri == 'index.md' %}
+  {% set meta_title = config.site_name %}
+  {% if not page_is_homepage and page and page.title and page.title != config.site_name %}
+    {% set meta_title = page.title ~ " | " ~ config.site_name %}
+  {% endif %}
+  {% set meta_description = config.site_description %}
+  {% if page and page.meta and page.meta.description %}
+    {% set meta_description = page.meta.description %}
+  {% endif %}
+  {% set canonical_url = config.site_url %}
+  {% if page and page.canonical_url %}
+    {% set canonical_url = page.canonical_url %}
+  {% endif %}
+  {% set preview_image = config.site_url ~ config.extra.preview_image %}
+  <meta name="description" content="{{ meta_description }}" />
+  <meta property="og:site_name" content="{{ config.site_name }}" />
+  <meta property="og:title" content="{{ meta_title }}" />
+  <meta property="og:description" content="{{ meta_description }}" />
+  <meta property="og:type" content="{% if page_is_homepage %}website{% else %}article{% endif %}" />
+  <meta property="og:url" content="{{ canonical_url }}" />
+  <meta property="og:image" content="{{ preview_image }}" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="{{ meta_title }}" />
+  <meta name="twitter:description" content="{{ meta_description }}" />
+  <meta name="twitter:image" content="{{ preview_image }}" />
+  <link rel="canonical" href="{{ canonical_url }}" />
   <meta name="google-site-verification" content="2Qs3EXrFCzBJcoWYGoVRDjJa6wiI3DfXVgdbW0NFP0A" />
   <meta name="msvalidate.01" content="CD192E32B0A8E0EBF7F996D88701514D" />
+{% endblock %}
+
+{% block announce %}
+  <div class="rgr-announcement">
+    <div class="rgr-announcement__inner">
+      <p>
+        <strong>Draft status:</strong> {{ config.extra.current_version }} for standards discussion.
+        <a class="rgr-announcement__inline" href="{{ base_url }}/front-matter/">Details</a>
+      </p>
+      <nav aria-label="Draft resources">
+        <a href="{{ base_url }}/front-matter/">Front matter</a>
+        <a href="{{ config.extra.changelog_url }}">Changelog</a>
+        <a href="{{ config.extra.pdf_download_url }}">Latest PDF</a>
+        <a href="{{ base_url }}/governance/">Governance</a>
+      </nav>
+    </div>
+  </div>
+{% endblock %}
+
+{% block footer %}
+  <section class="rgr-site-footer">
+    <div class="md-grid rgr-site-footer__grid">
+      <div class="rgr-site-footer__brand">
+        <p class="rgr-site-footer__eyebrow">Reconstruction-Grade eDiscovery Standard</p>
+        <p class="rgr-site-footer__summary">
+          Vendor-independent conformance standard for preserving and reproducing modern collaborative evidence.
+        </p>
+        <p class="rgr-site-footer__small">
+          Canonical source of truth: Markdown in the public repository. Current public draft: {{ config.extra.current_version }}.
+        </p>
+      </div>
+      <div>
+        <p class="rgr-site-footer__heading">Explore</p>
+        <ul class="rgr-site-footer__links">
+          <li><a href="{{ base_url }}/">Overview</a></li>
+          <li><a href="{{ base_url }}/front-matter/">Standard</a></li>
+          <li><a href="{{ base_url }}/toolkit/">Toolkit</a></li>
+          <li><a href="{{ base_url }}/governance/">Governance</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="rgr-site-footer__heading">Participation</p>
+        <ul class="rgr-site-footer__links">
+          <li><a href="{{ base_url }}/participate/">Join the working group</a></li>
+          <li><a href="{{ base_url }}/participate/how-to-contribute/">Contribution model</a></li>
+          <li><a href="{{ config.extra.changelog_url }}">Version history</a></li>
+          <li><a href="{{ config.repo_url }}">Repository</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="md-grid rgr-site-footer__meta">
+      <p class="rgr-site-footer__small">
+        &copy; 2026 Cloudficient. Public draft published for vendor-independent standards discussion.
+        Licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.
+      </p>
+      <p class="rgr-site-footer__small">
+        <a href="{{ config.repo_url }}">Public repository</a>
+      </p>
+    </div>
+  </section>
 {% endblock %}

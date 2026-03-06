@@ -1,75 +1,61 @@
-site_name: Reconstruction-Grade eDiscovery Standard
+site_name: Reconstruction-Grade eDiscovery
 site_description: >-
-  Vendor-neutral architectural standard defining measurable criteria for
-  preserving and reconstructing collaborative cloud evidence in modern
-  eDiscovery environments.
+  Vendor-independent conformance standard for preserving and reproducing
+  modern collaborative evidence with point-in-time fidelity, relationship
+  integrity, and bounded evidence handling.
 site_url: https://cloudficient.github.io/reconstruction-grade-ediscovery-standard/
 repo_url: https://github.com/cloudficient/reconstruction-grade-ediscovery-standard
-repo_name: RGR Standard
+repo_name: GitHub
 docs_dir: standard
 site_dir: site
 
 copyright: >-
-  &copy; 2026 Cloudficient — Vendor-independent standard for collaborative evidence preservation.
+  &copy; 2026 Cloudficient. Public draft published for vendor-independent standards discussion.
   Licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.
 
 theme:
   name: material
   custom_dir: overrides
   palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
+    - scheme: default
       primary: custom
       accent: custom
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: custom
-      accent: custom
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
   font:
-    text: Nunito Sans
-    code: JetBrains Mono
+    text: IBM Plex Sans
+    code: IBM Plex Mono
   icon:
     repo: fontawesome/brands/github
     logo: material/scale-balance
   features:
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
     - navigation.expand
     - navigation.top
     - navigation.indexes
-    - navigation.footer
     - toc.follow
     - search.highlight
     - search.suggest
     - search.share
     - content.code.copy
     - content.tabs.link
-    - header.autohide
 
 plugins:
   - search:
       separator: '[\s\-\.]+'
 
 extra:
+  current_version: 0.51-draft
+  current_release_date: March 3, 2026
+  pdf_download_url: https://github.com/cloudficient/reconstruction-grade-ediscovery-standard/releases/latest/download/rgr-standard-0.51-draft.pdf
+  changelog_url: https://github.com/cloudficient/reconstruction-grade-ediscovery-standard/blob/main/CHANGELOG.md
+  canonical_repo_url: https://github.com/cloudficient/reconstruction-grade-ediscovery-standard/tree/main/standard
+  preview_image: images/rgr-cover-hero.png
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/cloudficient/reconstruction-grade-ediscovery-standard
       name: GitHub Repository
   generator: false
-  meta:
-    - name: keywords
-      content: ediscovery, reconstruction-grade ediscovery, legaltech, digital evidence, microsoft 365 ediscovery, collaborative evidence, information governance, compliance, legal technology
-    - property: og:title
-      content: Reconstruction-Grade eDiscovery Standard
-    - property: og:description
-      content: Vendor-neutral standard for collaborative cloud evidence preservation and reconstruction.
-    - name: google-site-verification
-      content: 2Qs3EXrFCzBJcoWYGoVRDjJa6wiI3DfXVgdbW0NFP0A
 
 extra_css:
   - stylesheets/extra.css
@@ -102,47 +88,57 @@ markdown_extensions:
       custom_checkbox: true
 
 nav:
-  - Home: index.md
-  - "Core Concepts":
-      - Overview: concepts/index.md
-      - "Context Gap": concepts/context-gap-ediscovery.md
-      - "Evidence Reconstruction": concepts/evidence-reconstruction.md
-      - "Reconstruction-Grade eDiscovery": concepts/reconstruction-grade-ediscovery.md
-      - "Modern Attachments": concepts/modern-attachments.md
-      - "Identity Drift": concepts/identity-drift.md
-  - "Toolkit (Non\u2011Normative)":
-      - Overview: toolkit/index.md
+  - Overview:
+      - Overview: index.md
+      - Concepts Overview: concepts/index.md
+      - Why Collaborative Evidence Changed: concepts/context-gap-ediscovery.md
+      - Evidence Reconstruction: concepts/evidence-reconstruction.md
+      - Reconstruction-Grade eDiscovery: concepts/reconstruction-grade-ediscovery.md
+      - Modern Attachments: concepts/modern-attachments.md
+      - Identity Drift: concepts/identity-drift.md
+  - Standard:
+      - Draft Status and Front Matter: front-matter.md
+      - Chapters:
+          - "0. Scope, Non-Goals, and Document Conventions": 00-scope.md
+          - "1. The Structural Shift in Evidence Behavior": 01-structural-shift.md
+          - "2. The Context Collapse Problem": 02-context-collapse.md
+          - "3. Defining Reconstruction-Grade eDiscovery": 03-defining-reconstruction-grade.md
+          - "4. The Preservation System of Record": 04-preservation-system-of-record.md
+          - "5. Preservation Operating Model and Architectural Constraints": 05-operating-model.md
+          - "6. Measurable Evaluation Framework": 06-evaluation-framework.md
+          - "7. Standard Governance and Adoption": 07-governance-adoption.md
+      - Appendices:
+          - "Appendix A: Glossary": appendix-a-glossary.md
+          - "Appendix B: Reconstruction-Grade Requirements (RGR)": appendix-b-requirements.md
+          - "Appendix C: Export Manifest and Chain-of-Custody Profile": appendix-c-export-manifest.md
+          - "Appendix D: Reconstruction Scenarios": appendix-d-reconstruction-scenarios.md
+          - "Appendix E: Operational Metrics": appendix-e-operational-metrics.md
+          - "Appendix F: Collaboration Artifact Taxonomy": appendix-f-artifact-taxonomy.md
+          - "Appendix G: Questions to Ask Vendors": appendix-g-vendor-questions.md
+          - "Appendix H: Vendor Scoring Worksheet": appendix-h-vendor-scoring.md
+          - "Appendix I: Deterministic Resolution and Processing Profiles": appendix-i-processing-profiles.md
+          - "Appendix J: Exception Taxonomy and Operational Playbooks": appendix-j-exception-taxonomy.md
+          - "Appendix K: Enterprise Implementation Roadmap": appendix-k-implementation-roadmap.md
+          - "Appendix L: Collect-to-Preserve Matter Playbook": appendix-l-matter-playbook.md
+          - "Appendix M: Further Reading": appendix-m-further-reading.md
+  - Toolkit:
+      - Toolkit Overview: toolkit/index.md
       - Buyer Checklist: toolkit/buyer-checklist.md
+      - Questions to Ask Vendors: appendix-g-vendor-questions.md
+      - Vendor Scoring Worksheet: appendix-h-vendor-scoring.md
+      - Enterprise Implementation Roadmap: appendix-k-implementation-roadmap.md
+      - Collect-to-Preserve Matter Playbook: appendix-l-matter-playbook.md
       - RFP Clause Pack: toolkit/rfp-clauses.md
       - ESI Protocol Addendum: toolkit/esi-protocol-addendum.md
       - Conformance Declaration Template: toolkit/conformance-declaration-template.md
       - Conformance Tests Quick Guide: toolkit/conformance-tests-quick-guide.md
-  - Standard:
-      - Front Matter: front-matter.md
-      - "0. Scope, Non-Goals, and Document Conventions": 00-scope.md
-      - "1. The Structural Shift in Evidence Behavior": 01-structural-shift.md
-      - "2. The Context Collapse Problem": 02-context-collapse.md
-      - "3. Defining Reconstruction-Grade eDiscovery": 03-defining-reconstruction-grade.md
-      - "4. The Preservation System of Record": 04-preservation-system-of-record.md
-      - "5. Preservation Operating Model and Architectural Constraints": 05-operating-model.md
-      - "6. Measurable Evaluation Framework": 06-evaluation-framework.md
-      - "7. Standard Governance and Adoption": 07-governance-adoption.md
-  - Appendices:
-      - "Appendix A: Glossary": appendix-a-glossary.md
-      - "Appendix B: Reconstruction-Grade Requirements (RGR)": appendix-b-requirements.md
-      - "Appendix C: Export Manifest and Chain-of-Custody Profile": appendix-c-export-manifest.md
-      - "Appendix D: Reconstruction Scenarios": appendix-d-reconstruction-scenarios.md
-      - "Appendix E: Operational Metrics": appendix-e-operational-metrics.md
-      - "Appendix F: Collaboration Artifact Taxonomy": appendix-f-artifact-taxonomy.md
-      - "Appendix G: Questions to Ask Vendors": appendix-g-vendor-questions.md
-      - "Appendix H: Vendor Scoring Worksheet": appendix-h-vendor-scoring.md
-      - "Appendix I: Deterministic Resolution and Processing Profiles": appendix-i-processing-profiles.md
-      - "Appendix J: Exception Taxonomy and Operational Playbooks": appendix-j-exception-taxonomy.md
-      - "Appendix K: Enterprise Implementation Roadmap": appendix-k-implementation-roadmap.md
-      - "Appendix L: Collect-to-Preserve Matter Playbook": appendix-l-matter-playbook.md
-      - "Appendix M: Further Reading": appendix-m-further-reading.md
+  - Governance:
+      - Governance Overview: governance/index.md
+      - Standard Governance and Adoption: 07-governance-adoption.md
+      - Governance and Working Group: participate/governance-working-group.md
   - Participate:
-      - Overview: participate/index.md
+      - Participate: participate/index.md
       - How to Contribute: participate/how-to-contribute.md
-      - "Governance & Working Group": participate/governance-working-group.md
+  - About:
+      - About the Initiative: about/index.md
       - License: license.md
