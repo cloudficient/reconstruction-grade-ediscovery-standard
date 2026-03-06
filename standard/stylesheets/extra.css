@@ -305,11 +305,13 @@ body {
 
 .rgr-home h2 {
   margin-top: 0;
+  margin-bottom: 0.65rem;
+  letter-spacing: -0.015em;
 }
 
 .rgr-home section + section {
-  margin-top: 1.35rem;
-  padding-top: 1.95rem;
+  margin-top: 1.5rem;
+  padding-top: 2.1rem;
   border-top: 1px solid rgba(22, 35, 51, 0.08);
 }
 
@@ -438,7 +440,7 @@ body {
 }
 
 .rgr-summary-card {
-  padding: 1rem 1.05rem 1.05rem;
+  padding: 1.05rem 1.1rem 1.1rem;
   background: rgba(255, 255, 255, 0.72);
   border: 1px solid rgba(22, 35, 51, 0.08);
   border-radius: 1.05rem;
@@ -455,8 +457,9 @@ body {
 
 .rgr-summary-card h3 {
   margin-top: 0;
-  margin-bottom: 0.45rem;
+  margin-bottom: 0.4rem;
   font-size: 1rem;
+  line-height: 1.28;
 }
 
 .rgr-summary-card p:last-child {
@@ -474,7 +477,7 @@ body {
 }
 
 .rgr-card {
-  padding: 1.25rem;
+  padding: 1.35rem;
   background: rgba(255, 255, 255, 0.92);
   border: 1px solid var(--rgr-border);
   border-radius: 1.1rem;
@@ -508,6 +511,8 @@ body[data-md-color-scheme="default"] .md-content__inner > .rgr-home {
 .rgr-card h3,
 .rgr-card h4 {
   margin-top: 0;
+  margin-bottom: 0.45rem;
+  line-height: 1.28;
 }
 
 .rgr-card p:last-child,
@@ -544,17 +549,18 @@ body[data-md-color-scheme="default"] .md-content__inner > .rgr-home {
 }
 
 .rgr-section__lede {
-  max-width: 72ch;
-  margin-bottom: 1.1rem;
+  max-width: 68ch;
+  margin-bottom: 1rem;
   font-size: 1rem;
   line-height: 1.72;
 }
 
 .rgr-note {
-  max-width: 72ch;
-  margin: 1rem 0 0;
+  max-width: 68ch;
+  margin: 0.95rem 0 0;
   color: var(--rgr-ink-muted);
   font-size: 0.85rem;
+  line-height: 1.65;
 }
 
 .rgr-section--panel,
@@ -590,7 +596,7 @@ body[data-md-color-scheme="default"] .md-content__inner > .rgr-home {
 }
 
 .rgr-role-card ul {
-  margin: 0.95rem 0 0;
+  margin: 0.85rem 0 0;
   padding-left: 1.05rem;
 }
 
