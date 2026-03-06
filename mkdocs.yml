@@ -7,7 +7,7 @@ site_description: >-
 site_url: https://cloudficient.github.io/reconstruction-grade-ediscovery-standard/
 repo_url: https://github.com/cloudficient/reconstruction-grade-ediscovery-standard
 repo_name: GitHub
-docs_dir: standard
+docs_dir: website
 site_dir: site
 
 copyright: >-
@@ -46,6 +46,7 @@ plugins:
       separator: '[\s\-\.]+'
 
 hooks:
+  - hooks/link_standard_files.py
   - hooks/generate_text_sitemap.py
 
 extra:
@@ -138,6 +139,8 @@ nav:
       - ESI Protocol Addendum: toolkit/esi-protocol-addendum.md
       - Conformance Declaration Template: toolkit/conformance-declaration-template.md
       - Conformance Tests Quick Guide: toolkit/conformance-tests-quick-guide.md
+  - Why This Exists:
+      - Why This Standard Exists: why.md
   - Governance:
       - Governance Overview: governance/index.md
       - Standard Governance and Adoption: 07-governance-adoption.md
