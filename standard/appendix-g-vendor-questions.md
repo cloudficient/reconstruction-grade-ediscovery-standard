@@ -1,6 +1,7 @@
 # Appendix G: Questions to Ask Vendors
 
 When evaluating platforms for Reconstruction-Grade conformance, enterprises should require substantive answers to the following questions. These questions are designed to distinguish systems that preserve collaborative evidence with reconstruction-grade fidelity from those that flatten it into files and messages that cannot support legal reasoning.
+
 - When a message contains a modern attachment or link, can you export the as-sent version (latest version where lastModifiedDateTime ≤ message timestamp)?
 - Do you preserve version identifiers and the actual file bytes for resolved versions?
 - What stable identifiers do you persist (siteId, driveId, itemId, listItemUniqueId, versionId), and how do you canonicalize sharing links and redirects?

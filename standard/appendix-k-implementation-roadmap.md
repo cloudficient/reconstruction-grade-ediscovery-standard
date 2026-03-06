@@ -23,8 +23,9 @@ Table 13. Illustrative implementation roadmap
 ## K.2 Practical Pilot Design
 
 A pilot should be designed to prove Reconstruction-Grade properties with controlled scenarios and one or two real matters. A minimal pilot typically includes modern attachment resolution, identity as-of queries, audit correlation, and reproducible exports with manifests.
+
 1. Select two matters with known hyperlink usage and meaningful timeline questions.
-1. Define conformance tests (Appendix G) and success metrics (Appendix E).
-1. Run parallel: compare legacy export results to Reconstruction-Grade outputs for as-sent versions and relationship integrity.
-1. Document scope decisions and exceptions from day one; validate reproducibility with repeated exports.
-1. Review results with litigation support and compliance architects; incorporate findings into standard requirements.
+2. Define conformance tests (Appendix G) and success metrics (Appendix E).
+3. Run parallel: compare legacy export results to Reconstruction-Grade outputs for as-sent versions and relationship integrity.
+4. Document scope decisions and exceptions from day one; validate reproducibility with repeated exports.
+5. Review results with litigation support and compliance architects; incorporate findings into standard requirements.
