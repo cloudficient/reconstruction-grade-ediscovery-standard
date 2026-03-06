@@ -91,14 +91,14 @@ markdown_extensions:
 nav:
   - Overview:
       - Overview: index.md
+  - Concepts:
+      - Concepts Overview: concepts/index.md
+      - Why Collaborative Evidence Changed: concepts/context-gap-ediscovery.md
+      - Evidence Reconstruction: concepts/evidence-reconstruction.md
+      - Reconstruction-Grade eDiscovery: concepts/reconstruction-grade-ediscovery.md
+      - Modern Attachments: concepts/modern-attachments.md
+      - Identity Drift: concepts/identity-drift.md
       - Judicial Signals and Case Developments: judicial-signals.md
-      - Concepts:
-          - Concepts Overview: concepts/index.md
-          - Why Collaborative Evidence Changed: concepts/context-gap-ediscovery.md
-          - Evidence Reconstruction: concepts/evidence-reconstruction.md
-          - Reconstruction-Grade eDiscovery: concepts/reconstruction-grade-ediscovery.md
-          - Modern Attachments: concepts/modern-attachments.md
-          - Identity Drift: concepts/identity-drift.md
   - Standard:
       - Draft Status and Front Matter: front-matter.md
       - Chapters:

@@ -311,11 +311,12 @@ Enterprises, law firms, providers, vendors, and individual practitioners can con
 </article>
 
 <article class="rgr-card rgr-card--link-list" markdown="1">
-### Overview and developments
+### Concepts and developments
 
-Use the overview pages to move from the high-level problem to concrete concepts and selected case developments.
+Use the concepts pages to move from the high-level problem to concrete definitions, evidence behavior, and selected case developments.
 
 - [Concepts overview](concepts/index.md)
+- [Why collaborative evidence changed](concepts/context-gap-ediscovery.md)
 - [Evidence reconstruction](concepts/evidence-reconstruction.md)
 - [Modern attachments](concepts/modern-attachments.md)
 - [Judicial Signals and Case Developments](judicial-signals.md)
