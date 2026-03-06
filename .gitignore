@@ -8,3 +8,10 @@ dist/
 __pycache__/
 *.pyc
 .venv/
+
+# Claude
+.claude/
+
+# BMAD
+_bmad/
+_bmad_output/
