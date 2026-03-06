@@ -107,7 +107,7 @@ A versioned conformance standard setting measurable preservation and reconstruct
 <article class="rgr-card" markdown="1">
 ### Context-Aware eDiscovery
 
-The broader operating approach behind the standard. It treats context as evidence to preserve or account for explicitly, including objects, bindings, provenance, and declared limits, instead of generic metadata summaries.
+The broader operating approach behind the standard. It treats context as preserved relationships, provenance, and declared limits rather than collapsing collaborative evidence into generic metadata summaries.
 </article>
 </div>
 </section>
@@ -116,7 +116,7 @@ The broader operating approach behind the standard. It treats context as evidenc
 <p class="rgr-section__eyebrow">What Reconstruction-Grade means</p>
 ## Measurable preservation targets, not abstract aspiration.
 
-<p class="rgr-section__lede">Section 6 and Appendix B define the detailed requirements and conformance tests. At a high level, Reconstruction-Grade rests on four linked expectations.</p>
+<p class="rgr-section__lede">Section 6 and Appendix B define the detailed requirements and conformance tests. At a high level, Reconstruction-Grade rests on four core expectations.</p>
 
 <div class="rgr-card-grid rgr-card-grid--2" markdown="1">
 <article class="rgr-card" markdown="1">
@@ -128,7 +128,7 @@ Relevant messages, referenced content, and states can be reproduced at the event
 <article class="rgr-card" markdown="1">
 ### Relationship integrity
 
-Message, link, file, version, participant, permission, and timeline relationships remain traceable and reproducible.
+Message, link, file, version, participant, permission, and timeline relationships remain traceable over time.
 </article>
 
 <article class="rgr-card" markdown="1">
@@ -140,7 +140,7 @@ Identity, audit, repository, and behavior evidence is preserved where possible, 
 <article class="rgr-card" markdown="1">
 ### Reproducible outputs
 
-Outputs can be regenerated with manifest traceability, hashes, exception handling, and scope logic tied to a standard version.
+Outputs can be regenerated with manifest traceability, hashes, exception handling, and declared scope tied to a specific standard version.
 </article>
 </div>
 
@@ -275,7 +275,7 @@ Enterprises, law firms, providers, vendors, and individual practitioners can con
 
 <section class="rgr-section--muted" markdown="1">
 <p class="rgr-section__eyebrow">Boundaries and limits</p>
-## RGR defines preservation targets and declared limits. It does not eliminate evidence or platform limits.
+## RGR defines measurable preservation targets, not universal certainty.
 
 <div class="rgr-card rgr-card--quiet" markdown="1">
 - This standard does not itself create legal duties.
