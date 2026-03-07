@@ -21,7 +21,7 @@ The Standard is written to support independent evaluation and repeatable conform
 | Format | Link |
 |--------|------|
 | **PDF** | [**Download RGR Standard v0.51-draft (PDF)**](https://github.com/cloudficient/reconstruction-grade-ediscovery-standard/releases/latest/download/rgr-standard-0.51-draft.pdf) |
-| **HTML** | [**Read online (GitHub Pages)**](https://cloudficient.github.io/reconstruction-grade-ediscovery-standard/) |
+| **HTML** | [**Read online**](https://rgrstandard.org/) |
 | **Source** | Browse the [`/standard/`](standard/) directory in this repository |
 
 ---

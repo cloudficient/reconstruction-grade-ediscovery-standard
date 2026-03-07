@@ -21,6 +21,7 @@ __pycache__/
 # BMAD
 _bmad/
 _bmad_output/
+_bmad-output/
 
 # Confidential source documents
 _initialDocuments/

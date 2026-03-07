@@ -104,7 +104,8 @@ StubHub is important because it shows both sides of the issue: first, a court en
 
 ---
 
-### Yotta Technologies Inc. v. Evolve Bancorp, Inc.  
+### Yotta Technologies Inc. v. Evolve Bancorp, Inc.
+*Often cited as Yotta Technologies Inc. v. Evolve Bank & Trust in eDiscovery commentary*
 **N.D. Cal. (2026)**
 
 Yotta is a useful recent signal because it restates the cautionary line clearly: a hyperlink relationship alone does not automatically require attachment-style treatment.
