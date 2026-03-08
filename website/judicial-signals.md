@@ -15,6 +15,7 @@ Across the cases below, a few recurring themes appear:
 - **Protocol language matters.** Where parties expressly define linked documents as family members or attachments, courts may enforce that agreement.
 - **Feasibility and proportionality matter just as much.** Courts have backed away from broad requirements when the producing party shows that the relationship cannot be reconstructed with existing technology at scale.
 - **Targeted production often replaces automatic family production.** When linked material is important to understanding the parent communication, courts may require targeted requests or case-specific handling rather than universal production.
+- **Courts may impose bounded forensic testing rather than accepting blanket infeasibility.** At least one court has ordered a targeted sample-based approach using a specific forensic tool, creating a practical middle ground between full production and no production of linked content.
 
 ## Selected developments
 
@@ -104,6 +105,25 @@ StubHub is important because it shows both sides of the issue: first, a court en
 
 ---
 
+### In re Insulin Pricing Litigation
+**D.N.J. (May 28, 2024)**
+
+In this MDL, New Jersey Magistrate Judge Rukhsanah L. Singh ruled on contested ESI protocol issues including hyperlinks, agreeing with the defendants that "hyperlinks are not the same as traditional attachments." The court found that each defendant had sufficiently shown it was not feasible, practicable, or proportionate to produce hyperlinked documents in family groups, particularly when attempting to produce the "as-sent" version of any linked document.
+
+**Why it matters**
+- The court applied the same feasibility-focused reasoning seen in StubHub and other Northern District of California decisions, but in a New Jersey federal court.
+- This extends the trend beyond a single district, showing that the proportionality and feasibility analysis is not geographically confined.
+- Like StubHub, the court evaluated the actual technical burden rather than applying a categorical rule.
+
+**Why it matters for system design**
+- The decision reinforces that systems must be able to articulate the specific feasibility constraints of producing hyperlinked content as family groups.
+- Capability declarations should describe what reconstruction is achievable and what is not, with enough specificity to support the kind of burden analysis courts are performing across jurisdictions.
+
+**References**
+- [Insulin Pricing Litigation coverage](https://ediscoverytoday.com/2024/06/03/court-rules-hyperlinks-are-not-the-same-as-traditional-attachments-ediscovery-case-law/)
+
+---
+
 ### Yotta Technologies Inc. v. Evolve Bancorp, Inc.
 *Often cited as Yotta Technologies Inc. v. Evolve Bank & Trust in eDiscovery commentary*
 **N.D. Cal. (2026)**
@@ -122,6 +142,28 @@ Yotta is a useful recent signal because it restates the cautionary line clearly:
 - [Recent Yotta discussion](https://www.ediscoveryllc.com/recent-hyperlinked-documents-decision/)
 - [Later coverage quoting the ruling](https://ediscoverytoday.com/2026/02/27/four-categories-of-documents-requested-by-plaintiffs-denied-by-court-ediscovery-case-law/amp/)
 - [Case page](https://cand.uscourts.gov/cases-e-filing/cases/324-cv-06456-tlt/yotta-technologies-inc-v-evolve-bancorp-inc-et-al)
+
+---
+
+### United Ass'n National Pension Fund v. Carvana Co.
+**D. Ariz. (January 12, 2026)**
+
+Arizona Magistrate Judge John Z. Boyle ordered the plaintiffs to select 250 responsive emails with hyperlinked attachments for the defendants to run a search on using Forensic Email Collector (FEC), with defendants required to complete the FEC search and provide the most contemporaneous version of non-privileged hyperlinked attachments within 10 days of receiving the selection.
+
+**Why it matters**
+- Rather than accepting infeasibility wholesale or imposing a blanket production requirement, the court ordered a targeted, bounded approach: a defined sample of emails processed through a specific forensic tool.
+- This sits in an interesting middle ground between the StubHub and Uber outcomes, where the court actively deployed a named forensic capability as a practical compromise.
+- It signals that courts may not accept a blanket feasibility defense without first testing whether available tools can deliver results on a reasonable subset.
+
+**Why it matters for system design**
+- Systems and providers should be prepared to demonstrate — not merely assert — what forensic tools can and cannot recover from linked content.
+- The sample-based approach suggests that courts may increasingly expect quantifiable evidence of capability rather than categorical claims of infeasibility.
+- Capability models should account for the possibility that courts will order bounded forensic testing before accepting production limits.
+
+**References**
+- [Carvana order coverage](https://www.ediscoveryllc.com/recent-hyperlinked-documents-decision/)
+
+---
 
 ## What this means for system design
 
