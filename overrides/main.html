@@ -1,11 +1,19 @@
 {% extends "base.html" %}
 
+{% block htmltitle %}
+  {% if page and page.title and page.title != config.site_name %}
+    <title>{{ page.title }} - RGR Standard</title>
+  {% else %}
+    <title>{{ config.site_name }}</title>
+  {% endif %}
+{% endblock %}
+
 {% block extrahead %}
   {{ super() }}
   {% set page_is_homepage = page and page.file and page.file.src_uri == 'index.md' %}
   {% set meta_title = config.site_name %}
   {% if not page_is_homepage and page and page.title and page.title != config.site_name %}
-    {% set meta_title = page.title ~ " | " ~ config.site_name %}
+    {% set meta_title = page.title ~ " | RGR Standard" %}
   {% endif %}
   {% set meta_description = config.site_description %}
   {% if page and page.meta and page.meta.description %}
