@@ -44,6 +44,11 @@ theme:
 plugins:
   - search:
       separator: '[\s\-\.]+'
+  - blog:
+      blog_dir: blog
+      post_date_format: long
+      post_url_format: "{slug}"
+      authors: true
 
 hooks:
   - hooks/link_standard_files.py
@@ -148,6 +153,8 @@ nav:
   - Participate:
       - Participate: participate/index.md
       - How to Contribute: participate/how-to-contribute.md
+  - Blog:
+      - blog/index.md
   - About:
       - About the Initiative: about/index.md
       - License: license.md
