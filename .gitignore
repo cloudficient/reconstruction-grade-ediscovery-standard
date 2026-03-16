@@ -25,3 +25,6 @@ _bmad-output/
 
 # Confidential source documents
 _initialDocuments/
+
+# Benchmark suite (draft - not yet published)
+benchmark/

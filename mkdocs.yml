@@ -44,11 +44,16 @@ theme:
 plugins:
   - search:
       separator: '[\s\-\.]+'
+  - git-revision-date-localized:
+      enable_creation_date: false
+      fallback_to_build_date: true
   - blog:
       blog_dir: blog
       post_date_format: long
       post_url_format: "{slug}"
       authors: true
+      archive: false
+      categories: false
 
 hooks:
   - hooks/link_standard_files.py
