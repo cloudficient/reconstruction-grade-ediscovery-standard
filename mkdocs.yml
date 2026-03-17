@@ -60,6 +60,9 @@ hooks:
   - hooks/generate_text_sitemap.py
 
 extra:
+  analytics:
+    provider: google
+    property: G-XBRJ8EJ6FG
   current_version: 0.51-draft
   current_release_date: March 3, 2026
   pdf_download_url: https://github.com/cloudficient/reconstruction-grade-ediscovery-standard/releases/latest/download/rgr-standard-0.51-draft.pdf
