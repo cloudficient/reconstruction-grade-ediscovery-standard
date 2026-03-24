@@ -26,5 +26,17 @@ _bmad-output/
 # Confidential source documents
 _initialDocuments/
 
-# Benchmark suite (draft - not yet published)
-benchmark/
+# Benchmark (submodule - build ignores live in submodule's own .gitignore)
+output/
+logs/
+.env*
+!.env.example
+
+# Visual Studio / .NET
+.vs/
+*.user
+*.suo
+TestResults/
+
+# Node (for future frontend)
+node_modules/
