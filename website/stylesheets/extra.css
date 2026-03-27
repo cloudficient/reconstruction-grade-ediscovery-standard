@@ -185,6 +185,82 @@ body {
   border-radius: 0.2rem;
 }
 
+/* Blog post inline quotes — email/document excerpts */
+.md-content--post .md-typeset blockquote {
+  margin: 1.2rem 0;
+  padding: 0.85rem 1.15rem;
+  background: rgba(44, 95, 138, 0.05);
+  border-left: 3px solid rgba(44, 95, 138, 0.3);
+  border-radius: 0.25rem;
+}
+
+/* Blog callout box — key questions / takeaways */
+.rgr-callout {
+  margin: 1.8rem 0;
+  padding: 1.25rem 1.5rem;
+  background: linear-gradient(135deg, rgba(44, 95, 138, 0.06) 0%, rgba(44, 95, 138, 0.02) 100%);
+  border: 1px solid rgba(44, 95, 138, 0.15);
+  border-radius: 0.4rem;
+  text-align: center;
+}
+
+.rgr-callout p {
+  margin: 0;
+}
+
+.rgr-callout strong {
+  color: var(--rgr-accent);
+}
+
+/* Blog highlight — closing emphasis */
+.rgr-highlight {
+  margin: 2rem 0;
+  padding: 1.35rem 1.5rem;
+  background: var(--rgr-surface);
+  border: 1px solid var(--rgr-border);
+  border-top: 3px solid var(--rgr-accent);
+  border-radius: 0.35rem;
+}
+
+.rgr-highlight p:last-child {
+  margin-bottom: 0;
+}
+
+/* Blog section divider */
+.rgr-divider {
+  margin: 2.5rem auto;
+  width: 3rem;
+  height: 2px;
+  background: var(--rgr-border-strong);
+  border: none;
+}
+
+/* Blog requirements list */
+.rgr-requirements {
+  margin: 1rem 0;
+  padding: 0;
+  list-style: none;
+}
+
+.rgr-requirements li {
+  position: relative;
+  padding: 0.45rem 0 0.45rem 1.6rem;
+  border-bottom: 1px solid rgba(210, 216, 224, 0.5);
+}
+
+.rgr-requirements li:last-child {
+  border-bottom: none;
+}
+
+.rgr-requirements li::before {
+  content: "→";
+  position: absolute;
+  left: 0.2rem;
+  color: var(--rgr-accent);
+  font-weight: 700;
+  font-size: 0.92em;
+}
+
 .md-typeset code {
   background: rgba(22, 35, 51, 0.06);
   border-radius: 0.2rem;
@@ -800,7 +876,8 @@ body[data-md-color-scheme="default"] .md-content__inner > .rgr-home {
 
   .rgr-announcement,
   .md-tabs,
-  .rgr-site-footer {
+  .rgr-site-footer,
+  .rgr-pdf-actions {
     display: none;
   }
 

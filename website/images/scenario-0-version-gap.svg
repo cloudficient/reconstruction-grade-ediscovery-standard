@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" font-family="'Segoe UI', system-ui, -apple-system, sans-serif">
+  <defs>
+    <marker id="arrow-green" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#27ae60"/>
+    </marker>
+    <filter id="shadow" x="-4%" y="-4%" width="108%" height="112%">
+      <feDropShadow dx="1" dy="2" stdDeviation="3" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="500" rx="12" fill="#f8f9fb"/>
+
+  <!-- Title -->
+  <text x="450" y="36" text-anchor="middle" font-size="16" font-weight="700" fill="#152233">The Modern Attachment Problem: What Your Tool Collects vs. What Was Sent</text>
+
+  <!-- Timeline bar -->
+  <rect x="60" y="58" width="780" height="32" rx="4" fill="#e8ecf1"/>
+  <text x="80" y="79" font-size="11" fill="#5a6a7a" font-weight="600">TIMELINE</text>
+
+  <!-- Date markers -->
+  <line x1="190" y1="58" x2="190" y2="90" stroke="#b0bec5" stroke-width="1"/>
+  <text x="190" y="104" text-anchor="middle" font-size="10" fill="#5a6a7a">Jun 5</text>
+
+  <line x1="340" y1="58" x2="340" y2="90" stroke="#b0bec5" stroke-width="1"/>
+  <text x="340" y="104" text-anchor="middle" font-size="10" fill="#5a6a7a">Jun 8</text>
+
+  <line x1="430" y1="58" x2="430" y2="90" stroke="#b0bec5" stroke-width="1"/>
+  <text x="430" y="104" text-anchor="middle" font-size="10" fill="#5a6a7a">Jun 9</text>
+
+  <line x1="570" y1="58" x2="570" y2="90" stroke="#b0bec5" stroke-width="1"/>
+  <text x="570" y="104" text-anchor="middle" font-size="10" fill="#5a6a7a">Jul</text>
+
+  <line x1="730" y1="58" x2="730" y2="90" stroke="#b0bec5" stroke-width="1"/>
+  <text x="730" y="104" text-anchor="middle" font-size="10" fill="#5a6a7a">Sep 15</text>
+
+  <!-- === EMAIL ROW === -->
+  <text x="60" y="142" font-size="12" font-weight="700" fill="#152233">Exchange</text>
+
+  <!-- Email Jun 5 -->
+  <rect x="155" y="120" width="70" height="34" rx="6" fill="#fff" stroke="#2c5f8a" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="190" y="138" text-anchor="middle" font-size="9" fill="#2c5f8a" font-weight="600">Email 1</text>
+  <text x="190" y="150" text-anchor="middle" font-size="7.5" fill="#e67e22" font-weight="600">SP link &#8594; v1</text>
+  <text x="190" y="170" text-anchor="middle" font-size="7.5" fill="#7a8a9a" font-style="italic">Initial proposal</text>
+
+  <!-- Email Jun 9 -->
+  <rect x="395" y="120" width="70" height="34" rx="6" fill="#fff" stroke="#2c5f8a" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="430" y="138" text-anchor="middle" font-size="9" fill="#2c5f8a" font-weight="600">Email 2</text>
+  <text x="430" y="150" text-anchor="middle" font-size="7.5" fill="#e67e22" font-weight="600">SP link &#8594; v3</text>
+  <text x="430" y="170" text-anchor="middle" font-size="7.5" fill="#7a8a9a" font-style="italic">"Spec is finalized"</text>
+
+  <!-- === SHAREPOINT ROW === -->
+  <text x="60" y="210" font-size="12" font-weight="700" fill="#152233">SharePoint</text>
+
+  <!-- v1 -->
+  <rect x="159" y="192" width="62" height="38" rx="6" fill="#dff0d8" stroke="#27ae60" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="190" y="210" text-anchor="middle" font-size="10" fill="#27ae60" font-weight="700">v1</text>
+  <text x="190" y="221" text-anchor="middle" font-size="7" fill="#5a6a7a">Std primer</text>
+  <text x="190" y="242" text-anchor="middle" font-size="7.5" fill="#5a6a7a">Marcus uploads</text>
+
+  <!-- v2 -->
+  <rect x="309" y="192" width="62" height="38" rx="6" fill="#dff0d8" stroke="#27ae60" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="340" y="210" text-anchor="middle" font-size="10" fill="#27ae60" font-weight="700">v2</text>
+  <text x="340" y="221" text-anchor="middle" font-size="7" fill="#5a6a7a">Galvanized</text>
+  <text x="340" y="242" text-anchor="middle" font-size="7.5" fill="#5a6a7a">Dana tightens</text>
+
+  <!-- v3 -->
+  <rect x="399" y="192" width="62" height="38" rx="6" fill="#d4edda" stroke="#1e8449" stroke-width="2" filter="url(#shadow)"/>
+  <text x="430" y="210" text-anchor="middle" font-size="10" fill="#1e8449" font-weight="700">v3</text>
+  <text x="430" y="221" text-anchor="middle" font-size="7" fill="#1e8449">Epoxy (agreed)</text>
+  <text x="430" y="242" text-anchor="middle" font-size="7.5" fill="#1e8449" font-weight="600">Compromise</text>
+
+  <!-- v4 -->
+  <rect x="539" y="192" width="62" height="38" rx="6" fill="#fce4d6" stroke="#e67e22" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="570" y="210" text-anchor="middle" font-size="10" fill="#e67e22" font-weight="700">v4</text>
+  <text x="570" y="221" text-anchor="middle" font-size="7" fill="#e67e22">Galvanized!</text>
+  <text x="570" y="242" text-anchor="middle" font-size="7.5" fill="#5a6a7a">Engineer update</text>
+
+  <!-- Version chain arrows -->
+  <line x1="221" y1="211" x2="307" y2="211" stroke="#27ae60" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#arrow-green)"/>
+  <line x1="371" y1="211" x2="397" y2="211" stroke="#27ae60" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#arrow-green)"/>
+  <line x1="461" y1="211" x2="537" y2="211" stroke="#e67e22" stroke-width="1.5" stroke-dasharray="4 3"/>
+
+  <!-- Collection line -->
+  <line x1="730" y1="115" x2="730" y2="248" stroke="#c0392b" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="730" y="112" text-anchor="middle" font-size="9" fill="#c0392b" font-weight="700">COLLECTION</text>
+
+  <!-- === CORRECT RESOLUTION (Green) === -->
+  <rect x="60" y="268" width="390" height="210" rx="10" fill="#eafaf1" stroke="#27ae60" stroke-width="1.5"/>
+  <text x="255" y="292" text-anchor="middle" font-size="13" font-weight="700" fill="#27ae60">Reconstruction-Grade Resolution</text>
+
+  <!-- Email 1 -> v1 -->
+  <rect x="86" y="308" width="150" height="48" rx="6" fill="#fff" stroke="#27ae60" stroke-width="1"/>
+  <text x="161" y="326" text-anchor="middle" font-size="9" font-weight="600" fill="#152233">Email 1 (Jun 5)</text>
+  <text x="161" y="344" text-anchor="middle" font-size="10" fill="#27ae60" font-weight="700">&#10003; resolves to v1</text>
+
+  <!-- Email 2 -> v3 -->
+  <rect x="262" y="308" width="150" height="48" rx="6" fill="#fff" stroke="#27ae60" stroke-width="1"/>
+  <text x="337" y="326" text-anchor="middle" font-size="9" font-weight="600" fill="#152233">Email 2 (Jun 9)</text>
+  <text x="337" y="344" text-anchor="middle" font-size="10" fill="#27ae60" font-weight="700">&#10003; resolves to v3</text>
+
+  <text x="255" y="382" text-anchor="middle" font-size="9.5" fill="#27ae60" font-weight="600">As-sent version: latest where</text>
+  <text x="255" y="398" text-anchor="middle" font-size="9.5" fill="#27ae60" font-style="italic">lastModified &#8804; message timestamp</text>
+
+  <text x="255" y="428" text-anchor="middle" font-size="10" fill="#1e8449" font-weight="700">Court sees v3: epoxy coating (agreed terms).</text>
+  <text x="255" y="444" text-anchor="middle" font-size="10" fill="#1e8449" font-weight="700">Apex delivered epoxy. No breach.</text>
+  <text x="255" y="464" text-anchor="middle" font-size="10" fill="#27ae60" font-weight="700">&#10003; Correct outcome</text>
+
+  <!-- === WRONG RESOLUTION (Red) === -->
+  <rect x="480" y="268" width="390" height="210" rx="10" fill="#fdedec" stroke="#c0392b" stroke-width="1.5"/>
+  <text x="675" y="292" text-anchor="middle" font-size="13" font-weight="700" fill="#c0392b">Typical Tool Behavior</text>
+
+  <!-- Email 1 -> v4 -->
+  <rect x="506" y="308" width="150" height="48" rx="6" fill="#fff" stroke="#c0392b" stroke-width="1"/>
+  <text x="581" y="326" text-anchor="middle" font-size="9" font-weight="600" fill="#152233">Email 1 (Jun 5)</text>
+  <text x="581" y="344" text-anchor="middle" font-size="10" fill="#c0392b" font-weight="700">&#10007; resolves to v4</text>
+
+  <!-- Email 2 -> v4 -->
+  <rect x="682" y="308" width="150" height="48" rx="6" fill="#fff" stroke="#c0392b" stroke-width="1"/>
+  <text x="757" y="326" text-anchor="middle" font-size="9" font-weight="600" fill="#152233">Email 2 (Jun 9)</text>
+  <text x="757" y="344" text-anchor="middle" font-size="10" fill="#c0392b" font-weight="700">&#10007; resolves to v4</text>
+
+  <text x="675" y="382" text-anchor="middle" font-size="9.5" fill="#c0392b" font-weight="600">Follows link at collection time,</text>
+  <text x="675" y="398" text-anchor="middle" font-size="9.5" fill="#c0392b" font-style="italic">captures whatever version exists now</text>
+
+  <text x="675" y="428" text-anchor="middle" font-size="10" fill="#c0392b" font-weight="700">Court sees v4: galvanized coating required.</text>
+  <text x="675" y="444" text-anchor="middle" font-size="10" fill="#c0392b" font-weight="700">Apex delivered epoxy. Breach found.</text>
+  <text x="675" y="464" text-anchor="middle" font-size="10" fill="#c0392b" font-weight="700">&#10007; Wrong outcome — false breach</text>
+
+  <!-- Caption -->
+  <text x="450" y="495" text-anchor="middle" font-size="10" fill="#7a8a9a" font-style="italic">Scenario 0 of the RGR Benchmark Suite: The Simple Dispute — a two-custodian baseline test for version determinism</text>
+</svg>
