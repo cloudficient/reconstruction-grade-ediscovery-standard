@@ -10,13 +10,13 @@ The failure modes described in [Section 2](02-context-collapse.md) are not theor
 !!! note "Analytical, not normative"
     This framework is analytical, not normative. It does not introduce new requirements beyond those defined in [Appendix B](appendix-b-requirements.md). It maps the evaluation categories and conformance tests defined in [Section 6](06-evaluation-framework.md) to their documented legal, procedural, and operational consequences when those tests are not met. The requirements themselves are defined in Appendix B. The test procedures are defined in Section 6.3.
 
-This framework draws on published findings from [The Sedona Conference](https://thesedonaconference.org/), the Federal Rules of Civil Procedure, [emerging case law](judicial-signals.md), and observed patterns in enterprise evidence preservation. The standard does not create these risks. It names risks that already exist and maps them to measurable thresholds.
+This framework draws on published findings from [The Sedona Conference](https://thesedonaconference.org/), the Federal Rules of Civil Procedure and Federal Rules of Evidence, [emerging case law](judicial-signals.md), and this standard's own analytical framework. The standard does not create these risks. It names risks that already exist and maps them to measurable thresholds.
 
 ## Why this framework exists
 
-Collaboration platforms have fundamentally changed the nature of electronically stored information. The Sedona Conference's 2025 Commentary on Discovery Implications of Collaboration Platforms confirms that current tools cannot meet judicial expectations for preserving and producing collaborative evidence. The gap between what courts require and what organizations can produce is widening as collaboration platforms accelerate the shift toward dynamic, hyperlinked, continuously versioned content.
+Collaboration platforms have fundamentally changed the nature of electronically stored information. The Sedona Conference's *Commentary on Discovery of Collaboration Platforms Data* (October 2025) documents substantial conceptual, technical, and practical discovery challenges posed by collaboration platforms — including the difficulty of re-associating specific document versions to contemporaneous messages, the complexity of identifying shared workspaces for preservation, and the increased burden of authenticating collaborative content. These challenges are structural and widening as collaboration platforms accelerate the shift toward dynamic, hyperlinked, continuously versioned content.
 
-Organizations evaluating their evidence preservation posture need a structured way to assess exposure. Each risk category below corresponds to an evaluation category defined in [Section 6](06-evaluation-framework.md), is testable against conformance requirements in [Appendix B](appendix-b-requirements.md), and is grounded in documented third-party findings — not assertions originating from this standard.
+Organizations evaluating their evidence preservation posture need a structured way to assess exposure. Each risk category below corresponds to an evaluation category defined in [Section 6](06-evaluation-framework.md) and is testable against conformance requirements in [Appendix B](appendix-b-requirements.md). Categories grounded in third-party authority (Sedona, case law, Federal Rules) are cited directly. Categories grounded in this standard's analytical framework are identified as such.
 
 ---
 
@@ -30,8 +30,8 @@ Organizations evaluating their evidence preservation posture need a structured w
 
 **Documented signals:**
 
-- The Sedona Conference's 2025 Commentary on collaboration platforms identifies the inability to match a message to the "as-sent" version as a structural limitation of current tools.
-- In *In re Insulin Pricing Litigation* (D.N.J., 2024), the court found it "not feasible, practicable, or proportionate" to produce hyperlinked family groups — a direct consequence of the version resolution gap. See [Judicial Signals](judicial-signals.md).
+- The Sedona Conference's *Commentary on Discovery of Collaboration Platforms Data* (October 2025) identifies re-associating the specific document version to the contemporaneous message as a distinct technical challenge on collaboration platforms.
+- In *In re Insulin Pricing Litigation* (D.N.J., 2024), the court accepted defendants' showing that treating hyperlinked documents as family-group attachments was not feasible or practicable, or was unduly burdensome, in their environments — particularly when attempting to produce the as-sent version. See [Judicial Signals](judicial-signals.md).
 
 **Exposure profile:**
 
@@ -51,12 +51,12 @@ Organizations evaluating their evidence preservation posture need a structured w
 
 **Documented signals:**
 
-- The Sedona Commentary notes that evidence scattered across platforms loses relationships, and that current tools cannot reliably reconstruct linkage between messages and the objects they reference.
-- In *In re StubHub Refund Litigation* (N.D. Cal., 2023–2024), the court initially enforced protocol language requiring linked document production, then modified the requirement after finding full compliance not technologically possible — accepting a narrower, targeted approach. See [Judicial Signals](judicial-signals.md).
+- The Sedona Conference's *Commentary on Discovery of Collaboration Platforms Data* (October 2025) identifies the difficulty of preserving relationships between messages and referenced content as a practical challenge, noting that hyperlinked content may change over time and that shared workspaces complicate identification and collection.
+- In *In re StubHub Refund Litigation* (N.D. Cal., 2023–2024), the court initially enforced the agreed ESI protocol and ordered production of linked documents as attachments (April 2023). After a fuller evidentiary record, the court modified the ESI order, found the hyperlink requirement technologically impossible to fulfill most of the time, noted that no commercially available software could implement it, and denied sanctions (May 2024). See [Judicial Signals](judicial-signals.md).
 
 **Exposure profile:**
 
-- *Evidentiary:* A message referencing a document cannot be authenticated as a complete record if the referenced object is absent or decoupled. Authenticity challenges under Rule 901 become procedural rather than substantive — the record itself cannot demonstrate its own completeness.
+- *Evidentiary:* A message referencing a document cannot be authenticated as a complete record if the referenced object is absent or decoupled. Authenticity challenges under FRE 901 become procedural rather than substantive — the record itself cannot demonstrate its own completeness.
 - *Procedural:* Opposing counsel may move to compel production of referenced objects, triggering supplemental collections and production delays.
 - *Operational:* Review teams encounter messages with broken references and no systematic way to identify or prioritize which references are evidentiarily significant.
 
@@ -70,10 +70,10 @@ Organizations evaluating their evidence preservation posture need a structured w
 
 **Threshold gap:** When identity is represented only as current-state directory data, temporal questions — who was in which role, department, or reporting line during the relevant period — cannot be answered from the preserved record.
 
-**Documented signals:**
+**Documented signals and analytical basis:**
 
-- [Section 1.4](01-structural-shift.md) of this standard documents that custodians change roles, teams, and access rights continuously. Legal questions are temporal; directory snapshots are not.
-- The Sedona Commentary identifies the custodian model as inadequate for shared workspaces where relevant content resides outside custodian-owned spaces and organizational context changes over time.
+- *Third-party authority:* The Sedona Conference's *Commentary on Discovery of Collaboration Platforms Data* (October 2025) notes that the traditional custodian model may not fit group workspaces where relevant content resides outside custodian-owned spaces and where shared access complicates identification.
+- *Standard framework:* [Section 1.4](01-structural-shift.md) of this standard documents that custodians change roles, teams, and access rights continuously, and that legal questions are temporal while directory snapshots are not.
 
 **Exposure profile:**
 
@@ -91,15 +91,15 @@ Organizations evaluating their evidence preservation posture need a structured w
 
 **Threshold gap:** When items that cannot be collected are dropped without structured exception records, the production appears complete but is not. The absence is invisible to the producing party, opposing counsel, and the court.
 
-**Documented signals:**
+**Documented signals and analytical basis:**
 
-- [Section 5](05-operating-model.md) of this standard defines failures as first-class workflow states and requires deterministic end states for every preservation attempt. The absence of this discipline is the mechanism through which spoliation exposure accumulates silently.
-- The [Buyer Checklist](toolkit/buyer-checklist.md) identifies "failures are logged internally" — where exceptions are not visible as structured records in the production — as a red flag indicating sub-reconstruction-grade architecture.
+- *Standard framework:* [Section 5](05-operating-model.md) of this standard defines failures as first-class workflow states and requires deterministic end states for every preservation attempt. The absence of this discipline is the mechanism through which spoliation exposure can accumulate without visibility.
+- *Standard framework:* The [Buyer Checklist](toolkit/buyer-checklist.md) identifies "failures are logged internally" — where exceptions are not visible as structured records in the production — as a red flag indicating sub-reconstruction-grade architecture.
 
 **Exposure profile:**
 
 - *Evidentiary:* The producing party cannot demonstrate completeness. When opposing counsel identifies gaps, the absence of exception records means the producing party cannot explain what was attempted, what failed, or why.
-- *Procedural:* Rule 37(e) exposure increases directly. Courts evaluate whether the party took reasonable steps to preserve. Silent drops are the opposite of reasonable steps — they are the absence of any step at all.
+- *Procedural:* Where ESI that should have been preserved is lost because reasonable steps were not taken and it cannot be restored or replaced, Rule 37(e) provides a framework for court-imposed measures. Silent drops — collection failures with no structured record — undermine the producing party's ability to demonstrate that reasonable steps were taken.
 - *Operational:* Without exception tracking, remediation is impossible. The organization cannot identify what was lost, prioritize recovery, or demonstrate good faith effort.
 
 **Testable predicate:** This risk is present when Test T-06 (exception determinism) does not pass.
@@ -112,10 +112,10 @@ Organizations evaluating their evidence preservation posture need a structured w
 
 **Threshold gap:** When audit evidence is not ingested and correlated to preserved objects, access claims rest on permission configuration rather than observed behavior. "Could have accessed" is substituted for "did access."
 
-**Documented signals:**
+**Documented signals and analytical basis:**
 
-- [Section 1.5](01-structural-shift.md) of this standard establishes that permissions describe potential, not proof. [Section 3](03-defining-reconstruction-grade.md) requires that audit-based claims carry explicit coverage bounds and that unknown access be represented as unknown rather than inferred.
-- The Sedona Commentary identifies authentication and evidentiary trustworthiness as a distinct challenge area, noting that current approaches cannot reliably establish who interacted with collaborative content.
+- *Third-party authority:* The Sedona Conference's *Commentary on Discovery of Collaboration Platforms Data* (October 2025) identifies authentication as a distinct challenge area for collaboration platforms, noting that authentication may be more complex when content is collaboratively created and shared.
+- *Standard framework:* [Section 1.5](01-structural-shift.md) of this standard establishes that permissions describe potential, not proof. [Section 3](03-defining-reconstruction-grade.md) requires that audit-based claims carry explicit coverage bounds and that unknown access be represented as unknown rather than inferred.
 
 **Exposure profile:**
 
@@ -133,10 +133,10 @@ Organizations evaluating their evidence preservation posture need a structured w
 
 **Threshold gap:** When stable platform-native identifiers are not preserved, objects that are moved, renamed, or re-shared cannot be re-resolved to their original evidence context. Links decay into unresolvable references.
 
-**Documented signals:**
+**Documented signals and analytical basis:**
 
-- [Section 3](03-defining-reconstruction-grade.md) of this standard defines the stable identifiers (siteId, driveId, itemId, listItemUniqueId, versionId) that must be preserved for re-resolution.
-- In *In re StubHub Refund Litigation*, the court's compromise of manual hyperlink review was driven in part by the inability of existing tools to resolve links to their referenced objects at scale. See [Judicial Signals](judicial-signals.md).
+- *Third-party authority:* In *In re StubHub Refund Litigation* (N.D. Cal., 2024), the court's modified order — accepting that no commercially available software could implement the hyperlink production requirement — reflects the practical consequences when tools cannot resolve links to referenced objects at scale. See [Judicial Signals](judicial-signals.md).
+- *Standard framework:* [Section 3](03-defining-reconstruction-grade.md) of this standard defines the stable identifiers (siteId, driveId, itemId, listItemUniqueId, versionId) that must be preserved for re-resolution.
 
 **Exposure profile:**
 
@@ -154,10 +154,10 @@ Organizations evaluating their evidence preservation posture need a structured w
 
 **Threshold gap:** When the same scope definition produces different outputs on re-export, the reliability of the entire production is open to challenge. Defensibility becomes a function of timing rather than architecture.
 
-**Documented signals:**
+**Documented signals and analytical basis:**
 
-- [Section 4](04-preservation-system-of-record.md) of this standard requires that the Preservation System of Record produce reproducible exports with manifests, hashes, and complete exception traceability.
-- The [Buyer Checklist](toolkit/buyer-checklist.md) identifies "re-running an export may produce different results" as a red flag indicating sub-reconstruction-grade architecture.
+- *Third-party authority:* FRCP Rule 34(b)(2)(E) requires production in the form in which ESI is ordinarily maintained or in a reasonably usable form. Non-reproducible exports — where repeated production from the same scope yields different results — raise questions about whether any single production constitutes a reliable, usable form.
+- *Standard framework:* [Section 4](04-preservation-system-of-record.md) of this standard requires that the Preservation System of Record produce reproducible exports with manifests, hashes, and complete exception traceability. The [Buyer Checklist](toolkit/buyer-checklist.md) identifies "re-running an export may produce different results" as a red flag.
 
 **Exposure profile:**
 
@@ -173,15 +173,15 @@ Organizations evaluating their evidence preservation posture need a structured w
 
 Table 1. Risk Exposure Categories and Evaluation Mapping
 
-| Risk Category | Evaluation Category ([Section 6](06-evaluation-framework.md)) | Conformance Test | Primary FRCP Exposure |
+| Risk Category | Evaluation Category ([Section 6](06-evaluation-framework.md)) | Conformance Test | Primary Rule Exposure (FRCP / FRE) |
 | --- | --- | --- | --- |
-| Version Fidelity | Point-in-time resolution | T-01 | Authenticity (Rule 901); Proportionality (Rule 26(b)) |
-| Evidentiary Fragmentation | Relationship integrity | T-03 | Completeness; Authenticity (Rule 901) |
-| Identity Attribution | Identity over time | T-04 | Scope adequacy; Proportionality (Rule 26(b)) |
-| Silent Loss | Deterministic exceptions | T-06 | Spoliation (Rule 37(e)); Sanctions |
-| Access Inference | Behavior evidence | T-05 | Authenticity; Weight of evidence |
-| Resolution Persistence | Stable identifiers | T-02 | Completeness; Re-collection burden |
-| Defensibility Fragility | Reproducible exports | T-07 | Reliability of production; Judicial confidence |
+| Version Fidelity | Point-in-time resolution | T-01 | FRE 901 (authenticity); FRCP 26(b)(1) (proportionality) |
+| Evidentiary Fragmentation | Relationship integrity | T-03 | FRE 901 (authenticity); FRCP 34(b)(2)(E) (form of production) |
+| Identity Attribution | Identity over time | T-04 | FRCP 26(b)(1) (scope / proportionality) |
+| Silent Loss | Deterministic exceptions | T-06 | FRCP 37(e) (lost ESI, where predicates met) |
+| Access Inference | Behavior evidence | T-05 | FRE 901 (authentication); weight of evidence |
+| Resolution Persistence | Stable identifiers | T-02 | FRCP 34(b)(2)(E) (form of production); re-collection burden |
+| Defensibility Fragility | Reproducible exports | T-07 | FRCP 34(b)(2)(E) (reasonably usable form) |
 
 Each risk category is independently testable. Organizations can evaluate their current exposure by applying the conformance tests defined in [Section 6.3](06-evaluation-framework.md). Where a test does not pass, the corresponding risk category is present regardless of the system, vendor, or architecture in use.
 
@@ -220,4 +220,4 @@ This framework connects to other parts of the standard as follows:
 ---
 
 !!! info "Feedback and participation"
-    This framework reflects the current state of documented signals from The Sedona Conference, published case law, and the Federal Rules of Civil Procedure. If you believe a risk category is overstated, understated, or missing, the standard welcomes feedback through its [participation process](participate/index.md).
+    This framework reflects the current state of documented signals from The Sedona Conference, published case law, the Federal Rules of Civil Procedure, and the Federal Rules of Evidence. If you believe a risk category is overstated, understated, or missing, the standard welcomes feedback through its [participation process](participate/index.md).

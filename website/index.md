@@ -26,13 +26,13 @@ hide:
 <aside class="rgr-status-card" markdown="1">
 ## Current draft
 
-<p class="rgr-status-card__version">0.51-draft</p>
+<p class="rgr-status-card__version">0.52-draft</p>
 <p class="rgr-status-card__meta">Published March 3, 2026</p>
 <p class="rgr-status-card__summary">Originated by Cloudficient and published for vendor-independent standards discussion.</p>
 
 - [Front matter and executive summary](front-matter.md)
 - [Version history](https://github.com/cloudficient/reconstruction-grade-ediscovery-standard/blob/main/CHANGELOG.md)
-- [Latest PDF](https://github.com/cloudficient/reconstruction-grade-ediscovery-standard/releases/latest/download/rgr-standard-0.51-draft.pdf)
+- [Latest PDF](https://github.com/cloudficient/reconstruction-grade-ediscovery-standard/releases/latest/download/rgr-standard-0.52-draft.pdf)
 - [Canonical Markdown source](https://github.com/cloudficient/reconstruction-grade-ediscovery-standard/tree/main/standard)
 </aside>
 </section>
@@ -94,11 +94,16 @@ Outputs can be regenerated with manifest traceability, hashes, exception handlin
 </article>
 </div>
 
-<p class="rgr-note">Conformance claims should cite a published version, stated scope, and the artifacts or tests supporting the claim.</p>
+<section class="rgr-section--panel" markdown="1">
+<p class="rgr-section__eyebrow">Risk assessment</p>
+## What organizations face when preservation falls short.
 
-<div class="rgr-card rgr-card--highlight" markdown="1">
-**[Risk Exposure Framework](risk-exposure-framework.md)** — When evidence preservation falls below reconstruction-grade thresholds, organizations face documented legal, procedural, and operational consequences. The Risk Exposure Framework maps each evaluation category to the specific risks — grounded in Sedona Conference findings, emerging case law, and the Federal Rules of Civil Procedure.
+<p class="rgr-section__lede">When evidence preservation falls below reconstruction-grade thresholds, organizations face documented legal, procedural, and operational consequences. The Risk Exposure Framework maps each evaluation category to the specific risks — grounded in Sedona Conference findings, emerging case law, and the Federal Rules of Civil Procedure and Evidence.</p>
+
+<div class="rgr-hero__actions" markdown="1">
+[Read the Risk Exposure Framework](risk-exposure-framework.md){ .md-button .md-button--primary }
 </div>
+</section>
 </section>
 
 <section markdown="1">
@@ -185,7 +190,7 @@ Request a declaration against a specific standard version and compare it to the 
 - [Section 6: Measurable Evaluation Framework](06-evaluation-framework.md)
 - [Appendix B: Reconstruction-Grade Requirements](appendix-b-requirements.md)
 - [Risk Exposure Framework](risk-exposure-framework.md)
-- [Latest PDF](https://github.com/cloudficient/reconstruction-grade-ediscovery-standard/releases/latest/download/rgr-standard-0.51-draft.pdf)
+- [Latest PDF](https://github.com/cloudficient/reconstruction-grade-ediscovery-standard/releases/latest/download/rgr-standard-0.52-draft.pdf)
 </article>
 
 <article class="rgr-card rgr-card--link-list" markdown="1">

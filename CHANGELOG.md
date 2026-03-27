@@ -11,6 +11,20 @@ The format loosely follows Keep a Changelog principles and uses semantic-style v
 
 ---
 
+## [0.52-draft] – 2026-03-27
+
+### Added
+- **Risk Exposure Framework** — standalone analytical page mapping seven evaluation categories and conformance tests to documented legal, procedural, and operational consequences when evidence preservation falls below reconstruction-grade thresholds. Non-normative; no changes to requirements or conformance levels. Grounded in Sedona Conference findings, emerging case law (FRCP/FRE), and this standard's analytical framework.
+- Homepage Risk Assessment section with link to the new framework.
+- Forward-reference in Section 2.5 (Context Collapse) to the Risk Exposure Framework.
+- Cross-reference in "Why This Exists" page.
+
+### Changed
+- **Design refinements** — improved spacing throughout the site (cards, sections, panels, headings), softened card borders to subtle shadows, brightened accent blue, swapped body font to Inter, lightened header/tab bar.
+- Risk Exposure Framework link added to homepage "Standard text" quick links.
+
+---
+
 ## [0.51-draft] – 2026-03-03
 
 ### Added

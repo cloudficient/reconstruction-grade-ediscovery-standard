@@ -2,7 +2,7 @@
 <p class="rgr-eyebrow">Draft status</p>
 
 - **Status:** Draft for standards discussion
-- **Version:** 0.51-draft
+- **Version:** 0.52-draft
 - **Published:** March 3, 2026
 - **Canonical source:** Markdown in the public Git repository
 - **Origin and intent:** Draft originated by Cloudficient and published for vendor-independent standards discussion
