@@ -95,6 +95,10 @@ Outputs can be regenerated with manifest traceability, hashes, exception handlin
 </div>
 
 <p class="rgr-note">Conformance claims should cite a published version, stated scope, and the artifacts or tests supporting the claim.</p>
+
+<div class="rgr-card rgr-card--highlight" markdown="1">
+**[Risk Exposure Framework](risk-exposure-framework.md)** — When evidence preservation falls below reconstruction-grade thresholds, organizations face documented legal, procedural, and operational consequences. The Risk Exposure Framework maps each evaluation category to the specific risks — grounded in Sedona Conference findings, emerging case law, and the Federal Rules of Civil Procedure.
+</div>
 </section>
 
 <section markdown="1">
@@ -180,6 +184,7 @@ Request a declaration against a specific standard version and compare it to the 
 - [Front matter and executive framing](front-matter.md)
 - [Section 6: Measurable Evaluation Framework](06-evaluation-framework.md)
 - [Appendix B: Reconstruction-Grade Requirements](appendix-b-requirements.md)
+- [Risk Exposure Framework](risk-exposure-framework.md)
 - [Latest PDF](https://github.com/cloudficient/reconstruction-grade-ediscovery-standard/releases/latest/download/rgr-standard-0.51-draft.pdf)
 </article>
 

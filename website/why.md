@@ -27,7 +27,7 @@ These requirements are not theoretical. They appear independently in enterprise 
 
 The problem is that each enterprise reinvents this vocabulary from scratch. There is no shared framework for articulating what "defensible preservation" means when evidence is collaborative, linked, versioned, and identity-dependent. Every RFP restates the same requirements in different language. Every protocol negotiation revisits the same gaps.
 
-The Reconstruction-Grade eDiscovery standard exists to provide that shared framework.
+The Reconstruction-Grade eDiscovery standard exists to provide that shared framework. The [Risk Exposure Framework](risk-exposure-framework.md) maps these requirements to the documented legal, procedural, and operational consequences organizations face when evidence preservation falls below reconstruction-grade thresholds.
 
 ## How this standard emerged
 

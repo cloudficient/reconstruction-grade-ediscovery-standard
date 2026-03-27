@@ -29,3 +29,5 @@ Inferring access from permissions is convenient but methodologically weak. It pr
 - Inability to explain which document state informed a decision at a given time.
 - Difficulty defending proportionality decisions because scope was not evidence-based.
 - Gaps in "who saw what, when" because audit signals were not preserved or correlated.
+
+These symptoms carry documented legal, procedural, and operational consequences. The [Risk Exposure Framework](risk-exposure-framework.md) maps each evaluation category and conformance test to the specific risks organizations face when context collapse is not addressed architecturally.

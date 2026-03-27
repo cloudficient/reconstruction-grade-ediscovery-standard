@@ -1,0 +1,15 @@
+# Normalize line endings
+* text=auto eol=lf
+
+# Ensure .eml files use CRLF per RFC 5322
+*.eml text eol=crlf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.dll binary
+*.exe binary
+*.pdb binary

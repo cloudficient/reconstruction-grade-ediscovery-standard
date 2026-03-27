@@ -127,6 +127,7 @@ nav:
           - "5. Preservation Operating Model and Architectural Constraints": 05-operating-model.md
           - "6. Measurable Evaluation Framework": 06-evaluation-framework.md
           - "7. Standard Governance and Adoption": 07-governance-adoption.md
+      - Risk Exposure Framework: risk-exposure-framework.md
       - Appendices:
           - "Appendix A: Glossary": appendix-a-glossary.md
           - "Appendix B: Reconstruction-Grade Requirements (RGR)": appendix-b-requirements.md
