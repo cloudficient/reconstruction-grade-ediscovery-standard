@@ -1,3 +1,7 @@
+---
+description: "10 essential questions for evaluating eDiscovery tools against Reconstruction-Grade criteria covering version fidelity, relationship integrity, and exports."
+---
+
 # Buyer Checklist
 
 !!! warning "Non‑Normative"

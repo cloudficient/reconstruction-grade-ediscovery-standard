@@ -1,3 +1,7 @@
+---
+description: The context collapse problem in eDiscovery -- how final-state collection loses temporal context, version history, and collaborative meaning from evidence.
+---
+
 # 2. The Context Collapse Problem
 
 Context collapse occurs when collaborative evidence is flattened into files and messages that cannot carry the full burden of explanation. The result is not merely inefficiency. It is [reconstruction](concepts/evidence-reconstruction.md) failure: the inability to reproduce what the actors experienced at the time. Context collapse is the primary mechanism through which the [Context Gap](concepts/context-gap-ediscovery.md) manifests in practice.

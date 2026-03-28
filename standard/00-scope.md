@@ -1,3 +1,7 @@
+---
+description: Scope, non-goals, and document conventions for the Reconstruction-Grade eDiscovery Standard covering collaborative cloud evidence preservation systems.
+---
+
 # 0. Scope, Non-Goals, and Document Conventions
 
 ## 0.1 Scope

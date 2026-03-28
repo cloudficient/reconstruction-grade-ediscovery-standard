@@ -1,3 +1,7 @@
+---
+description: "Starter ESI protocol language for modern collaborative evidence covering as-sent versioning, relationship overlays, exception handling, and audit bounds."
+---
+
 # ESI Protocol Addendum — Starter Language
 
 !!! warning "Non‑Normative"

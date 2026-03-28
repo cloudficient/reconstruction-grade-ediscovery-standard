@@ -1,3 +1,7 @@
+---
+description: Concrete reconstruction scenarios for eDiscovery, including hyperlinked edits, identity drift, version resolution, and collaborative evidence challenges.
+---
+
 # Appendix D: Reconstruction Scenarios
 
 The following scenarios illustrate why Reconstruction-Grade capabilities are not theoretical. They are the minimum to answer modern questions about behavior, reliance, and timing.

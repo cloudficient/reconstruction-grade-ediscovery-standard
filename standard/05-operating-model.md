@@ -1,3 +1,7 @@
+---
+description: Preservation operating model and architectural constraints for defensible evidence systems, including conforming postures and enterprise design patterns.
+---
+
 # 5. Preservation Operating Model and Architectural Constraints
 
 Reconstruction-Grade eDiscovery requires more than correct data structures. It requires a preservation operating model that delivers defensible legal outcomes under real-world enterprise constraints. This section defines the architectural requirements for that operating model, presents conforming preservation postures, and specifies the constraints under which all postures operate.

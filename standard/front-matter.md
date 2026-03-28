@@ -1,3 +1,7 @@
+---
+description: Draft status, version history, and canonical source information for the Reconstruction-Grade eDiscovery Standard (RGR) specification and its provenance.
+---
+
 <div class="rgr-card rgr-frontmatter-status" markdown="1">
 <p class="rgr-eyebrow">Draft status</p>
 

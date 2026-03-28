@@ -1,3 +1,7 @@
+---
+description: Export manifest specification and chain-of-custody profile for reconstruction-grade eDiscovery, ensuring reproducible evidentiary transactions and audit trails.
+---
+
 # Appendix C: Export Manifest and Chain-of-Custody Profile
 
 A Reconstruction-Grade export is not merely a file transfer. It is a reproducible evidentiary transaction. The manifest is the bridge between scope definition and downstream defensibility.

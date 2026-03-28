@@ -1,3 +1,7 @@
+---
+description: Collaboration artifact taxonomy mapping Microsoft 365 workloads to context dependencies, identifiers, and reconstruction risks for eDiscovery preservation.
+---
+
 # Appendix F: Collaboration Artifact Taxonomy and Context Dependencies
 
 Reconstruction-Grade evidence preservation requires workload-specific understanding of what constitutes an artifact, how it is identified, and which relationships are required to preserve meaning. This appendix provides a practical taxonomy for Microsoft 365-centric environments.

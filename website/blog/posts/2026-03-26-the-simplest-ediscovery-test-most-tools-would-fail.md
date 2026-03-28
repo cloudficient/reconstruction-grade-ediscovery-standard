@@ -1,6 +1,7 @@
 ---
 date: 2026-03-26
 draft: false
+description: "Why most eDiscovery tools fail a basic modern attachment test: resolving the correct as-sent document version from a SharePoint link in Microsoft 365 email."
 authors:
   - peterkozak
 categories:
@@ -59,7 +60,7 @@ Microsoft 365 introduced a different model. In many enterprise workflows, an ema
 
 A collection workflow can therefore resolve a link, retrieve a document, and produce a file that is authentic as a file object — yet is not the version that existed when the communication was sent.
 
-This is what the [Reconstruction-Grade eDiscovery Standard](https://rgrstandard.org) refers to as the **modern attachment problem**: the document is present, but the point-in-time relationship between the communication and the correct version has not been preserved.
+This is what the Reconstruction-Grade eDiscovery Standard refers to as the **[modern attachment](../../concepts/modern-attachments.md) problem**: the document is present, but the point-in-time relationship between the communication and the correct version has not been preserved.
 
 ## What This Implies for Defensibility
 
@@ -83,7 +84,7 @@ That is the practical case for treating version determinism as a baseline requir
 
 ## The Baseline Requirement
 
-The [Reconstruction-Grade eDiscovery Standard](https://rgrstandard.org) addresses this problem directly. Before evaluating more complex challenges — identity drift, observed-access correlation, cross-platform evidence chains — the standard asks a more fundamental question:
+The [Reconstruction-Grade eDiscovery Standard](https://rgrstandard.org) addresses this problem directly. Before evaluating more complex challenges — [identity drift](../../concepts/identity-drift.md), observed-access correlation, cross-platform evidence chains — the standard asks a more fundamental question:
 
 <div class="rgr-callout" markdown>
 
@@ -102,7 +103,7 @@ At minimum, a compliant workflow must preserve:
 - The binding between that specific communication and that specific version
 - Reproducible export evidence demonstrating that the same scope yields the same result
 
-The standard captures these through **version determinism**, **modern attachment binding**, and **export reproducibility** — baseline conformance requirements, not aspirational targets.
+The standard captures these through **version determinism**, **[modern attachment](../../concepts/modern-attachments.md) binding**, and **export reproducibility** — baseline conformance requirements, not aspirational targets.
 
 ## A Practical Question
 
@@ -125,3 +126,15 @@ It may still be collecting documents. It may still be populating a review set. B
 That is the simplest e-discovery test most tools would fail — and the reason the [Reconstruction-Grade eDiscovery Standard](https://rgrstandard.org) begins there.
 
 </div>
+
+---
+
+**Explore the standard:**
+
+- [Modern Attachments](../../concepts/modern-attachments.md) — the concept behind the hyperlinked-file problem described above
+- [The Context Gap in eDiscovery](../../concepts/context-gap-ediscovery.md) — how collaborative platforms broke traditional collection assumptions
+- [What Is Reconstruction-Grade eDiscovery?](../../concepts/reconstruction-grade-ediscovery.md) — conformance levels and the evidence model
+- [Defining Reconstruction-Grade eDiscovery](../../03-defining-reconstruction-grade.md) — the full standard chapter on version determinism and as-sent resolution
+- [Reconstruction Scenarios](../../appendix-d-reconstruction-scenarios.md) — concrete scenarios including hyperlinked attachment after-the-fact edits
+- [Vendor Scoring Worksheet](../../appendix-h-vendor-scoring.md) — evaluate whether your tools handle this test
+- [ESI Protocol Addendum](../../toolkit/esi-protocol-addendum.md) — starter language for addressing collaborative evidence in ESI protocols

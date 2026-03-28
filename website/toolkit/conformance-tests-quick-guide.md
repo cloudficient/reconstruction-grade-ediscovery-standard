@@ -1,3 +1,7 @@
+---
+description: "Quick reference guide for the seven RGR conformance tests (T-01 to T-07) covering version resolution, link canonicalization, and export reproducibility."
+---
+
 # Conformance Tests Quick Guide
 
 !!! warning "Non‑Normative"

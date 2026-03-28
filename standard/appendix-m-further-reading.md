@@ -1,3 +1,7 @@
+---
+description: Further reading and references for reconstruction-grade eDiscovery, including published articles on context-aware preservation and collaborative evidence.
+---
+
 # Appendix M: Further Reading
 
 The following materials provide additional context on collaborative evidence challenges and the motivation for Reconstruction-Grade standards.

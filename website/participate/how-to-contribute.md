@@ -1,3 +1,7 @@
+---
+description: "How to contribute to the Reconstruction-Grade eDiscovery Standard, including guidelines for normative changes, non-normative fixes, and style conventions."
+---
+
 # How to Contribute
 
 This page summarizes the contribution process for the Reconstruction‑Grade eDiscovery Standard. For complete details, see [CONTRIBUTING.md](https://github.com/cloudficient/reconstruction-grade-ediscovery-standard/blob/main/CONTRIBUTING.md) in the repository root.

@@ -1,3 +1,7 @@
+---
+description: Normative reconstruction-grade requirements (RGR) with MUST/SHOULD/MAY conformance levels for eDiscovery evidence preservation and export system design.
+---
+
 # Appendix B: Reconstruction-Grade Requirements (RGR)
 
 This appendix defines the normative requirements for Reconstruction-Grade conformance.

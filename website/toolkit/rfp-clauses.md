@@ -1,3 +1,7 @@
+---
+description: "Sample RFP clauses for procuring eDiscovery preservation and collection tools that meet Reconstruction-Grade conformance requirements for collaborative evidence."
+---
+
 # RFP Clause Pack
 
 !!! warning "Non‑Normative"

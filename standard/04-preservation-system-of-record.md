@@ -1,3 +1,7 @@
+---
+description: The Preservation System of Record concept and reference architecture for maintaining evidence context, determinism, and traceability in eDiscovery systems.
+---
+
 # 4. The Preservation System of Record
 
 Modern collaboration platforms are operational systems. They are designed to enable work, not to serve as historical systems of record for litigation-grade reconstruction. Review platforms are downstream consumers. Archives are storage systems. Compliance tooling is policy-oriented.

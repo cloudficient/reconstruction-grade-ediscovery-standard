@@ -9,6 +9,7 @@ repo_url: https://github.com/cloudficient/reconstruction-grade-ediscovery-standa
 repo_name: GitHub
 docs_dir: website
 site_dir: site
+use_directory_urls: true
 
 copyright: >-
   &copy; 2026 Cloudficient. Public draft published for vendor-independent standards discussion.

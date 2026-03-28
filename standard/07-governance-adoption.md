@@ -1,3 +1,7 @@
+---
+description: Governance model, versioning policy, and adoption pathways for the Reconstruction-Grade eDiscovery Standard across enterprises and legal-tech vendors.
+---
+
 # 7. Standard Governance and Adoption
 
 Reconstruction-Grade eDiscovery is not a product. It is a standard of evidence architecture. The goal is to define measurable criteria that enterprises, service providers, and technology vendors can evaluate and implement independently.

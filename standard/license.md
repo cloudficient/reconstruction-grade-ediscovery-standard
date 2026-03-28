@@ -1,3 +1,7 @@
+---
+description: Creative Commons Attribution 4.0 International (CC BY 4.0) license terms governing the Reconstruction-Grade eDiscovery Standard and its original diagrams.
+---
+
 # License
 
 Except where otherwise noted, the text and original diagrams in this repository are licensed under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**.

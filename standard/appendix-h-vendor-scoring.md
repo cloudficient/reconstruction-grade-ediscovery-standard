@@ -1,3 +1,7 @@
+---
+description: Vendor scoring worksheet for evaluating eDiscovery platforms against reconstruction-grade criteria, with weighted scoring and evidence documentation fields.
+---
+
 # Appendix H: Vendor Scoring Worksheet
 
 This worksheet provides a structured way to score solutions against Reconstruction-Grade criteria. Scores are illustrative; enterprises should adjust weights based on risk profile.

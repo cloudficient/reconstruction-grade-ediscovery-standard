@@ -1,3 +1,7 @@
+---
+description: Measurable evaluation framework for assessing reconstruction-grade eDiscovery platforms, with scoring categories, conformance tests, and grading criteria.
+---
+
 # 6. Measurable Evaluation Framework
 
 A new category only matters if it can be evaluated. This section provides a practical framework for assessing whether a platform is Reconstruction-Grade.

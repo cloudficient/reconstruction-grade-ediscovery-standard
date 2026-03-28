@@ -1,3 +1,7 @@
+---
+description: Essential questions to ask eDiscovery vendors about collaborative evidence handling, version resolution, stable identifiers, and reconstruction fidelity.
+---
+
 # Appendix G: Questions to Ask Vendors
 
 When evaluating platforms for Reconstruction-Grade conformance, enterprises should require substantive answers to the following questions. These questions are designed to distinguish systems that preserve collaborative evidence with reconstruction-grade fidelity from those that flatten it into files and messages that cannot support legal reasoning.

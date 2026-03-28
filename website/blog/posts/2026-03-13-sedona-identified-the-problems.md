@@ -1,6 +1,7 @@
 ---
 date: 2026-03-13
 draft: false
+description: "How The Sedona Conference's 2025 Commentary on collaboration platforms aligns with the RGR Standard's architectural answers for eDiscovery challenges."
 authors:
   - peterkozak
 categories:
@@ -103,3 +104,15 @@ What follows is not a critique of the Sedona Commentary — it's a response. For
 The Sedona Conference Commentary is a signal that the industry recognizes these challenges are real, pervasive, and growing. The Reconstruction-Grade eDiscovery Standard is an attempt to move from recognition to architecture — with testable, vendor-neutral conformance requirements that any platform, tool, or service provider can be measured against.
 
 The public draft (v0.51) is available at [rgrstandard.org](https://rgrstandard.org). We welcome review, critique, and collaboration from the e-discovery community — including the Sedona Working Group members whose diagnostic work made the need so clear.
+
+---
+
+**Explore the standard:**
+
+- [The Context Gap in eDiscovery](../../concepts/context-gap-ediscovery.md) — why collaborative evidence breaks traditional collection assumptions
+- [What Is Evidence Reconstruction?](../../concepts/evidence-reconstruction.md) — the architectural concept behind point-in-time fidelity
+- [Modern Attachments](../../concepts/modern-attachments.md) — when hyperlinks replace embedded files
+- [Identity Drift](../../concepts/identity-drift.md) — why "who sent it" is harder than it sounds
+- [Measurable Evaluation Framework](../../06-evaluation-framework.md) — how the standard scores vendor capabilities
+- [Risk Exposure Framework](../../risk-exposure-framework.md) — what's at stake when preservation falls short
+- [Questions to Ask Vendors](../../appendix-g-vendor-questions.md) — practical vendor evaluation questions

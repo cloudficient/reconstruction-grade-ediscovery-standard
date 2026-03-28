@@ -1,3 +1,7 @@
+---
+description: Glossary of key terms used in the Reconstruction-Grade eDiscovery Standard, including context gap, modern attachments, and evidence reconstruction concepts.
+---
+
 # Appendix A: Glossary
 
 Collaborative evidence: Evidence created and used in cloud-native collaboration environments where artifacts are link-based, shared, and continuously revised.

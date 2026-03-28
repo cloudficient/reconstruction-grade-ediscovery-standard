@@ -1,3 +1,7 @@
+---
+description: How cloud-native collaboration platforms changed evidence behavior, breaking traditional eDiscovery assumptions about files, ownership, and legal custody.
+---
+
 # 1. The Structural Shift in Evidence Behavior
 
 The shift from on-premises file shares and email attachments to cloud-native collaboration has changed the evidentiary substrate. The change is not primarily about volume. It is about how work is performed, recorded, and referenced.

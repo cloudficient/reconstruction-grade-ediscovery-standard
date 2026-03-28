@@ -1,3 +1,7 @@
+---
+description: "Template for declaring RG-Core, RG-Plus, or RG-Max conformance to the Reconstruction-Grade eDiscovery Standard with structured test results and attestation."
+---
+
 # Conformance Declaration Template
 
 !!! warning "Non‑Normative"

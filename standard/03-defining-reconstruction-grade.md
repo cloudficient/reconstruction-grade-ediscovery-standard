@@ -1,3 +1,7 @@
+---
+description: Definition of reconstruction-grade eDiscovery, the three-pillar evidence model, and conformance levels for reproducible point-in-time evidence collection.
+---
+
 # 3. Defining Reconstruction-Grade eDiscovery
 
 Reconstruction-Grade eDiscovery is an architectural classification. It describes whether an evidence system can produce a reproducible, point-in-time record of collaborative activity without relying on hindsight or inference.

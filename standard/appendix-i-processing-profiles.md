@@ -1,3 +1,7 @@
+---
+description: Deterministic resolution algorithms and processing profiles for reproducible evidence handling, including as-sent version resolution for eDiscovery systems.
+---
+
 # Appendix I: Deterministic Resolution and Processing Profiles
 
 This appendix provides non-normative algorithm sketches that illustrate deterministic processing. Implementations will vary, but outcomes must be reproducible.

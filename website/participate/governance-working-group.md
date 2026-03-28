@@ -1,3 +1,7 @@
+---
+description: "How the Reconstruction-Grade eDiscovery Standard is governed, how normative changes are evaluated, and how to participate in the open working group."
+---
+
 # Governance & Working Group
 
 This page describes how the Reconstruction‑Grade eDiscovery Standard is governed, how normative changes are evaluated, and how the working group operates. It operationalizes the principles in [Section 7 — Standard Governance and Adoption](../07-governance-adoption.md).

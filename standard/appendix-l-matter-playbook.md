@@ -1,3 +1,7 @@
+---
+description: Collect-to-preserve matter playbook for eDiscovery, covering legal hold triggers, scope definition, custodian identity resolution, and production workflows.
+---
+
 # Appendix L: Collect-to-Preserve Matter Playbook
 
 Collect-to-Preserve is an operating discipline. The playbook below describes what 'good' looks like when a matter triggers preservation.

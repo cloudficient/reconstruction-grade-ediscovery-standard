@@ -1,3 +1,7 @@
+---
+description: Exception taxonomy with reason codes and operational playbooks for handling evidence anomalies in reconstruction-grade eDiscovery preservation programs.
+---
+
 # Appendix J: Exception Taxonomy and Operational Playbooks
 
 Exceptions are not edge cases at enterprise scale. A Reconstruction-Grade program treats exception handling as an operational discipline.

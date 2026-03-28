@@ -1,3 +1,7 @@
+---
+description: Operational metrics for reconstruction-grade evidence programs, measuring context coverage, exception rates, resolution latency, and preservation quality.
+---
+
 # Appendix E: Operational Metrics for Reconstruction-Grade Programs
 
 Reconstruction-Grade programs benefit from operational metrics that quantify coverage, risk, and time-to-use.

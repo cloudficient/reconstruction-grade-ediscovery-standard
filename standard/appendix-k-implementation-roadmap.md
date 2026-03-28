@@ -1,3 +1,7 @@
+---
+description: Enterprise implementation roadmap for reconstruction-grade eDiscovery programs, from IT alignment through phased adoption of preservation capabilities.
+---
+
 # Appendix K: Enterprise Implementation Roadmap
 
 Reconstruction-Grade adoption is best approached as a program, not a single ingestion project. The goal is to establish a Preservation System of Record that delivers immediate matter value while expanding coverage over time.
