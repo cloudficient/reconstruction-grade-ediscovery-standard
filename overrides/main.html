@@ -115,6 +115,27 @@
   }
   </script>
   {% endif %}
+  {# --- FAQ Structured Data (additional, alongside page-type schema) --- #}
+  {% if page and page.meta and page.meta.schema == 'faq' and page.meta.faq %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {% for item in page.meta.faq %}
+      {
+        "@type": "Question",
+        "name": {{ item.q | default('', true) | tojson }},
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": {{ item.a | default('', true) | tojson }}
+        }
+      }{% if not loop.last %},{% endif %}
+      {% endfor %}
+    ]
+  }
+  </script>
+  {% endif %}
 {% endblock %}
 
 {% block announce %}

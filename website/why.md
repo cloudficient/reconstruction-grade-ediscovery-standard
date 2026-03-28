@@ -1,6 +1,22 @@
 ---
 title: Why This Standard Exists
 description: The problem that created the need for a reconstruction-grade evidence standard, how it emerged from real-world implementation, and honest answers to the questions evaluators will ask.
+schema: faq
+faq:
+  - q: "What is reconstruction-grade eDiscovery?"
+    a: "An architectural classification describing whether an evidence system can produce a reproducible, point-in-time record of collaborative cloud activity — deterministically resolving what documents existed, who was involved, what was shared, and who accessed what — grounded in preserved fact rather than inference."
+  - q: "What is the context gap in eDiscovery?"
+    a: "The structural difference between how evidence is created in collaborative cloud platforms — through hyperlinks, version histories, and evolving identity states — and what traditional eDiscovery systems can reconstruct after the fact. This gap prevents systems from deterministically answering which document version existed at the time of communication."
+  - q: "What is evidence reconstruction?"
+    a: "The ability of a system to deterministically reproduce what actors experienced in a collaborative environment at a specific point in time, grounded in preserved fact rather than post-hoc inference. Reconstruction-grade systems capture the relationships and timelines required to recreate events as they occurred."
+  - q: "What is identity drift in eDiscovery?"
+    a: "The continuous change of a person's role, department, access rights, and organizational context over time, creating a mismatch between present-day directory snapshots and historical legal questions. When a litigation question asks who had access to a document six months ago, the current directory state may not reflect the answer."
+  - q: "What are modern attachments in eDiscovery?"
+    a: "Message-level references to live repository objects — delivered via hyperlink instead of embedded file bytes — where the document continues to change after the message is sent. The message does not carry the document state it originally referenced, so the exported bytes may not be the bytes the recipient saw."
+  - q: "How does the RGR Standard apply to Microsoft 365, Teams, and Slack?"
+    a: "These platforms operate by default on hyperlinked documents, co-authored files, evolving identity, and shared workspaces. Every standard eDiscovery collection from these environments encounters the context gap. The standard provides measurable evaluation criteria and a vendor scoring worksheet for assessing platform capabilities."
+  - q: "What are the RGR conformance levels?"
+    a: "The standard defines three tiers: RG-Core (baseline — deterministic point-in-time document resolution, stable identifier preservation, and reproducible manifests), RG-Plus (adds effective-dated identity reconstruction and audit-evidence ingestion), and RG-Max (adds accessed-version analysis, expanded artifact coverage, and advanced validation)."
 ---
 
 # Why This Standard Exists
@@ -44,7 +60,39 @@ Transparency about the current state matters as much as transparency about the i
 - **Formal conformance evaluation** — for Cloudficient or anyone else — requires a reference dataset and evaluation process that the founding working group has not yet created. Cloudficient does not self-certify against its own standard.
 - **The standard was published now**, not when everything is complete, because the industry needs the framework today. Waiting for one vendor to finish every edge case before publishing would defeat the purpose of an open standard.
 
-## Questions evaluators will ask
+## Common questions about the standard
+
+### What is reconstruction-grade eDiscovery?
+
+An architectural classification describing whether an evidence system can produce a reproducible, point-in-time record of collaborative cloud activity — deterministically resolving what documents existed, who was involved, what was shared, and who accessed what — grounded in preserved fact rather than inference. [Read the full concept.](concepts/reconstruction-grade-ediscovery.md)
+
+### What is the context gap?
+
+The structural difference between how evidence is created in collaborative cloud platforms — through hyperlinks, version histories, and evolving identity states — and what traditional eDiscovery systems can reconstruct after the fact. This gap prevents systems from deterministically answering which document version existed at the time of communication, who had access at a given moment, or what actually occurred. [Read the full concept.](concepts/context-gap-ediscovery.md)
+
+### What is evidence reconstruction?
+
+The ability of a system to deterministically reproduce what actors experienced in a collaborative environment at a specific point in time, grounded in preserved fact rather than post-hoc inference. Reconstruction-grade systems capture the relationships and timelines — messages, linked documents, version histories, identity states, permissions, and audit events — required to recreate events as they occurred. [Read the full concept.](concepts/evidence-reconstruction.md)
+
+### What is identity drift?
+
+The continuous change of a person's role, department, access rights, and organizational context over time, creating a mismatch between present-day directory snapshots and historical legal questions. When a litigation question asks who had access to a document six months ago, the current directory state may not reflect the answer. [Read the full concept.](concepts/identity-drift.md)
+
+### What are modern attachments?
+
+Message-level references to live repository objects — delivered via hyperlink instead of embedded file bytes — where the document continues to change after the message is sent. The message does not carry the document state it originally referenced, so the exported bytes may not be the bytes the recipient saw. [Read the full concept.](concepts/modern-attachments.md)
+
+### How does this apply to Microsoft 365, Teams, and Slack?
+
+These platforms operate by default on hyperlinked documents, co-authored files, evolving identity, and shared workspaces. Every standard eDiscovery collection from these environments encounters the [context gap](concepts/context-gap-ediscovery.md) — the question is whether the workflow can resolve it or whether it silently produces an incomplete record. The standard provides [measurable evaluation criteria](06-evaluation-framework.md) and a [vendor scoring worksheet](appendix-h-vendor-scoring.md) for assessing platform capabilities.
+
+### What are the conformance levels?
+
+The standard defines three tiers: **RG-Core** (baseline — deterministic point-in-time document resolution, stable identifier preservation, and reproducible manifests), **RG-Plus** (adds effective-dated identity reconstruction and audit-evidence ingestion), and **RG-Max** (adds accessed-version analysis, expanded artifact coverage, and advanced validation). [Read the full definition.](concepts/reconstruction-grade-ediscovery.md#conformance-levels)
+
+---
+
+## Questions about credibility and governance
 
 These are the questions a skeptical evaluator should ask. We answer them directly.
 
