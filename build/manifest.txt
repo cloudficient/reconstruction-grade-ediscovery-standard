@@ -7,6 +7,7 @@ standard/04-preservation-system-of-record.md
 standard/05-operating-model.md
 standard/06-evaluation-framework.md
 standard/07-governance-adoption.md
+standard/risk-exposure-framework.md
 standard/appendix-a-glossary.md
 standard/appendix-b-requirements.md
 standard/appendix-c-export-manifest.md
