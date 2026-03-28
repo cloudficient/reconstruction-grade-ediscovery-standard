@@ -56,6 +56,9 @@ jobs:
           echo "PDF built successfully:"
           ls -la dist/
 
+      - name: Create stable-name copy for latest download link
+        run: cp "dist/rgr-standard-${{ steps.version.outputs.VERSION }}.pdf" dist/rgr-standard-latest.pdf
+
       - name: List built artifacts
         run: ls -la dist/
 
