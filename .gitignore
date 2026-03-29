@@ -40,3 +40,6 @@ TestResults/
 
 # Node (for future frontend)
 node_modules/
+
+# RGR Chatbot subproject (will move to separate repo)
+rgr-chatbot/

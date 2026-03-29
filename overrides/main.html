@@ -164,6 +164,13 @@
   </div>
 {% endblock %}
 
+{% block scripts %}
+  {{ super() }}
+  {# --- RGR Standard Assistant Chat Widget --- #}
+  <script src="https://rgr-assistant-api.emeraldhill4306.com/widget/rgr-chat.js"
+          data-api-url="https://rgr-assistant-api.emeraldhill4306.com"></script>
+{% endblock %}
+
 {% block footer %}
   <section class="rgr-site-footer">
     <div class="md-grid rgr-site-footer__grid">
