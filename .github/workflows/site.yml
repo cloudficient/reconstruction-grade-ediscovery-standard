@@ -54,3 +54,18 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Notify IndexNow (Bing) of updated pages
+        run: |
+          sleep 10
+          URLS=$(curl -s https://rgrstandard.org/sitemap.xml \
+            | grep -oP '<loc>\K[^<]+' | head -100 \
+            | jq -R -s 'split("\n") | map(select(length > 0))')
+          curl -s -o /dev/null -w "%{http_code}" -X POST "https://api.indexnow.org/indexnow" \
+            -H "Content-Type: application/json" \
+            -d "{
+              \"host\": \"rgrstandard.org\",
+              \"key\": \"288f43373f0241bd9a0c7aa4a0bce57f\",
+              \"keyLocation\": \"https://rgrstandard.org/288f43373f0241bd9a0c7aa4a0bce57f.txt\",
+              \"urlList\": $URLS
+            }"
