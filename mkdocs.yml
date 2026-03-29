@@ -79,6 +79,9 @@ extra:
 extra_css:
   - stylesheets/extra.css
 
+extra_javascript:
+  - https://rgr-assistant-api.emeraldhill4306.com/widget/rgr-chat.js
+
 markdown_extensions:
   - toc:
       permalink: true
