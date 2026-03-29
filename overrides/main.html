@@ -145,6 +145,10 @@
   }
   </script>
   {% endif %}
+
+  {# --- RGR Standard Assistant Chat Widget --- #}
+  <script defer src="https://rgr-assistant-api.emeraldhill4306.com/widget/rgr-chat.js"
+          data-api-url="https://rgr-assistant-api.emeraldhill4306.com"></script>
 {% endblock %}
 
 {% block announce %}
@@ -162,13 +166,6 @@
       </nav>
     </div>
   </div>
-{% endblock %}
-
-{% block scripts %}
-  {{ super() }}
-  {# --- RGR Standard Assistant Chat Widget --- #}
-  <script src="https://rgr-assistant-api.emeraldhill4306.com/widget/rgr-chat.js"
-          data-api-url="https://rgr-assistant-api.emeraldhill4306.com"></script>
 {% endblock %}
 
 {% block footer %}
