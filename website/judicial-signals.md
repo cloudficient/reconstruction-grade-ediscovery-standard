@@ -8,7 +8,7 @@ description: Selected discovery decisions and disputes involving hyperlinked fil
 Courts are increasingly confronting disputes involving linked and cloud-hosted evidence, but the decisions remain highly dependent on protocol language, factual context, relevance, and technical feasibility. This page highlights selected developments as signals of an emerging problem space, not as a substitute for legal analysis or case-specific advice.
 
 !!! tip "Related Analysis"
-    For analysis of what these developments mean for Rule 37(e) "reasonable steps" obligations, see [What FRCP Rule 37(e) Means for Modern Collaboration Platforms](blog/what-frcp-rule-37e-means-for-modern-collaboration-platforms/).
+    For analysis of what these developments mean for Rule 37(e) "reasonable steps" obligations, see [What FRCP Rule 37(e) Means for Modern Collaboration Platforms](https://rgrstandard.org/blog/what-frcp-rule-37e-means-for-modern-collaboration-platforms/).
 
 ## What the cases seem to show
 
