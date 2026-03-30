@@ -157,17 +157,15 @@ nav:
       - ESI Protocol Addendum: toolkit/esi-protocol-addendum.md
       - Conformance Declaration Template: toolkit/conformance-declaration-template.md
       - Conformance Tests Quick Guide: toolkit/conformance-tests-quick-guide.md
-  - Why This Exists:
-      - Why This Standard Exists: why.md
   - Governance:
       - Governance Overview: governance/index.md
       - Standard Governance and Adoption: 07-governance-adoption.md
       - Governance and Working Group: participate/governance-working-group.md
-  - Participate:
       - Participate: participate/index.md
       - How to Contribute: participate/how-to-contribute.md
   - Blog:
       - blog/index.md
   - About:
       - About the Initiative: about/index.md
+      - Why This Standard Exists: why.md
       - License: license.md

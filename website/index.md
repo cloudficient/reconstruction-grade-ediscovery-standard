@@ -39,23 +39,23 @@ hide:
 
 <section markdown="1">
 <div class="rgr-summary-grid" markdown="1">
-<article class="rgr-summary-card" markdown="1">
+<article class="rgr-summary-card rgr-clickable" markdown="1">
 <p class="rgr-card__eyebrow">Version</p>
-### Public and versioned
+### [Public and versioned](front-matter.md)
 
 Published with release history, canonical text, and a downloadable PDF so claims can be tied to a version.
 </article>
 
-<article class="rgr-summary-card" markdown="1">
+<article class="rgr-summary-card rgr-clickable" markdown="1">
 <p class="rgr-card__eyebrow">Evaluation</p>
-### Measurable and testable
+### [Measurable and testable](06-evaluation-framework.md)
 
 Section 6, Appendix B, and the toolkit turn the standard into comparable questions, scoring logic, and conformance checks.
 </article>
 
-<article class="rgr-summary-card" markdown="1">
+<article class="rgr-summary-card rgr-clickable" markdown="1">
 <p class="rgr-card__eyebrow">Governance</p>
-### Visible and open
+### [Visible and open](governance/index.md)
 
 Normative changes, participation paths, and version transparency are public from the start.
 </article>
@@ -69,26 +69,26 @@ Normative changes, participation paths, and version transparency are public from
 <p class="rgr-section__lede">Section 6 and Appendix B define the detailed requirements and conformance tests. At a high level, Reconstruction-Grade rests on four core expectations.</p>
 
 <div class="rgr-card-grid rgr-card-grid--2" markdown="1">
-<article class="rgr-card" markdown="1">
-### Point-in-time fidelity
+<article class="rgr-card rgr-clickable" markdown="1">
+### [Point-in-time fidelity](03-defining-reconstruction-grade.md)
 
 Relevant messages, referenced content, and states can be reproduced at the event time rather than replaced with a later state.
 </article>
 
-<article class="rgr-card" markdown="1">
-### Relationship integrity
+<article class="rgr-card rgr-clickable" markdown="1">
+### [Relationship integrity](03-defining-reconstruction-grade.md)
 
 Message, link, file, version, participant, permission, and timeline relationships remain traceable over time.
 </article>
 
-<article class="rgr-card" markdown="1">
-### Bounded evidence handling
+<article class="rgr-card rgr-clickable" markdown="1">
+### [Bounded evidence handling](03-defining-reconstruction-grade.md)
 
 Identity, audit, repository, and behavior evidence is preserved where possible, with platform or retention limits declared explicitly.
 </article>
 
-<article class="rgr-card" markdown="1">
-### Reproducible outputs
+<article class="rgr-card rgr-clickable" markdown="1">
+### [Reproducible outputs](06-evaluation-framework.md)
 
 Outputs can be regenerated with manifest traceability, hashes, exception handling, and declared scope tied to a specific standard version.
 </article>
@@ -113,30 +113,30 @@ Outputs can be regenerated with manifest traceability, hashes, exception handlin
 <p class="rgr-section__lede">The standard supports platform review, workflow design, procurement, and expert evaluation. The toolkit helps turn it into repeatable comparison work.</p>
 
 <div class="rgr-card-grid" markdown="1">
-<article class="rgr-card" markdown="1">
+<article class="rgr-card rgr-clickable" markdown="1">
 <p class="rgr-step__number">1</p>
-### Read the standard
+### [Read the standard](front-matter.md)
 
 Start with the front matter, evaluation framework, and requirements to understand the targets and definitions.
 </article>
 
-<article class="rgr-card" markdown="1">
+<article class="rgr-card rgr-clickable" markdown="1">
 <p class="rgr-step__number">2</p>
-### Use the vendor questions
+### [Use the vendor questions](appendix-g-vendor-questions.md)
 
 Apply [Appendix G](appendix-g-vendor-questions.md) to test how a platform explains versioning, audit coverage, relationship handling, and exceptions.
 </article>
 
-<article class="rgr-card" markdown="1">
+<article class="rgr-card rgr-clickable" markdown="1">
 <p class="rgr-step__number">3</p>
-### Use the scoring worksheet
+### [Use the scoring worksheet](appendix-h-vendor-scoring.md)
 
 Apply [Appendix H](appendix-h-vendor-scoring.md) so platform comparisons stay anchored to the same measurable criteria.
 </article>
 
-<article class="rgr-card" markdown="1">
+<article class="rgr-card rgr-clickable" markdown="1">
 <p class="rgr-step__number">4</p>
-### Compare versioned declarations
+### [Compare versioned declarations](toolkit/conformance-declaration-template.md)
 
 Request a declaration against a specific standard version and compare it to the published conformance framework, not sales language.
 </article>
