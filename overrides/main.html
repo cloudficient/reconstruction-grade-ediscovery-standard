@@ -74,7 +74,7 @@
     "datePublished": "{{ page.meta.date }}",
     "author": {
       "@type": "Person",
-      "name": "Peter Kozak"
+      "name": "{{ page.meta.author_name | default('Peter Kozak') }}"
     },
     "publisher": {
       "@type": "Organization",
