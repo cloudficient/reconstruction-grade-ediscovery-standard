@@ -66,11 +66,13 @@ As early as 2021, courts began resisting the idea that hyperlinks are automatica
 
 ### Carvana: When Courts Start Testing Tools
 
-The most significant recent development may be *In re Carvana* (D. Ariz., 2026). Rather than accepting blanket infeasibility claims or requiring full production, the court ordered something new: a bounded forensic capability test.
+The most significant recent development may be *In re Carvana Co. Securities Litigation*, No. CV-22-02126-PHX-MTL (D. Ariz., 2025–2026). Rather than accepting blanket infeasibility claims or requiring full production, the court ordered something new: a bounded forensic capability test — and then expanded it.
 
-Following an August 2025 pilot on two custodians, the court's January 12, 2026 order directed defendants to process batches of up to 250 plaintiff-selected emails using Forensic Email Collector (FEC) — a specific named tool — and to provide the most contemporaneous version of non-privileged linked attachments within 10 days.
+In August 2025, the court ordered a limited pilot: plaintiffs could select up to two custodians, and defendants were directed to run Forensic Email Collector (FEC) — a specific named tool — to test whether historical hyperlinked documents could be retrieved proportionally, producing versions "as closely contemporaneous to, but preceding" the email as feasible (Doc. 196, Aug. 21, 2025).
 
-This is a different kind of order. The court did not resolve the definitional question of whether hyperlinks are attachments. It imposed a practical test: take a defined sample, run it through a forensic tool, and demonstrate what can and cannot be recovered. If the tool can produce contemporaneous versions for some subset of the sample, the infeasibility argument narrows. If it cannot, the record is developed with specificity rather than assertions.
+Following a compliance dispute, the court's January 2026 order expanded the exercise: plaintiffs may select 250 responsive emails from any of the 25 ESI custodians, defendants must run FEC and produce the most contemporaneous non-privileged hyperlinked documents within 10 days, and defendants must also produce responsive non-privileged Google Vault documents (Doc. 255, Jan. 12, 2026).
+
+This is a different kind of order. The court did not resolve the definitional question of whether hyperlinks are attachments. It imposed a practical test: take a defined sample, run it through a forensic tool, and demonstrate what can and cannot be recovered. When the initial pilot supported further testing, the court escalated — moving from a bounded capability test to an expanded compliance requirement across all ESI custodians.
 
 Practitioners should expect this approach to spread. Courts that have spent years hearing "it's not feasible" now have a template for testing that claim. Organizations and their eDiscovery providers should be prepared to demonstrate — not merely assert — what their tools can and cannot recover from hyperlinked content.
 
@@ -132,5 +134,6 @@ The question for practitioners is not whether these issues will arise in their m
 - [Lubrizol v. IBM — X1 Discovery](https://www.x1.com/blog/court-decision-in-lubrizol-vs-ibm-provides-important-guidance-on-ms-teams-discovery/)
 - [The Preservation Nightmare of Hyperlinked Files — eDiscovery Today](https://ediscoverytoday.com/2024/08/20/the-preservation-nightmare-of-hyperlinked-files-ediscovery-trends/)
 - [Commentary on Discovery of Collaboration Platforms Data — The Sedona Conference](https://www.thesedonaconference.org/node/11329)
-- [Key Themes in eDiscovery Case Law Q1 2025 — Morgan Lewis](https://www.morganlewis.com/pubs/2025/05/key-themes-and-actionable-insights-from-recent-ediscovery-case-law-q1-2025)
+- *In re Carvana Co. Sec. Litig.*, No. CV-22-02126-PHX-MTL, Doc. 196 (D. Ariz. Aug. 21, 2025); Doc. 255 (D. Ariz. Jan. 12, 2026)
+- [eDiscovery Today — Carvana hyperlinks/FEC coverage](https://www.ediscoveryllc.com/recent-hyperlinked-documents-decision/)
 - [Judicial Signals and Case Developments — RGR Standard](https://rgrstandard.org/judicial-signals/)

@@ -146,26 +146,33 @@ Yotta is a useful recent signal because it restates the foundational cautionary 
 ---
 
 ### In re Carvana Co Securities Litigation
-*Often cited in eDiscovery commentary as United Association National Pension Fund v. Carvana Company, following plaintiffs' counsel press materials rather than the official caption*
-**D. Ariz. (January 12, 2026)**
+*Caption on orders: United Association National Pension Fund, et al. v. Carvana Company, et al.*
+**No. CV-22-02126-PHX-MTL (D. Ariz., 2025–2026)**
 
-Arizona Magistrate Judge John Z. Boyle issued a January 2026 discovery order in this securities MDL addressing document retrieval. Based on eDiscovery Today reporting — the underlying order is not publicly available — the ruling addressed hyperlinked attachments, allowing plaintiffs to select batches of up to 250 emails for defendants to process using Forensic Email Collector (FEC), with defendants required to provide the most contemporaneous version of non-privileged linked attachments within 10 days.
+This securities MDL produced two orders directly addressing forensic recovery of hyperlinked documents — moving from a bounded pilot test to an expanded compliance requirement. The docket chain on this issue runs: Doc. 137 (ESI order) → Doc. 177 (joint discovery motion) → Doc. 196 (Aug. 2025 hyperlinked-documents order) → Doc. 214 (motion to compel compliance) → Doc. 255 (Jan. 2026 follow-on order).
 
-> **Source confidence: secondary reporting only.** The characterization of this order rests on eDiscovery Today reporting. The underlying order is not publicly available as of this writing. The Courthouse News report of the same hearing characterizes the ruling more broadly as a document retrieval methodology dispute.
+**Doc. 196 (August 21, 2025):** Arizona Magistrate Judge John Z. Boyle ordered a bounded forensic test on the Joint Discovery Motion (Doc. 177). The order directed a smaller FEC (Forensic Email Collector) sample to test whether historical hyperlinked documents could be retrieved proportionally. Plaintiffs could select up to two custodians, and defendants were required to produce versions "as closely contemporaneous to, but preceding," the email as feasible.
+
+**Doc. 255 (January 12, 2026; court description says signed January 9, 2026):** Following a compliance dispute (Doc. 214, Plaintiffs' Motion to Compel Compliance), the court expanded the exercise. Plaintiffs may select 250 responsive emails from any of the 25 ESI custodians. Defendants must run FEC and produce the most contemporaneous non-privileged hyperlinked documents within 10 days. Defendants must also produce responsive, non-privileged Google Vault documents, after which plaintiffs may select 200 documents for a parent-email search.
+
+A separate later order (Doc. 313, Feb. 10, 2026) addressed four Garcia Sr. emails and family attachments — useful background, but distinct from the 250-email FEC order.
 
 **Why it matters**
 
-- Rather than accepting infeasibility wholesale or requiring full production, the court appears to have ordered a targeted, bounded approach: a defined sample processed through a specific named forensic tool.
-- This would represent a practical middle ground between the StubHub and Uber outcomes — testing available forensic capability before accepting production limits.
-- The hyperlinks framing comes from a single secondary source; a Courthouse News report of the same hearing characterizes the ruling more broadly as a document retrieval methodology dispute.
+- The court did not resolve the definitional question of whether hyperlinks are attachments. It imposed a practical test: process a defined sample through a specific forensic tool and demonstrate what can and cannot be recovered.
+- The two-step progression — from a bounded pilot on two custodians to an expanded 250-email exercise across all ESI custodians — shows the court escalating from testing capability to enforcing a larger practical workflow after a compliance dispute.
+- This represents a practical middle ground between the StubHub and Uber outcomes: rather than accepting blanket infeasibility or requiring full production, the court tested available forensic capability and then expanded based on the results.
 
 **Why it matters for system design**
 
-- Systems and providers should be prepared to demonstrate — not merely assert — what forensic tools can and cannot recover from linked content.
+- Systems and providers should be prepared to demonstrate — not merely assert — what forensic tools can and cannot recover from linked content. Courts now have a template for ordering such demonstrations.
 - Capability models should account for the possibility that courts will order bounded forensic testing as a condition before accepting production limits.
+- The requirement to produce versions "as closely contemporaneous to, but preceding" the communication reflects judicial expectations that align with deterministic version resolution capabilities.
 
 **References**
 
+- *In re Carvana Co. Sec. Litig.*, No. CV-22-02126-PHX-MTL, Doc. 196 (D. Ariz. Aug. 21, 2025)
+- *Id.*, Doc. 255 (D. Ariz. Jan. 12, 2026)
 - [eDiscovery Today coverage (hyperlinks/FEC framing)](https://www.ediscoveryllc.com/recent-hyperlinked-documents-decision/)
 
 ---
