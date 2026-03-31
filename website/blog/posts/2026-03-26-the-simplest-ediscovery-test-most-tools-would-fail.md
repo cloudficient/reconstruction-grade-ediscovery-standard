@@ -80,6 +80,18 @@ And the manual approach does not scale. A matter with thousands of custodian ema
 
 That is the practical case for treating version determinism as a baseline requirement rather than a manual workaround: not because the workaround is impossible, but because it is silent, expensive, and unreliable at scale.
 
+## When the Link Dies
+
+The version problem assumes the document still exists. Sometimes it doesn't.
+
+User A sends User B an email with a hyperlink to a document in B's OneDrive. A gets placed on legal hold. B doesn't. The document hits its retention limit and expires.
+
+A's email is preserved — but the link is now dead. The hold on A didn't cascade to B's storage. You can prove the email existed, but you can't reconstruct what was actually shared.
+
+Under Rule 37(e), was that "reasonable steps"? The party preserved the custodian's mailbox. The hold executed correctly. But the evidence relationship — the binding between the communication and the content it referenced — was never within scope. The hold preserved the pointer. The thing it pointed to was in a different custodian's storage, governed by a different retention policy, with no hold in place.
+
+Courts are [increasingly testing](../../judicial-signals.md) what "reasonable" means for exactly this kind of failure — where the workflow operated as designed but the evidence model it was designed for no longer matches how people actually share information.
+
 <hr class="rgr-divider">
 
 ## The Baseline Requirement
