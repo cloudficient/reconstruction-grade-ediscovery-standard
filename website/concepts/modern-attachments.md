@@ -3,6 +3,11 @@ description: >-
   Modern Attachments in eDiscovery are message-level references to live
   repository objects via hyperlinks instead of embedded file bytes — and why
   they break legacy evidence models.
+chat_prompts:
+  - "How do modern attachments break traditional eDiscovery workflows?"
+  - "What version of a hyperlinked document gets preserved?"
+  - "How does the Preservation Gap apply to hyperlinked files?"
+  - "What does RGR require for modern attachment resolution?"
 ---
 
 # Modern Attachments (eDiscovery)

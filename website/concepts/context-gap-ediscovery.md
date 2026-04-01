@@ -3,6 +3,11 @@ description: >-
   The Context Gap in eDiscovery is the structural difference between how
   evidence is created in collaborative cloud platforms and what traditional
   eDiscovery systems can reconstruct after the fact.
+chat_prompts:
+  - "What evidence does my M365 workflow miss because of the Context Gap?"
+  - "How does the Context Gap differ from the Preservation Gap?"
+  - "What does reconstruction-grade preservation look like in practice?"
+  - "What should I ask my eDiscovery vendor about version resolution?"
 ---
 
 # The Context Gap in eDiscovery

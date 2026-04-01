@@ -113,6 +113,8 @@ RG-Max represents mature, enterprise-scale Reconstruction-Grade programs.
 | RGR-RL-006 | RG-Max MAY | Preserve conversation threading relationships. | Demonstrate thread grouping and ordering. |
 | RGR-RL-007 | RG-Core MUST | Ensure stable, unique identifiers for every exported record (referential integrity). | Demonstrate referential integrity validation. |
 | RGR-RL-008 | RG-Max SHOULD | Support relationship integrity validation (detect broken or orphaned links). | Demonstrate validation report. |
+| RGR-RL-009 | RG-Core MUST | When preserving a message containing a hyperlink to same-tenant content, identify whether the link target is within an active preservation scope. If not, generate a structured exception identifying the at-risk content and its storage location. | Demonstrate detection of out-of-scope link targets and exception generation. |
+| RGR-RL-010 | RG-Plus SHOULD | Collect and preserve the specific linked object (at the version contemporaneous to the message) without expanding custodian hold scope to the content owner. | Demonstrate targeted object collection from non-custodian storage with version resolution. |
 
 ## B.5 Export and Reproducibility (RGR-EX)
 

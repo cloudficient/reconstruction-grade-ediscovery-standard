@@ -3,6 +3,11 @@ description: >-
   Identity Drift in eDiscovery is the continuous change of a person's role,
   department, access rights, and organizational context over time — and why
   static custodian snapshots fail under temporal legal questions.
+chat_prompts:
+  - "How does identity drift affect my litigation hold process?"
+  - "Can my eDiscovery system reconstruct who had access six months ago?"
+  - "What does RGR require for historical identity resolution?"
+  - "How does identity drift interact with the Context Gap?"
 ---
 
 # Identity Drift (eDiscovery)

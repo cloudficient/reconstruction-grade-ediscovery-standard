@@ -14,6 +14,11 @@ tags:
   - Reconstruction-Grade
   - Preservation
   - Microsoft 365
+chat_prompts:
+  - "Could my preservation workflow fail a 37(e) challenge?"
+  - "What did the Carvana court order for hyperlinked documents?"
+  - "How does the Preservation Gap create 37(e) exposure?"
+  - "What are reasonable steps for Teams and SharePoint evidence?"
 ---
 
 # What FRCP Rule 37(e) Means for Modern Collaboration Platforms
@@ -104,6 +109,20 @@ Consider what a party now knows — or should know — when it issues a litigati
 Recent decisions suggest that the convergence of collaboration-platform case law, Sedona's 2025 guidance, and the known technical gaps in traditional preservation workflows raises a practical question that practitioners should expect opponents to raise in 37(e) disputes: if a party knows its evidence is collaborative, and the industry has identified specific structural gaps in traditional preservation, does continuing with final-state collection constitute "reasonable steps"?
 
 No court has held that reconstruction-grade preservation is required by Rule 37(e). That is not the current state of the law. In my view, the stronger observation is that collaboration-platform case law, Sedona guidance, and known technical gaps are making final-state collection harder to defend as "reasonable" in certain matters involving collaborative, hyperlinked, versioned, and identity-dependent evidence.
+
+## Two Failure Modes in Modern Preservation
+
+The challenges described above are not a single problem. In modern collaboration environments, two distinct failure modes are emerging — and they have different legal implications.
+
+**[The Preservation Gap](../../concepts/preservation-gap.md)** — the referenced content is never preserved. A custodian's email contains a hyperlink to a document in a non-custodian's OneDrive. The hold preserves the email. Nobody preserves the linked document. The retention clock runs out. The link is now dead. The evidence the communication referenced no longer exists anywhere. The Context Gap tells you what was damaged in transit. The Preservation Gap tells you what never made it onto the truck at all.
+
+**[The Context Gap](../../concepts/context-gap-ediscovery.md)** — the content is preserved, but not in the state it existed at the time of the communication. The document is still there, but it has been edited since the message was sent. The preserved record reflects today's version, not the version the recipient saw. The evidence is complete but inaccurate.
+
+The Preservation Gap aligns directly with Rule 37(e)'s focus on **loss** of ESI. Evidence that should have been preserved was not, and it cannot be restored or replaced. The legal framework fits.
+
+The Context Gap presents a different challenge. The ESI was not lost — it was preserved. But the preserved record does not accurately reflect the state of the evidence at the relevant time. Rule 37(e) was designed for loss, not distortion. Courts do not yet have a clean doctrinal hook for "you preserved it, but what you preserved is not what was communicated."
+
+Together, these gaps suggest that evaluating "reasonable steps" based solely on whether data was preserved may be insufficient in environments where evidence is relationship-dependent and state-dependent. Preservation completeness and preservation fidelity are separate questions — and the current legal framework addresses one more readily than the other.
 
 ## What Reconstruction-Grade Preservation Addresses
 

@@ -12,6 +12,11 @@ tags:
   - Modern Attachments
   - Microsoft 365
   - Benchmarking
+chat_prompts:
+  - "Would my eDiscovery tool pass this version resolution test?"
+  - "What happens when a hyperlinked document changes after it's shared?"
+  - "What is the Preservation Gap and how does link death happen?"
+  - "How does RGR define as-sent version resolution?"
 ---
 
 # The Simplest E-Discovery Test Most Tools Would Fail

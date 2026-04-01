@@ -114,7 +114,8 @@ nav:
       - Overview: index.md
   - Concepts:
       - Concepts Overview: concepts/index.md
-      - Why Collaborative Evidence Changed: concepts/context-gap-ediscovery.md
+      - The Context Gap: concepts/context-gap-ediscovery.md
+      - The Preservation Gap: concepts/preservation-gap.md
       - Evidence Reconstruction: concepts/evidence-reconstruction.md
       - Reconstruction-Grade eDiscovery: concepts/reconstruction-grade-ediscovery.md
       - Modern Attachments: concepts/modern-attachments.md

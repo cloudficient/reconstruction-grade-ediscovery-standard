@@ -91,7 +91,38 @@ What a Reconstruction-Grade record produces:
 - Structured exception records when resolution fails, with reason codes and retries
 - Deterministic end state and auditability for every link
 
-## D.5 Export Reproducibility Under Scrutiny
+## D.5 Cross-Custodian Link Expiry
+
+Question:
+
+Can your workflow detect and preserve linked content that resides in a non-custodian's storage before retention expiry destroys it?
+
+Scenario:
+
+User B sends User A an email containing a hyperlink to a document in B's OneDrive. User A is later identified as a custodian and placed on legal hold. User B is not a custodian and is not placed on hold. The document in B's OneDrive reaches its retention limit and is permanently purged.
+
+What is required to answer:
+- Detection that the preserved email contains a hyperlink to content outside the current hold scope
+- Identification that the link target resides in same-tenant storage under a different retention policy
+- Collection and preservation of the specific linked object before retention expiry
+- Structured exception record if the content has already expired or cannot be collected
+
+What legacy models produce:
+- The email in A's mailbox is preserved with the hyperlink intact
+- The hold system does not parse, resolve, or traverse the hyperlink
+- No mechanism alerts legal teams that linked content is outside hold scope
+- The document expires silently; the preserved email contains a dead link
+- No exception record is generated because the system was unaware of the dependency
+
+What a Reconstruction-Grade record produces:
+- Detection at preservation time that the hyperlink targets same-tenant content outside the active hold scope
+- Collection and preservation of the specific linked document (at the version contemporaneous to the message) without expanding custodian hold scope to the content owner
+- Structured exception record if the target has already expired, documenting the gap with original reference, reason code, and timestamps
+- Explicit message ↔ link ↔ file binding preserved regardless of whether the content owner is a custodian
+
+Implementation note: The architecturally correct response is targeted object collection (collect-to-preserve), not custodian hold expansion. A conforming system collects the specific linked document without placing the content owner on litigation hold. Cascading custodian-scoped holds to follow hyperlinks creates an unbounded scope expansion problem — in a large organization, two hops of link traversal can place a significant fraction of the tenant on hold. Collect-to-preserve operates at the evidence relationship level, preserving the specific artifact without affecting the content owner's custodian status or storage.
+
+## D.6 Export Reproducibility Under Scrutiny
 
 Question:
 

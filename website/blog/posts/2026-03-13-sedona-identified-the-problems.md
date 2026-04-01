@@ -11,6 +11,11 @@ tags:
   - Sedona Conference
   - Collaboration Platforms
   - Reconstruction-Grade
+chat_prompts:
+  - "How does the RGR Standard map to Sedona's collaboration challenges?"
+  - "What gaps does Sedona identify in traditional preservation workflows?"
+  - "How do the Context Gap and Preservation Gap relate to Sedona's findings?"
+  - "What conformance level would address my organization's risks?"
 ---
 
 # Sedona Identified the Problems. Here's the Architectural Answer.

@@ -146,6 +146,13 @@
   </script>
   {% endif %}
 
+  {# --- Chat widget page-contextual prompts --- #}
+  {% if page and page.meta and page.meta.chat_prompts %}
+  <script>
+    window.RGR_CHAT_PROMPTS = {{ page.meta.chat_prompts | tojson }};
+  </script>
+  {% endif %}
+
 {% endblock %}
 
 {% block announce %}
