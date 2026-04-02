@@ -18,6 +18,12 @@ Collaboration platforms have fundamentally changed the nature of electronically 
 
 Organizations evaluating their evidence preservation posture need a structured way to assess exposure. Each risk category below corresponds to an evaluation category defined in [Section 6](06-evaluation-framework.md) and is testable against conformance requirements in [Appendix B](appendix-b-requirements.md). Categories grounded in third-party authority (Sedona, case law, Federal Rules) are cited directly. Categories grounded in this standard's analytical framework are identified as such.
 
+### Professional obligation dimension
+
+The risk categories below describe exposure to the producing party. ABA Model Rule 1.1, Comment 8 — which requires lawyers to keep abreast of "the benefits and risks associated with relevant technology" — adds a professional dimension. Adopted in over 40 U.S. jurisdictions including the District of Columbia, this duty of technological competence means counsel may have an independent obligation to understand the limitations of the preservation workflows used in their matters.
+
+This does not mean that every failure to deploy a specific tool or architecture constitutes an ethics violation. Comment 8 supports a duty of awareness, not a mandate for any particular technology. But when industry authorities such as The Sedona Conference have published guidance identifying specific preservation challenges — and when the limitations of standard workflows are known and testable — the professional basis for "I didn't know" narrows. Each risk category below carries a secondary exposure: not only may the client face evidentiary, procedural, or operational consequences, but counsel who do not understand the underlying technical limitations may face questions about whether they met their duty of competence in advising on preservation strategy.
+
 ---
 
 ## Risk categories
@@ -183,7 +189,7 @@ Table 1. Risk Exposure Categories and Evaluation Mapping
 | Resolution Persistence | Stable identifiers | T-02 | FRCP 34(b)(2)(E) (form of production); re-collection burden |
 | Defensibility Fragility | Reproducible exports | T-07 | FRCP 34(b)(2)(E) (reasonably usable form) |
 
-Each risk category is independently testable. Organizations can evaluate their current exposure by applying the conformance tests defined in [Section 6.3](06-evaluation-framework.md). Where a test does not pass, the corresponding risk category is present regardless of the system, vendor, or architecture in use.
+Each risk category is independently testable. Organizations can evaluate their current exposure by applying the conformance tests defined in [Section 6.3](06-evaluation-framework.md). Where a test does not pass, the corresponding risk category is present regardless of the system, vendor, or architecture in use. As noted in the [professional obligation dimension](#professional-obligation-dimension) above, each category also carries a secondary exposure under ABA Model Rule 1.1, Comment 8: counsel who do not understand the limitations that produce these risks may face questions about their own duty of technological competence.
 
 The [Reconstruction-Grade Requirements](appendix-b-requirements.md) (Appendix B) define the normative capabilities that address each risk category. The [Exception Taxonomy](appendix-j-exception-taxonomy.md) (Appendix J) defines the operational failure modes that, when unhandled, contribute to Silent Loss and Resolution Persistence risk.
 
