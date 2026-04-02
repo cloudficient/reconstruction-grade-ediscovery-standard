@@ -16,7 +16,7 @@ description: Draft status, version history, and canonical source information for
 
 The System of Record for Modern Collaborative Evidence
 
-Draft for Standards Discussion - Version 0.51 - March 3, 2026
+Draft for Standards Discussion - Version 0.53-draft - April 2, 2026
 
 Author: Peter Kozak/Brandon D'Agostino
 
