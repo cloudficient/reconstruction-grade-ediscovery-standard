@@ -4,7 +4,7 @@ description: The context collapse problem in eDiscovery -- how final-state colle
 
 # 2. The Context Collapse Problem
 
-Context collapse occurs when collaborative evidence is flattened into files and messages that cannot carry the full burden of explanation. The result is not merely inefficiency. It is [reconstruction](concepts/evidence-reconstruction.md) failure: the inability to reproduce what the actors experienced at the time. Context collapse is the primary mechanism through which the [Context Gap](concepts/context-gap-ediscovery.md) manifests in practice.
+Context collapse occurs when collaborative evidence is flattened into files and messages that cannot carry the full burden of explanation. The result is not merely inefficiency. It is [reconstruction](concepts/evidence-reconstruction.md) failure: the inability to reproduce what the actors experienced at the time. Context collapse is the primary mechanism through which both the [Context Gap](concepts/context-gap-ediscovery.md) (evidence preserved in the wrong state) and the [Preservation Gap](concepts/preservation-gap.md) (linked evidence not preserved at all) manifest in practice.
 
 ## 2.1 Failure Mode: Final-State Collection
 
@@ -20,7 +20,7 @@ Two realities dominate: (1) preserved footprint grows non-linearly once version 
 
 ## 2.3 Failure Mode: Static Identity and Custodian-Centric Scoping
 
-Custodian-centric scoping assumes that ownership maps to relevance and that repository boundaries align with work boundaries. Modern work is cross-functional, link-based, and shared. Relevant artifacts frequently reside outside the custodian's owned spaces.
+Custodian-centric scoping assumes that ownership maps to relevance and that repository boundaries align with work boundaries. Modern work is cross-functional, link-based, and shared. Relevant artifacts frequently reside outside the custodian's owned spaces. When a custodian's message references a document in another user's storage, the litigation hold preserves the custodian's container but does not reach the linked content — creating the [Preservation Gap](concepts/preservation-gap.md). The linked document remains governed by its own retention policy and may expire while the hold system reports full compliance.
 
 ## 2.4 Failure Mode: Permission-Based Inference
 
