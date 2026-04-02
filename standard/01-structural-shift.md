@@ -32,9 +32,9 @@ Table 1. Legacy Assumptions vs Collaborative Reality
 
 In legacy email systems, the attachment and the message were inseparable: the bytes were embedded and fixed at send time. In Microsoft 365, messages frequently contain hyperlinks or modern attachments that reference repository objects. The message does not preserve the document behind the link.
 
-Defensible reconstruction therefore depends on preserving both the communication event and the referenced object state. A preserved file without its event bindings cannot explain what it meant at the time it was used.
+Defensible reconstruction therefore depends on preserving both the communication event and the referenced object state. A preserved file without its event bindings cannot explain what it meant at the time it was used. And if the linked content resides in non-custodian storage outside the litigation hold scope, the file may not exist at all — the [Preservation Gap](concepts/preservation-gap.md).
 
-| Scenario: Hyperlinked decision memo A Teams message links to a OneDrive document used to approve a high-impact decision. The file is edited after the message is sent. A traditional export collects the current file bytes. The exported bytes are not the bytes that informed the decision at the time. Without deterministic point-in-time resolution, reconstruction becomes narrative-driven. |
+| Scenario: Hyperlinked decision memo A Teams message links to a OneDrive document used to approve a high-impact decision. The file is edited after the message is sent. A traditional export collects the current file bytes. The exported bytes are not the bytes that informed the decision at the time. Without deterministic point-in-time resolution, reconstruction becomes narrative-driven. This is the [Context Gap](concepts/context-gap-ediscovery.md). If the document instead resides in a non-custodian's storage and reaches its retention limit before collection, the link is dead and the evidence is irrecoverable. This is the [Preservation Gap](concepts/preservation-gap.md). |
 | --- |
 
 ## 1.3 Version Lineage Is Now Evidentiary
@@ -61,6 +61,6 @@ Reconstruction-Grade systems treat audit logs as first-class evidence inputs and
 
 ## 1.6 Context Decays Over Time
 
-A defining characteristic of the [Context Gap](concepts/context-gap-ediscovery.md) is that context decays. People leave organizations, repositories are repurposed, links break, and audit logs age out. Traditional eDiscovery begins after this loss has occurred.
+A defining characteristic of both the [Context Gap](concepts/context-gap-ediscovery.md) and the [Preservation Gap](concepts/preservation-gap.md) is that context decays. People leave organizations, repositories are repurposed, linked documents expire outside hold scope, and audit logs age out. Traditional eDiscovery begins after this loss has occurred.
 
 Reconstruction-Grade practice assumes that waiting is the mistake: if context will be required later, it must be preserved while it exists.
