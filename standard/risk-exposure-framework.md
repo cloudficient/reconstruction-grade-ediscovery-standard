@@ -1,5 +1,4 @@
 ---
-title: Risk Exposure Framework
 description: Analytical mapping of evaluation categories and conformance tests to documented legal, procedural, and operational consequences when evidence preservation falls below reconstruction-grade thresholds.
 ---
 
