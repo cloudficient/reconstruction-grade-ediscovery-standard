@@ -1,6 +1,6 @@
 ---
-date: 2026-04-09
-draft: true
+date: 2026-04-02
+draft: false
 description: "We used Claude and ChatGPT Pro in an adversarial AI dialogue to stress-test the Preservation Gap under Rule 37(e). Two failure modes, a limiting principle, and four questions any eDiscovery practitioner can raise in their next ESI protocol."
 authors:
   - peterkozak
