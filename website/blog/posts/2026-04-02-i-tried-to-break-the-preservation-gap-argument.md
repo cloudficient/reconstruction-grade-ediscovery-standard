@@ -38,6 +38,8 @@ So I did something unusual: I had two AI systems argue it out. Claude, with full
 
 Several challenges forced significant revisions. Here's a condensed version of that dialogue.
 
+<!-- more -->
+
 ---
 
 ## The Dialogue
