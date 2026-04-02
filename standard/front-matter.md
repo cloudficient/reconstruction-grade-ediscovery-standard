@@ -40,6 +40,8 @@ This document is written to be testable. It defines (1) measurable requirements,
 
 ![The Context Gap: collaborative evidence behavior has outpaced legacy evidence models](images/context-gap-diagram.png)
 
+This standard identifies two structural failure modes in modern evidence preservation. The [Context Gap](concepts/context-gap-ediscovery.md) is a fidelity failure: evidence is preserved but does not reflect what was communicated, because collection captures the current document state rather than the version that existed at the time of the communication. The [Preservation Gap](concepts/preservation-gap.md) is a completeness failure: linked content resides in non-custodian storage outside the litigation hold scope and expires before anyone collects it — leaving a preserved email with a dead link and no recoverable evidence. Together, they define the diagnostic framework for evaluating whether a preservation workflow is adequate for collaborative, hyperlinked evidence.
+
 ## A Working Definition
 
 This document distinguishes between a conformance target and an operating approach:
