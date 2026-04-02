@@ -127,6 +127,8 @@ The objections were hard. Not everything I started with survived.
 
 Those questions don't require a rule change. They don't require new technology. They require knowing to ask.
 
+These are not only questions to raise against opposing counsel. In matters involving collaborative, hyperlinked evidence, they are increasingly questions counsel should be asking about their own client's workflow. [Comment 8 to ABA Model Rule 1.1](https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_1_1_competence/comment_on_rule_1_1/) — adopted in over 40 U.S. jurisdictions — does not make every workflow limitation an ethics violation. But it reinforces a basic point: lawyers cannot rely on modern preservation and collection systems without understanding, at least at a practical level, what those systems do and do not capture.
+
 Disclosure surfaces the gap. Closing it requires evidence-level preservation — collecting the specific linked object at the version contemporaneous to the communication, without cascading custodian holds. That's what the [Reconstruction-Grade eDiscovery Standard](../../front-matter.md) was built to define.
 
 ---
