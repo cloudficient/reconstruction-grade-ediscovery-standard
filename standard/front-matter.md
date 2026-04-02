@@ -6,8 +6,8 @@ description: Draft status, version history, and canonical source information for
 <p class="rgr-eyebrow">Draft status</p>
 
 - **Status:** Draft for standards discussion
-- **Version:** 0.52-draft
-- **Published:** March 3, 2026
+- **Version:** 0.53-draft
+- **Published:** April 2, 2026
 - **Canonical source:** Markdown in the public Git repository
 - **Origin and intent:** Draft originated by Cloudficient and published for vendor-independent standards discussion
 </div>

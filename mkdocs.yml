@@ -64,9 +64,9 @@ extra:
   analytics:
     provider: google
     property: G-XBRJ8EJ6FG
-  current_version: 0.52-draft
-  current_release_date: March 3, 2026
-  pdf_download_url: https://github.com/cloudficient/reconstruction-grade-ediscovery-standard/releases/latest/download/rgr-standard-0.52-draft.pdf
+  current_version: 0.53-draft
+  current_release_date: April 2, 2026
+  pdf_download_url: https://github.com/cloudficient/reconstruction-grade-ediscovery-standard/releases/latest/download/rgr-standard-0.53-draft.pdf
   changelog_url: https://github.com/cloudficient/reconstruction-grade-ediscovery-standard/blob/main/CHANGELOG.md
   canonical_repo_url: https://github.com/cloudficient/reconstruction-grade-ediscovery-standard/tree/main/standard
   preview_image: images/rgr-cover-hero.png
