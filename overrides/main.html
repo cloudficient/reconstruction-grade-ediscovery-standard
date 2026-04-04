@@ -153,6 +153,16 @@
   </script>
   {% endif %}
 
+  {# --- Chat widget: lazy-loaded to avoid blocking INP --- #}
+  <script>
+    requestIdleCallback(function() {
+      var s = document.createElement('script');
+      s.src = 'https://rgr-assistant-api.emeraldhill4306.com/widget/rgr-chat.js?v=3';
+      s.defer = true;
+      document.head.appendChild(s);
+    });
+  </script>
+
 {% endblock %}
 
 {% block announce %}

@@ -79,8 +79,7 @@ extra:
 extra_css:
   - stylesheets/extra.css
 
-extra_javascript:
-  - https://rgr-assistant-api.emeraldhill4306.com/widget/rgr-chat.js?v=3
+extra_javascript: []
 
 markdown_extensions:
   - toc:
