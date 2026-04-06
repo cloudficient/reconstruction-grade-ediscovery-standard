@@ -26,7 +26,11 @@ chat_prompts:
 
 # I Tried to Break the Preservation Gap Argument. Here's What's Left.
 
-Before I brought this argument to the profession, I tried to break it.
+![Steel beam under stress — what holds after pressure testing](../../images/blog/blog-break-preservation-gap-argument.webp)
+
+**Before I brought this argument to the profession, I tried to break it. Two AI systems argued the Preservation Gap under Rule 37(e) — and the objections that survived forced significant revisions.**
+
+<!-- more -->
 
 Our team has spent the last several months documenting a structural problem in how modern eDiscovery workflows handle collaborative evidence — [hyperlinked documents](../../concepts/modern-attachments.md) that live outside the custodian container, versions that shift after communication, evidence relationships that cross boundaries litigation holds weren't designed to traverse.
 
@@ -37,8 +41,6 @@ But the legal framing had been written by our team, about our thesis. That's not
 So I did something unusual: I had two AI systems argue it out. Claude, with full access to the RGR standard, the case law analysis, and the Sedona mapping, argued the RGR position. ChatGPT Pro, prompted to adopt the perspective of a skeptical Rule 37(e) scholar, tried to dismantle it. I used the objections that survived that adversarial exchange to tighten the argument before publishing.
 
 Several challenges forced significant revisions. Here's a condensed version of that dialogue.
-
-<!-- more -->
 
 ---
 

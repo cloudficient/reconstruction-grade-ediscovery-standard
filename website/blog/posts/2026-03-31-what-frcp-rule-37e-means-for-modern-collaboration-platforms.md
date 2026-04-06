@@ -23,7 +23,11 @@ chat_prompts:
 
 # What FRCP Rule 37(e) Means for Modern Collaboration Platforms
 
-*Rule 37(e) requires "reasonable steps" to preserve electronically stored information. When evidence lives in Teams, Slack, and SharePoint, what does "reasonable" actually require?*
+![Balance scale — solid files vs networked cloud evidence](../../images/blog/blog-frcp-rule-37e-collaboration-platforms.webp)
+
+**Rule 37(e) requires "reasonable steps" to preserve ESI. When evidence lives in Teams, Slack, and SharePoint, preservation steps designed for email may be structurally incomplete — even when they execute correctly.**
+
+<!-- more -->
 
 The same preservation steps that were reasonable for email-era evidence can be structurally incomplete for collaborative evidence. They execute correctly. They preserve real data. And they may silently miss the evidence that matters.
 
@@ -32,8 +36,6 @@ That is the emerging tension at the intersection of Federal Rule of Civil Proced
 The threshold question is always whether the party took **reasonable steps**. The Advisory Committee Notes are explicit that perfection is impossible. Courts consider party resources, proportionality, the nature of the business, and the implementation of litigation holds.
 
 In my view, that standard was designed for a world where evidence was primarily email and files. The question now is what it means when the evidence lives on collaboration platforms.
-
-<!-- more -->
 
 ## What "Reasonable Steps" Meant for Email
 

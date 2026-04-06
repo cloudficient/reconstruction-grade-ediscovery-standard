@@ -10,7 +10,22 @@ A system may claim conformance only if it satisfies all MUST requirements applic
 
 ## B.0 Conformance Levels
 
-To support incremental adoption while maintaining architectural rigor, this standard defines three conformance levels.
+To support incremental adoption while maintaining architectural rigor, this standard defines an adoption tier and three conformance levels.
+
+RG-Aware (Adoption Tier — Transparency and Collection)
+
+RG-Aware is a pre-conformance adoption tier, not a conformance level. It establishes a minimum structured adoption posture for organizations that acknowledge the structural risks of modern collaborative evidence but have not yet achieved deterministic reconstruction capabilities.
+
+An organization's inability to achieve RG-Core does not excuse failure to attempt reasonable collection and disclosure of linked content within its current capabilities.
+
+RG-Aware requires:
+
+1. Active collection of hyperlinked and modern attachment content from same-tenant storage when identified during preservation workflows.
+2. Structured exception generation for linked content that cannot be collected, with reason codes and timestamps.
+3. Explicit limitation disclosure through ESI protocols, Rule 26(f) conferences, or equivalent mechanisms, covering: (a) whether the preservation workflow identifies linked content outside the custodian container, and (b) whether collected versions can be verified as contemporaneous to the communication.
+4. Matter-level documentation of known preservation and context gaps.
+
+RG-Aware does not satisfy any RG-Core MUST requirements and cannot be declared as Reconstruction-Grade conformance. It is a named, structured starting point for the maturity path toward RG-Core.
 
 RG-Core (Baseline Reconstruction-Grade)
 
@@ -151,3 +166,5 @@ Satisfy all MUST requirements for that level.
 Provide demonstrable evidence via minimum conformance tests.
 
 Provide documentation describing boundedness where upstream evidence (e.g., audit logs) is incomplete.
+
+An organization operating at the RG-Aware adoption tier is not claiming Reconstruction-Grade conformance. It SHOULD document its RG-Aware posture, including: which linked content collection capabilities are in place, what limitation disclosures have been made, and what maturity path toward RG-Core has been established.

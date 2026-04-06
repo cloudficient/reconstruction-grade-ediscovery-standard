@@ -6,8 +6,8 @@ description: Draft status, version history, and canonical source information for
 <p class="rgr-eyebrow">Draft status</p>
 
 - **Status:** Draft for standards discussion
-- **Version:** 0.53-draft
-- **Published:** April 2, 2026
+- **Version:** 0.54-draft
+- **Published:** April 6, 2026
 - **Canonical source:** Markdown in the public Git repository
 - **Origin and intent:** Draft originated by Cloudficient and published for vendor-independent standards discussion
 </div>
@@ -16,7 +16,7 @@ description: Draft status, version history, and canonical source information for
 
 The System of Record for Modern Collaborative Evidence
 
-Draft for Standards Discussion - Version 0.53-draft - April 2, 2026
+Draft for Standards Discussion - Version 0.54-draft - April 6, 2026
 
 Author: Peter Kozak/Brandon D'Agostino
 
@@ -61,6 +61,12 @@ Document state and relationships - deterministic point-in-time resolution with e
 These pillars are formally defined in Section 3.1 and specified as normative requirements in Appendix B.
 
 In this model, "context" refers to evidence objects, bindings, provenance, and reproducible reconstruction. It does not refer to AI-based interpretation, semantic scoring, or relevance ranking.
+
+## Adoption Pathway
+
+This standard recognizes that the gap between current industry practice and full Reconstruction-Grade conformance requires a structured adoption path. Not every organization can achieve deterministic as-sent version resolution (RG-Core) today. But every organization can acknowledge the Preservation Gap and Context Gap, collect linked content within reach, and disclose limitations transparently.
+
+RG-Aware is a pre-conformance adoption tier that formalizes this minimum structured adoption posture. It does not lower the Reconstruction-Grade bar. It provides a named entry point so that versioning complexity cannot be used as justification for ignoring linked content entirely. The conformance levels (RG-Core, RG-Plus, RG-Max) remain the architectural targets. RG-Aware is the first step on the staircase.
 
 ## What This Standard Changes
 

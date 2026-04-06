@@ -1,5 +1,5 @@
 [![CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-![Status](https://img.shields.io/badge/Status-Draft%20v0.51-blue)
+![Status](https://img.shields.io/badge/Status-Draft%20v0.54-blue)
 ![Type](https://img.shields.io/badge/Type-Conformance%20Standard-darkgreen)
 
 > ⚖️ A vendor-neutral architectural baseline for collaborative cloud evidence.
@@ -20,7 +20,7 @@ The Standard is written to support independent evaluation and repeatable conform
 
 | Format | Link |
 |--------|------|
-| **PDF** | [**Download RGR Standard v0.52-draft (PDF)**](https://github.com/cloudficient/reconstruction-grade-ediscovery-standard/releases/latest/download/rgr-standard-0.52-draft.pdf) |
+| **PDF** | [**Download RGR Standard v0.54-draft (PDF)**](https://github.com/cloudficient/reconstruction-grade-ediscovery-standard/releases/latest/download/rgr-standard-0.54-draft.pdf) |
 | **HTML** | [**Read online**](https://rgrstandard.org/) |
 | **Source** | Browse the [`/standard/`](standard/) directory in this repository |
 
@@ -39,7 +39,7 @@ Tagged releases represent immutable reference editions suitable for citation.
 ## Status
 
 - **Status:** Draft for standards discussion  
-- **Current version:** v0.52-draft  
+- **Current version:** v0.54-draft  
 - **Version discipline:** Substantive edits MUST update `CHANGELOG.md` and bump the version in `VERSION`
 
 This Standard is currently in draft phase and open for structured feedback.
@@ -69,7 +69,7 @@ Non-normative material (examples, commentary, implementation notes, toolkit reso
 | `/standard/toolkit/` | Non-normative toolkit resources (checklists, clause packs, templates) |
 | `/standard/participate/` | Participation and governance information |
 | `CHANGELOG.md` | Version history and notable changes |
-| `VERSION` | Current version identifier (e.g., `0.52-draft`) |
+| `VERSION` | Current version identifier (e.g., `0.54-draft`) |
 | `CONTRIBUTING.md` | How to propose edits and provide feedback |
 | `LICENSE.md` | Licensing terms (CC BY 4.0) |
 | `.github/ISSUE_TEMPLATE/` | Issue templates for feedback, proposals, and participation |
@@ -140,7 +140,7 @@ When citing the Standard, reference the specific version and section.
 
 Example:
 
-> Reconstruction-Grade eDiscovery Standard, v0.52-draft, Section 3.2, Cloudficient (2026).
+> Reconstruction-Grade eDiscovery Standard, v0.54-draft, Section 3.2, Cloudficient (2026).
 
 ---
 

@@ -21,15 +21,17 @@ chat_prompts:
 
 # The Simplest E-Discovery Test Most Tools Would Fail
 
-*When a SharePoint link resolves successfully but the produced document is not the version that existed at send time, the evidentiary record is silently wrong.*
+![Two document versions — one sharp, one wrong](../../images/blog/blog-simplest-ediscovery-test.webp)
+
+**When a SharePoint link resolves successfully but the produced document is not the version that existed at send time, the evidentiary record is silently wrong.**
+
+<!-- more -->
 
 Consider a scenario that should be unremarkable. A company discovers a potential data breach. Incident response begins.
 
 At 7:15 p.m. on a Wednesday, the CISO emails the customer support lead, the communications director, and the product VP:
 
 > *"Attached is the draft customer FAQ for tomorrow morning in case we need it. Please review before end of day."*
-
-<!-- more -->
 
 The attachment is a SharePoint link to a live document: *Incident FAQ - External Use.docx*.
 

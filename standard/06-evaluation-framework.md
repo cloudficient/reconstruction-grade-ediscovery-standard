@@ -24,7 +24,22 @@ Reproducible exports Are exports repeatable with manifests, hashes, and complete
 
 ## 6.2 Conformance Levels
 
-To support incremental adoption, this document defines three conformance levels.
+To support incremental adoption, this document defines an adoption tier and three conformance levels.
+
+RG-Aware (Adoption Tier — Transparency and Collection)
+
+RG-Aware is a pre-conformance adoption tier. It does not constitute Reconstruction-Grade conformance but establishes a structured, transparent entry point for organizations that acknowledge the Preservation Gap and Context Gap and take action within their current capabilities.
+
+An organization operating at RG-Aware:
+
+1. Collects hyperlinked and modern attachment content from same-tenant storage when identified during preservation workflows, rather than limiting collection to the custodian container.
+2. Discloses, through Rule 26(f) conferences, ESI protocols, or equivalent mechanisms, whether its preservation workflow can identify linked content outside the custodian container and whether collected versions reflect communication-time state.
+3. Generates structured exception records when linked content cannot be collected (permission denied, content expired, out-of-scope storage) rather than allowing silent loss.
+4. Documents known limitations explicitly in matter-level records rather than treating unpreserved linked content as a non-issue.
+
+RG-Aware does not require deterministic as-sent version resolution (T-01), identity reconstruction, or audit correlation. It requires transparency about what is and is not preserved, and active collection of linked content within reach.
+
+RG-Aware is intended as a transitional posture. Organizations operating at RG-Aware SHOULD establish a maturity path toward RG-Core conformance as tooling and operational capabilities develop.
 
 RG-Core (Baseline Reconstruction-Grade) A system qualifies for RG-Core only if it satisfies deterministic point-in-time resolution, stable identifier preservation, relationship export integrity, deterministic exception handling, and reproducible export manifests.
 
@@ -32,9 +47,9 @@ RG-Plus (Identity + Behavior Conformance) RG-Plus adds effective-dated identity 
 
 RG-Max (Expanded Reconstruction Depth) RG-Max adds accessed-version analysis (where audit supports it), expanded artifact coverage (pages/lists/Loop/etc.), and advanced validation routines (referential integrity scoring, coverage gap alerting, and multi-profile export without semantic drift).
 
-Enterprises may require RG-Core as the minimum and treat RG-Plus/RG-Max as maturity goals.
+Enterprises may adopt RG-Aware as an immediate transparency baseline, require RG-Core as the minimum conformance target, and treat RG-Plus/RG-Max as maturity goals.
 
-Note: Conformance levels are formally specified with full requirement mappings in Appendix B, Section B.0. The descriptions above are informative summaries.
+Note: Conformance levels are formally specified with full requirement mappings in Appendix B, Section B.0. The descriptions above are informative summaries. RG-Aware is specified as an adoption tier, not a conformance level; it does not carry MUST requirements from Appendix B but establishes the minimum structured adoption posture for organizations that have not yet achieved RG-Core.
 
 ## 6.3 Minimum Conformance Tests
 

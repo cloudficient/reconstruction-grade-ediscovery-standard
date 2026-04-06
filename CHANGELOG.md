@@ -11,6 +11,24 @@ The format loosely follows Keep a Changelog principles and uses semantic-style v
 
 ---
 
+## [0.54-draft] – 2026-04-06
+
+### Added
+- **RG-Aware adoption tier** — pre-conformance tier beneath RG-Core/Plus/Max formalizing the minimum transparent posture for organizations dealing with modern collaborative evidence. Requires: collect linked content from same-tenant storage, disclose limitations through ESI protocols, generate structured exceptions, document matter-level gaps. Defined in Section 6.2 and Appendix B, Section B.0.
+- **Adoption Pathway** section in front-matter executive summary — explains the structured path from RG-Aware through RG-Core to RG-Max.
+- RG-Aware glossary entry in Appendix A.
+- Explicit statement in Appendix B: "An organization's inability to achieve RG-Core does not excuse failure to attempt reasonable collection and disclosure of linked content within its current capabilities."
+- Conformance Declaration updated to address RG-Aware documentation expectations.
+- Blog post: "The Dog, the Tail, and the Staircase" — response to Craig Ball's assessment of the standard.
+- Blog cover images (WebP) and horizontal card layout for blog listing page.
+- Blog categories enabled with label styling.
+
+### Changed
+- Version references updated site-wide (homepage, about, why, README, standard/README) from 0.52-draft to 0.54-draft.
+- Blog excerpt layout redesigned: horizontal cards with thumbnail left, content right. Excerpts tightened to single paragraph.
+
+---
+
 ## [0.52-draft] – 2026-03-27
 
 ### Added

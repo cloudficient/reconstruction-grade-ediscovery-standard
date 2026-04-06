@@ -20,11 +20,13 @@ chat_prompts:
 
 # Sedona Identified the Problems. Here's the Architectural Answer.
 
+![Sedona identified the structural cracks in eDiscovery preservation](../../images/blog/blog-sedona-identified-the-problems.webp)
+
 *A reconstruction-grade response to The Sedona Conference's Commentary on Discovery Implications of Collaboration Platforms (October 2025)*
 
-In October 2025, The Sedona Conference published what may be the most comprehensive analysis of why modern collaboration platforms are breaking traditional e-discovery. For each challenge it identifies, the RGR Standard offers an architectural answer.
-
 <!-- more -->
+
+In October 2025, The Sedona Conference published what may be the most comprehensive analysis of why modern collaboration platforms are breaking traditional e-discovery. For each challenge it identifies, the RGR Standard offers an architectural answer.
 
 ## The Diagnosis
 
