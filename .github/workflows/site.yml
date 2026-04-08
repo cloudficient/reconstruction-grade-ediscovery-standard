@@ -30,7 +30,7 @@ jobs:
 
       - name: Install MkDocs and Material theme
         run: |
-          pip install mkdocs mkdocs-material pymdown-extensions mkdocs-git-revision-date-localized-plugin mkdocs-rss-plugin
+          pip install "mkdocs>=1.6,<2" mkdocs-material pymdown-extensions mkdocs-git-revision-date-localized-plugin mkdocs-rss-plugin
 
       - name: Build site
         run: mkdocs build --strict
