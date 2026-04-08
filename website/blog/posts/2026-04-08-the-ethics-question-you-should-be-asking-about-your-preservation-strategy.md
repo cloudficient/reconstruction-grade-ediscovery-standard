@@ -1,5 +1,5 @@
 ---
-date: 2026-04-10
+date: 2026-04-08
 draft: false
 description: "ABA Comment 8 doesn't require forensic preservation — but it requires knowing whether your workflow silently loses evidence and disclosing that limitation."
 authors:
