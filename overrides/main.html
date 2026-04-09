@@ -177,28 +177,6 @@
 
 {% block content %}
   {{ super() }}
-  {% if page and page.file and (page.file.src_uri.startswith('blog/posts/') or page.file.src_uri == 'blog/index.md') %}
-  <aside class="rgr-subscribe" aria-label="Newsletter signup">
-    <p class="rgr-subscribe__heading">Stay current on reconstruction-grade eDiscovery</p>
-    <p class="rgr-subscribe__text">New posts and standards updates delivered to your inbox.</p>
-    <form
-      action="https://buttondown.com/api/emails/embed-subscribe/rgrstandard"
-      method="post"
-      class="rgr-subscribe__form"
-    >
-      <input
-        type="email"
-        name="email"
-        id="bd-email"
-        placeholder="you@example.com"
-        required
-        class="rgr-subscribe__input"
-      />
-      <button type="submit" class="rgr-subscribe__button">Subscribe</button>
-    </form>
-    <p class="rgr-subscribe__fine">No spam. Unsubscribe anytime.</p>
-  </aside>
-  {% endif %}
 {% endblock %}
 
 {% block announce %}
