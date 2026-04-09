@@ -63,6 +63,7 @@ plugins:
       categories:
         - categories
         - tags
+      abstract_chars_count: -1
 
 hooks:
   - hooks/link_standard_files.py
