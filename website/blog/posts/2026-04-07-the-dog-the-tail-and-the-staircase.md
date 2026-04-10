@@ -123,6 +123,10 @@ We think Craig is right that the empirical question matters, and right that it's
 
 Whether the number is five percent or thirty percent, the architectural principle is the same: if linked content can change after communication, the evidentiary record must account for it. At RG-Aware, that means disclosure. At RG-Core, that means resolution.
 
+## Toolkit Update: RG-Aware in the ESI Protocol Addendum
+
+One of the things Craig's post made clear is that the standard's conformance tiers only matter if practitioners can actually invoke them on the record. We've updated the [ESI Protocol Addendum](../../toolkit/esi-protocol-addendum.md) so every tier of the staircase has drop-in language. The addendum now leads with a **Conformance Declaration** clause — the producing party states which tier it is operating at and discloses gaps relative to the next tier — followed by a new **Structured Adoption (RG-Aware)** clause that spells out the four-point floor (collect, disclose, generate exceptions, document) in starter text a drafting attorney can lift straight into an ESI protocol. The existing provisions for as-sent version resolution, relationship overlays, export manifests, and audit bounds are now tier-labeled (RG-Core or RG-Plus) so drafters can select what matches the producing party's capability. The shield argument — *"I can't reach RG-Core, so I'm excused entirely"* — doesn't survive a protocol that gives RG-Aware its own starter clause and requires the tier posture to be declared on the record. Parties who cannot yet resolve as-sent versions deterministically now have a defensible, transparent posture they can adopt today, without waiting on tooling maturity.
+
 ## Continuing the Conversation
 
 Craig's post sharpened the standard. The shield vulnerability was real, and it needed to be closed. Craig's critique exposed a genuine ambiguity, and the standard was updated to address it — because a standard that can't respond to substantive critique isn't a standard worth having.

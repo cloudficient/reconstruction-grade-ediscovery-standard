@@ -55,7 +55,7 @@ This standard was not written from theory. It was extracted from implementation.
 
 Transparency about the current state matters as much as transparency about the intent.
 
-- **The standard** is at version 0.54-draft. It is published with full text, appendices, a glossary, evaluation toolkit, and governance process.
+- **The standard** is at version 0.55-draft. It is published with full text, appendices, a glossary, evaluation toolkit, and governance process.
 - **Cloudficient's products** are in production at enterprise scale. Core preservation and reconstruction capabilities are operational. Coverage of emerging Microsoft 365 content types (Loop, Copilot, and others) is in active development.
 - **Formal conformance evaluation** — for Cloudficient or anyone else — requires a reference dataset and evaluation process that the founding working group has not yet created. Cloudficient does not self-certify against its own standard.
 - **The standard was published now**, not when everything is complete, because the industry needs the framework today. Waiting for one vendor to finish every edge case before publishing would defeat the purpose of an open standard.

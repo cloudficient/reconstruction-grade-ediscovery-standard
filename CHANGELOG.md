@@ -11,6 +11,16 @@ The format loosely follows Keep a Changelog principles and uses semantic-style v
 
 ---
 
+## [0.55-draft] – 2026-04-10
+
+### Changed
+- Version references updated site-wide (homepage, about, why, README, standard/README, front-matter, mkdocs config, PDF metadata) from 0.54-draft to 0.55-draft.
+
+### Notes
+- No normative requirements added or changed. No changes to the standard text, appendices, or conformance levels. Toolkit artifact realignment only.
+
+---
+
 ## [0.54-draft] – 2026-04-06
 
 ### Added

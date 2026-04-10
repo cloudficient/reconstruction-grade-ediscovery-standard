@@ -4,7 +4,7 @@ subtitle: "The System of Record for Modern Collaborative Evidence"
 author:
   - Peter Kozak
   - Brandon D'Agostino
-date: "Version 0.54-draft — April 2026"
+date: "Version 0.55-draft — April 2026"
 abstract: |
   This document specifies Reconstruction-Grade eDiscovery as an architectural
   standard for modern collaborative evidence. A Reconstruction-Grade system
@@ -30,7 +30,7 @@ header-includes:
   - \usepackage{fancyhdr}
   - \pagestyle{fancy}
   - \fancyhead[L]{\small Reconstruction-Grade eDiscovery Standard}
-  - \fancyhead[R]{\small v0.54-draft}
+  - \fancyhead[R]{\small v0.55-draft}
   - \fancyfoot[C]{\thepage}
   - \renewcommand{\headrulewidth}{0.4pt}
 ---

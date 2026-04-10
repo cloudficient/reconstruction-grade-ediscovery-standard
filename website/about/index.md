@@ -38,4 +38,4 @@ The authoritative text remains the Markdown documentation in the public reposito
 
 ## Current public draft
 
-The current public draft is **0.54-draft** (published April 6, 2026). Use the [latest PDF](https://github.com/cloudficient/reconstruction-grade-ediscovery-standard/releases/latest/download/rgr-standard-0.54-draft.pdf) for circulation and the canonical Markdown source for the authoritative text.
+The current public draft is **0.55-draft** (published April 10, 2026). Use the [latest PDF](https://github.com/cloudficient/reconstruction-grade-ediscovery-standard/releases/latest/download/rgr-standard-0.55-draft.pdf) for circulation and the canonical Markdown source for the authoritative text.

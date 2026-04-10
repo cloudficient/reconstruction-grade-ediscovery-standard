@@ -6,8 +6,8 @@ description: Draft status, version history, and canonical source information for
 <p class="rgr-eyebrow">Draft status</p>
 
 - **Status:** Draft for standards discussion
-- **Version:** 0.54-draft
-- **Published:** April 6, 2026
+- **Version:** 0.55-draft
+- **Published:** April 10, 2026
 - **Canonical source:** Markdown in the public Git repository
 - **Origin and intent:** Draft originated by Cloudficient and published for vendor-independent standards discussion
 </div>
@@ -16,7 +16,7 @@ description: Draft status, version history, and canonical source information for
 
 The System of Record for Modern Collaborative Evidence
 
-Draft for Standards Discussion - Version 0.54-draft - April 6, 2026
+Draft for Standards Discussion - Version 0.55-draft - April 10, 2026
 
 Author: Peter Kozak/Brandon D'Agostino
 

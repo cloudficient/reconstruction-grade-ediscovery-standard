@@ -26,13 +26,13 @@ hide:
 <aside class="rgr-status-card" markdown="1">
 ## Current draft
 
-<p class="rgr-status-card__version">0.54-draft</p>
-<p class="rgr-status-card__meta">Published April 6, 2026</p>
+<p class="rgr-status-card__version">0.55-draft</p>
+<p class="rgr-status-card__meta">Published April 10, 2026</p>
 <p class="rgr-status-card__summary">Originated by Cloudficient and published for vendor-independent standards discussion.</p>
 
 - [Front matter and executive summary](front-matter.md)
 - [Version history](https://github.com/cloudficient/reconstruction-grade-ediscovery-standard/blob/main/CHANGELOG.md)
-- [Latest PDF](https://github.com/cloudficient/reconstruction-grade-ediscovery-standard/releases/latest/download/rgr-standard-0.54-draft.pdf)
+- [Latest PDF](https://github.com/cloudficient/reconstruction-grade-ediscovery-standard/releases/latest/download/rgr-standard-0.55-draft.pdf)
 - [Canonical Markdown source](https://github.com/cloudficient/reconstruction-grade-ediscovery-standard/tree/main/standard)
 </aside>
 </section>
@@ -190,7 +190,7 @@ Request a declaration against a specific standard version and compare it to the 
 - [Section 6: Measurable Evaluation Framework](06-evaluation-framework.md)
 - [Appendix B: Reconstruction-Grade Requirements](appendix-b-requirements.md)
 - [Risk Exposure Framework](risk-exposure-framework.md)
-- [Latest PDF](https://github.com/cloudficient/reconstruction-grade-ediscovery-standard/releases/latest/download/rgr-standard-0.54-draft.pdf)
+- [Latest PDF](https://github.com/cloudficient/reconstruction-grade-ediscovery-standard/releases/latest/download/rgr-standard-0.55-draft.pdf)
 </article>
 
 <article class="rgr-card rgr-card--link-list" markdown="1">
