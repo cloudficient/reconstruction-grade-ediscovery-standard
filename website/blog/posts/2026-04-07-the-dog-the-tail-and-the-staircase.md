@@ -5,8 +5,8 @@ description: "Craig Ball says collect linked attachments first, worry about vers
 authors:
   - peterkozak
 categories:
+  - Research & Dialogue
   - Standard Development
-  - Industry Response
 tags:
   - Craig Ball
   - Linked Attachments
@@ -14,8 +14,6 @@ tags:
   - Context Gap
   - RG-Aware
   - Conformance
-  - Reconstruction-Grade
-  - eDiscovery
 chat_prompts:
   - "What is RG-Aware and how does it differ from RG-Core?"
   - "How did Craig Ball's assessment change the RGR Standard?"

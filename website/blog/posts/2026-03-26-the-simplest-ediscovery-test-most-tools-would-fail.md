@@ -5,10 +5,8 @@ description: "Why most eDiscovery tools fail a basic modern attachment test: res
 authors:
   - peterkozak
 categories:
-  - Industry Analysis
+  - Research & Dialogue
 tags:
-  - eDiscovery
-  - Reconstruction-Grade
   - Modern Attachments
   - Microsoft 365
   - Benchmarking

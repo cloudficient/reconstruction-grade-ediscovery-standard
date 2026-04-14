@@ -931,17 +931,25 @@ body[data-md-color-scheme="default"] .md-content__inner > .rgr-home {
 
 /* Blog listing — single-column feed */
 .md-content__inner:has(> .md-post--excerpt) {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
+  align-items: start;
 }
 
-.md-content__inner:has(> .md-post--excerpt) > header {
+/* Header, pagination nav, and subscribe aside span both columns */
+.md-content__inner:has(> .md-post--excerpt) > header,
+.md-content__inner:has(> .md-post--excerpt) > nav,
+.md-content__inner:has(> .md-post--excerpt) > .rgr-subscribe {
+  grid-column: 1 / -1;
   width: 100%;
 }
 
-.md-content__inner:has(> .md-post--excerpt) > nav {
-  width: 100%;
+/* Revert to single column on narrower screens so cards stay readable */
+@media screen and (max-width: 76.1875em) {
+  .md-content__inner:has(> .md-post--excerpt) {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* Blog card — horizontal: absolute-positioned thumbnail left, content right */

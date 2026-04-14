@@ -6,11 +6,8 @@ description: "How eDiscovery preservation quietly became an ethics question — 
 authors:
   - peterkozak
 categories:
-  - Industry Analysis
   - Standard Development
 tags:
-  - eDiscovery
-  - Reconstruction-Grade
   - Preservation Gap
   - Context Gap
   - FRCP Rule 37(e)

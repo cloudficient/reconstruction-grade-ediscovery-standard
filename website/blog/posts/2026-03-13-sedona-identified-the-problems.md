@@ -5,12 +5,10 @@ description: "How The Sedona Conference's 2025 Commentary on collaboration platf
 authors:
   - peterkozak
 categories:
-  - Industry Analysis
+  - Standard Development
 tags:
-  - eDiscovery
   - Sedona Conference
   - Collaboration Platforms
-  - Reconstruction-Grade
 chat_prompts:
   - "How does the RGR Standard map to Sedona's collaboration challenges?"
   - "What gaps does Sedona identify in traditional preservation workflows?"

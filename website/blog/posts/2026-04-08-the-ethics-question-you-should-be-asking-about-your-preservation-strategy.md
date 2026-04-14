@@ -5,15 +5,13 @@ description: "ABA Comment 8 doesn't require forensic preservation — but it req
 authors:
   - brandondagostino
 categories:
-  - Industry Analysis
+  - Legal Analysis
 tags:
-  - eDiscovery
   - ABA Model Rule 1.1
   - Comment 8
   - Technological Competence
   - Preservation Gap
   - Collaboration Platforms
-  - Reconstruction-Grade
   - Microsoft 365
   - Litigation Hold
   - ESI Protocol

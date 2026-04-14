@@ -5,14 +5,12 @@ description: "We used Claude and ChatGPT Pro in an adversarial AI dialogue to st
 authors:
   - peterkozak
 categories:
-  - Industry Analysis
+  - Research & Dialogue
 tags:
-  - eDiscovery
   - FRCP Rule 37(e)
   - Preservation Gap
   - Context Gap
   - Collaboration Platforms
-  - Reconstruction-Grade
   - Microsoft 365
   - Litigation Hold
   - ESI Protocol

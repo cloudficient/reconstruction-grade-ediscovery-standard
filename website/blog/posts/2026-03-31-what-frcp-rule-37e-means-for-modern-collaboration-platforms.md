@@ -6,12 +6,10 @@ authors:
   - brandondagostino
 author_name: Brandon D'Agostino
 categories:
-  - Industry Analysis
+  - Legal Analysis
 tags:
-  - eDiscovery
   - FRCP Rule 37(e)
   - Collaboration Platforms
-  - Reconstruction-Grade
   - Preservation
   - Microsoft 365
 chat_prompts:
