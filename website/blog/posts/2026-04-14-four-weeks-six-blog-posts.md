@@ -40,7 +40,7 @@ Most of the tools on the market cannot actually preserve those documents.
 
 The lawyer does not know this.
 
-Over the last four weeks, Brandon D'Agostino and I published six posts that all led to the same conclusion: the two failure modes modern collaboration platforms introduce into eDiscovery — the **Preservation Gap** and the **Context Gap** — are no longer just an architecture problem. They are becoming a legal capability question and, increasingly, an ethics question.
+Over the last four weeks, Brandon D'Agostino and I published six posts that all led to the same conclusion: the two failure modes modern collaboration platforms introduce into eDiscovery — the **[Preservation Gap](../../concepts/preservation-gap.md)** and the **[Context Gap](../../concepts/context-gap-ediscovery.md)** — are no longer just an architecture problem. They are becoming a legal capability question and, increasingly, an ethics question.
 
 Closing both gaps is the entire purpose of the Reconstruction-Grade Standard Brandon and I have been building.
 

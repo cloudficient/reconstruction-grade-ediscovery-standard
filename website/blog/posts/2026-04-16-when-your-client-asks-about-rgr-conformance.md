@@ -1,6 +1,6 @@
 ---
 date: 2026-04-16
-draft: true
+draft: false
 description: "The RGR conformance question is entering client conversations. A short playbook for advisory teams who want to answer it without overpromising."
 authors:
   - peterkozak
@@ -52,21 +52,21 @@ And on the ethics side, [ABA Model Rule 1.1 Comment 8](../posts/2026-04-08-the-e
 
 None of that is RGR-driven. RGR is simply a place the vocabulary converges. The question is coming whether we publish another blog post or not.
 
-## Three Shapes the Question Takes
+## Three Forms the Question Takes
 
 In practice, the conformance question almost never arrives as "Are you RGR-conformant?" It arrives in disguise, and the disguise depends on who is sitting across the table.
 
-**Shape one: the boardroom question.** A partner is in a privileged conversation with a general counsel. The GC has been hearing murmurs — from a peer, from a conference, from a vendor — about reconstruction-grade standards. She asks whether her outside counsel has a position. She is not looking for a technical briefing. She is looking for confidence that her firm has thought about the question before she did. The underlying ask is: *tell me you're ahead of this.*
+**Form one: the boardroom question.** A partner is in a privileged conversation with a general counsel. The GC has been hearing murmurs — from a peer, from a conference, from a vendor — about reconstruction-grade standards. She asks whether her outside counsel has a position. She is not looking for a technical briefing. She is looking for confidence that her firm has thought about the question before she did. The underlying ask is: *tell me you're ahead of this.*
 
-**Shape two: the kickoff call question.** A service provider project manager is running a kickoff for a new matter. Inside counsel on the client side asks, almost in passing, whether the provider's collection workflow is "RGR-aware or RGR-conformant." The PM has to decide, in real time, whether to claim something, defer the answer, or pivot. The underlying ask is: *is your workflow going to create a problem I have to defend in motion practice?*
+**Form two: the kickoff call question.** A service provider project manager is running a kickoff for a new matter. Inside counsel on the client side asks, almost in passing, whether the provider's collection workflow is "RGR-aware or RGR-conformant." The PM has to decide, in real time, whether to claim something, defer the answer, or pivot. The underlying ask is: *is your workflow going to create a problem I have to defend in motion practice?*
 
-**Shape three: the protocol review question.** An independent consultant is reviewing an ESI protocol on behalf of a client. She notices that the other side's protocol references "reconstruction-grade conformance" as a baseline expectation. She has to advise whether to accept, negotiate, or push back. The underlying ask is: *does this language mean what I think it means, and is my client on the hook for it?*
+**Form three: the protocol review question.** An independent consultant is reviewing an ESI protocol on behalf of a client. She notices that the other side's protocol references "reconstruction-grade conformance" as a baseline expectation. She has to advise whether to accept, negotiate, or push back. The underlying ask is: *does this language mean what I think it means, and is my client on the hook for it?*
 
 Three different rooms. Three different phrasings. One underlying question: *has your workflow been built with this class of problem in mind, and can you say so honestly?*
 
 ## The Playbook: Answer Without Overpromising
 
-What follows is not a script. Scripts fail the moment the conversation turns. This is a sequence of moves that works across all three shapes of the question — boardroom, kickoff, protocol — because it is built around the advisor's real posture, not around the standard's technical vocabulary.
+What follows is not a script. Scripts fail the moment the conversation turns. This is a sequence of moves that works across all three forms of the question — boardroom, kickoff, protocol — because it is built around the advisor's real posture, not around the standard's technical vocabulary.
 
 ### Move one: Separate awareness from capability
 
