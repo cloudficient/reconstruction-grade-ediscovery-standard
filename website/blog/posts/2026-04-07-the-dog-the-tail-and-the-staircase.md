@@ -14,6 +14,8 @@ tags:
   - Context Gap
   - RG-Aware
   - Conformance
+  - Custodians
+  - Legal Hold
 chat_prompts:
   - "What is RG-Aware and how does it differ from RG-Core?"
   - "How did Craig Ball's assessment change the RGR Standard?"

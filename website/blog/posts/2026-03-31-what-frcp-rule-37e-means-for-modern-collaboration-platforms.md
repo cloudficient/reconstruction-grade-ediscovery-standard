@@ -11,6 +11,8 @@ tags:
   - FRCP Rule 37(e)
   - Collaboration Platforms
   - Preservation
+  - Legal Hold
+  - Custodians
   - Microsoft 365
 chat_prompts:
   - "Could my preservation workflow fail a 37(e) challenge?"
