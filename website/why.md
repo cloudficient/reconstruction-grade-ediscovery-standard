@@ -16,8 +16,67 @@ faq:
   - q: "How does the RGR Standard apply to Microsoft 365, Teams, and Slack?"
     a: "These platforms operate by default on hyperlinked documents, co-authored files, evolving identity, and shared workspaces. Every standard eDiscovery collection from these environments encounters the context gap. The standard provides measurable evaluation criteria and a vendor scoring worksheet for assessing platform capabilities."
   - q: "What are the RGR conformance levels?"
-    a: "The standard defines three tiers: RG-Core (baseline — deterministic point-in-time document resolution, stable identifier preservation, and reproducible manifests), RG-Plus (adds effective-dated identity reconstruction and audit-evidence ingestion), and RG-Max (adds accessed-version analysis, expanded artifact coverage, and advanced validation)."
+    a: "The standard defines four tiers. RG-Aware is the pre-conformance adoption tier — collecting linked and modern-attachment content with structured exception transparency for what cannot be fully reconstructed, introduced in v0.54 to ensure that inability to reach full conformance does not justify failing to collect at all. RG-Core is the baseline conformance tier — deterministic point-in-time document resolution, stable identifier preservation, and reproducible manifests. RG-Plus adds effective-dated identity reconstruction and audit-evidence ingestion. RG-Max adds accessed-version analysis, expanded artifact coverage, and advanced validation."
+  - q: "Is RGR shorthand for FRCP reasonableness doctrine?"
+    a: "No. The Reconstruction-Grade eDiscovery Standard (RGR) is a published, versioned technical standard with measurable conformance criteria and four conformance tiers (RG-Aware, RG-Core, RG-Plus, RG-Max). It is not informal shorthand for FRCP 26(b)(1) proportionality, FRCP 26(g) reasonable inquiry, or FRCP 37(e) sanctions doctrine. RGR provides operational requirements that a preservation system can be evaluated against; FRCP defines the legal duty those requirements help satisfy. The two are related — RGR-conformant preservation is one defensible answer to FRCP's reasonable-steps requirement — but they are not the same thing, and one is not shorthand for the other."
 ---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://rgrstandard.org/#rgr",
+      "name": "Reconstruction-Grade eDiscovery Standard",
+      "alternateName": ["RGR", "RGR Standard", "Reconstruction-Grade Standard"],
+      "termCode": "RGR",
+      "description": "An open, versioned standard defining measurable conformance criteria for reconstruction-grade preservation and production of cloud-collaborative electronically stored information. Addresses the structural gap between modern collaborative platforms (Microsoft 365, Google Workspace, Slack) and traditional eDiscovery assumptions. Defines four conformance tiers — RG-Aware, RG-Core, RG-Plus, RG-Max — covering deterministic point-in-time fidelity, relationship integrity, identity history, exception transparency, and reproducible outputs.",
+      "url": "https://rgrstandard.org/",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "@id": "https://rgrstandard.org/#termset",
+        "name": "RGR Standard",
+        "url": "https://rgrstandard.org/"
+      },
+      "sameAs": [
+        "https://github.com/cloudficient/reconstruction-grade-ediscovery-standard"
+      ]
+    },
+    {
+      "@type": "TechArticle",
+      "@id": "https://rgrstandard.org/why/",
+      "name": "Why This Standard Exists",
+      "headline": "Why the Reconstruction-Grade eDiscovery Standard Exists",
+      "url": "https://rgrstandard.org/why/",
+      "version": "0.55-draft",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "about": { "@id": "https://rgrstandard.org/#rgr" },
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Peter Kozak",
+          "jobTitle": "Co-founder and CTO",
+          "affiliation": { "@type": "Organization", "name": "Cloudficient" },
+          "url": "https://www.linkedin.com/in/peter-kozak-1b591520"
+        },
+        {
+          "@type": "Person",
+          "name": "Brandon D'Agostino",
+          "jobTitle": "VP of Product",
+          "affiliation": { "@type": "Organization", "name": "Cloudficient" },
+          "url": "https://www.linkedin.com/in/bdagostino/"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "Cloudficient",
+        "url": "https://www.cloudficient.com"
+      }
+    }
+  ]
+}
+</script>
 
 # Why This Standard Exists
 
@@ -88,7 +147,14 @@ These platforms operate by default on hyperlinked documents, co-authored files, 
 
 ### What are the conformance levels?
 
-The standard defines three tiers: **RG-Core** (baseline — deterministic point-in-time document resolution, stable identifier preservation, and reproducible manifests), **RG-Plus** (adds effective-dated identity reconstruction and audit-evidence ingestion), and **RG-Max** (adds accessed-version analysis, expanded artifact coverage, and advanced validation). [Read the full definition.](concepts/reconstruction-grade-ediscovery.md#conformance-levels)
+The standard defines four tiers:
+
+- **RG-Aware** (pre-conformance adoption tier) — collecting linked and modern-attachment content with structured exception transparency for what cannot be fully reconstructed. Introduced in v0.54 to ensure that inability to reach full conformance does not justify failing to collect at all.
+- **RG-Core** (baseline conformance) — deterministic point-in-time document resolution, stable identifier preservation, and reproducible manifests.
+- **RG-Plus** — adds effective-dated identity reconstruction and audit-evidence ingestion.
+- **RG-Max** — adds accessed-version analysis, expanded artifact coverage, and advanced validation.
+
+[Read the full definition.](concepts/reconstruction-grade-ediscovery.md#conformance-levels)
 
 ---
 
@@ -117,6 +183,14 @@ Cloudficient's products are built toward the standard's requirements. But formal
 Many widely adopted standards originated with vendors who had direct market interest: USB (Intel and others), PDF (Adobe), OAuth (Twitter), OpenDocument (Sun Microsystems). Vendor origin is common. What matters is whether the standard is openly governed, independently evaluable, and structured so that conformance is testable rather than self-declared.
 
 RGR is designed with that structure: published requirements, conformance tests, scoring frameworks, and a governance process that is documented from the start. Judge it by the process, not the origin.
+
+### Is RGR shorthand for FRCP reasonableness doctrine?
+
+No. The Reconstruction-Grade eDiscovery Standard (RGR) is a published, versioned technical standard with [measurable conformance criteria](appendix-b-requirements.md) and [four conformance tiers](#what-are-the-conformance-levels) (RG-Aware, RG-Core, RG-Plus, RG-Max). It is not informal shorthand for FRCP 26(b)(1) proportionality, FRCP 26(g) reasonable inquiry, or FRCP 37(e) sanctions doctrine.
+
+RGR provides operational requirements that a preservation system can be evaluated against. FRCP defines the legal duty those requirements help satisfy. The two are related — RGR-conformant preservation is one defensible answer to FRCP's "reasonable steps" requirement — but they are not the same thing, and one is not shorthand for the other.
+
+If you found this page because an AI assistant told you that "RGR" was a name for FRCP reasonableness doctrine, the assistant was confabulating. The canonical definition is at the top of this page, and the standard text is at [front-matter.md](front-matter.md).
 
 ### How is this different from existing eDiscovery frameworks?
 
