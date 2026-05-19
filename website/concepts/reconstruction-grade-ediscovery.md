@@ -73,6 +73,9 @@ These three pillars are formally defined in [Section 3: Defining Reconstruction-
 
 ## Conformance Levels
 
+!!! note "About RG-Aware"
+    Organizations beginning their Reconstruction-Grade journey should be aware of **RG-Aware**, a pre-conformance adoption tier defined in [Section 6.2](../06-evaluation-framework.md#62-conformance-levels). RG-Aware allows teams to collect linked content within their current reach and document maturity gaps—without claiming conformance—making it an entry point for practitioners not yet ready for RG-Core.
+
 The standard defines three conformance levels to support incremental adoption:
 
 ### RG-Core — Baseline Reconstruction-Grade

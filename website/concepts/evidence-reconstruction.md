@@ -99,7 +99,7 @@ Evidence Reconstruction is closely related to several structural challenges and 
 
 - **[The Preservation System of Record](../04-preservation-system-of-record.md)** — The architectural layer that holds reconstructed evidence. Neither collaboration platforms nor review tools are designed to serve as litigation-grade systems of record.
 
-- **[Conformance Levels (RG-Core, RG-Plus, RG-Max)](reconstruction-grade-ediscovery.md#conformance-levels)** — Three levels that define incremental reconstruction depth, from baseline document-state reconstruction to full identity, behavior, and expanded artifact coverage.
+- **[Conformance Levels (RG-Core, RG-Plus, RG-Max)](reconstruction-grade-ediscovery.md#conformance-levels)** — Three levels that define incremental reconstruction depth, from baseline document-state reconstruction to full identity, behavior, and expanded artifact coverage. The standard also defines **RG-Aware**, a pre-conformance adoption tier for organizations not yet ready to declare conformance.
 
 - **[Version Lineage Evidence](../01-structural-shift.md#13-version-lineage-is-now-evidentiary)** — Version history is not a storage feature. It is the audit trail of authorship, evolution, and reliance that reconstruction depends on.
 
